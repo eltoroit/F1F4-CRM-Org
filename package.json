@@ -19,7 +19,8 @@
 	},
 	"homepage": "https://eltoroit.medium.com/",
 	"scripts": {
-		"createOrg": "node @ELTOROIT/scripts/nodejs/orgBuilder.mjs --config-file=@ELTOROIT/scripts/nodejs/orgBuilder.jsonc"
+		"createOrg": "node @ELTOROIT/scripts/nodejs/orgBuilder.mjs --config-file=@ELTOROIT/scripts/nodejs/orgBuilder.jsonc",
+		"exportData": "./node_modules/sfdx-cli/bin/run ETCopyData export --configfolder ./@ELTOROIT/data --loglevel trace --json"
 	},
 	"devDependencies": {
 		"@prettier/plugin-xml": "2.2.0",

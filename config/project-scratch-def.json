@@ -1,0 +1,14 @@
+{
+	"orgName": "@ELTOROIT - Medium.com E-Book F1F4",
+	"edition": "Developer",
+	"hasSampleData": false,
+	"features": ["EnableSetPasswordInApi", "PersonAccounts"],
+	"settings": {
+		"lightningExperienceSettings": {
+			"enableS1DesktopEnabled": true
+		},
+		"mobileSettings": {
+			"enableS1EncryptedStoragePref2": false
+		}
+	}
+}

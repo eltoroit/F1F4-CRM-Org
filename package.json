@@ -1,0 +1,41 @@
+{
+	"name": "f1f4-crm-org",
+	"private": true,
+	"version": "Winter '24 (v59)",
+	"description": "Scratch org for e-book in Medium.com",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/eltoroit/FIFA-Data.git"
+	},
+	"keywords": [
+		"SFDX",
+		"Scratch",
+		"Starter"
+	],
+	"author": "Andres Perez (@ELTOROIT)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/eltoroit/FIFA-Data/issues"
+	},
+	"homepage": "https://eltoroit.medium.com/",
+	"scripts": {
+		"createOrg": "node @ELTOROIT/scripts/nodejs/orgBuilder.mjs --config-file=@ELTOROIT/scripts/nodejs/orgBuilder.jsonc"
+	},
+	"devDependencies": {
+		"@prettier/plugin-xml": "2.2.0",
+		"@salesforce/eslint-config-lwc": "3.4.0",
+		"@salesforce/eslint-plugin-aura": "2.1.0",
+		"@salesforce/sfdx-lwc-jest": "1.3.0",
+		"eslint": "8.40.0",
+		"eslint-config-prettier": "8.8.0",
+		"husky": "8.0.3",
+		"lint-staged": "13.2.2",
+		"prettier": "2.8.8",
+		"prettier-plugin-apex": "1.13.0"
+	},
+	"dependencies": {
+		"fs-extra": "11.1.1",
+		"jsonc-parser": "3.2.0",
+		"sfdx-cli": "^7.209.6"
+	}
+}

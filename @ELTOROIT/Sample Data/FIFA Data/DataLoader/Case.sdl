@@ -1,0 +1,8 @@
+#Mapping values
+#Thu Jan 04 07:57:44 EST 2024
+Origin=Origin
+FanId=FanId__c
+Priority=Priority
+Subject=Subject
+CaseReason=Reason
+CSAT=CSAT__c

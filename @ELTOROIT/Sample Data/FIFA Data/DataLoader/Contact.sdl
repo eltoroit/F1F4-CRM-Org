@@ -1,0 +1,14 @@
+#Mapping values
+#Thu Jan 04 07:55:13 EST 2024
+Email=Email
+PostalCode=MailingPostalCode
+Gender=GenderIdentity
+Phone=Phone
+Street=MailingStreet
+FanId=FanId__c
+FirstName=FirstName
+City=MailingCity
+Birthdate=Birthdate
+State=MailingState
+Country=MailingCountry
+LastName=LastName

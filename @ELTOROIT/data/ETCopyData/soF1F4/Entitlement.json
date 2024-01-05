@@ -1,0 +1,23 @@
+{
+	"fetched": 1,
+	"records": [
+		{
+			"attributes": {
+				"type": "Entitlement",
+				"url": "/services/data/v60.0/sobjects/Entitlement/5500u000000mFH5AAM"
+			},
+			"AccountId": "0010u000008L3hsAAC",
+			"CasesPerEntitlement": null,
+			"EndDate": "2026-11-17",
+			"Id": "5500u000000mFH5AAM",
+			"IsPerIncident": false,
+			"Name": "Sample Entitlement",
+			"RemainingCases": null,
+			"RemainingWorkOrders": null,
+			"StartDate": "2021-11-17",
+			"Type": "Phone Support",
+			"WorkOrdersPerEntitlement": null
+		}
+	],
+	"total": 1
+}

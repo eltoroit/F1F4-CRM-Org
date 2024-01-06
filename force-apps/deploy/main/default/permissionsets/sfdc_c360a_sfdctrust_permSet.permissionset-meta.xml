@@ -6,6 +6,11 @@
         <field>Account.AccountNumber</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.ParentId</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>true</hasActivationRequired>
     <label>Data Cloud Salesforce Connector</label>
     <objectPermissions>

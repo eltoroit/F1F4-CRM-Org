@@ -1,0 +1,26 @@
+{
+	"fetched": 2,
+	"records": [
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v60.0/sobjects/RecordType/012IP0000001NYrYAM"
+			},
+			"Id": "012IP0000001NYrYAM",
+			"SobjectType": "Account",
+			"NamespacePrefix": null,
+			"DeveloperName": "Business_Account"
+		},
+		{
+			"attributes": {
+				"type": "RecordType",
+				"url": "/services/data/v60.0/sobjects/RecordType/012IP0000001NYsYAM"
+			},
+			"Id": "012IP0000001NYsYAM",
+			"SobjectType": "Account",
+			"NamespacePrefix": null,
+			"DeveloperName": "PersonAccount"
+		}
+	],
+	"total": 2
+}

@@ -6,7 +6,20 @@
 		"Entitlement",
 		"Case"
 	],
-	"metadata": {},
+	"metadata": {
+		"RecordType": {
+			"Name": "RecordType",
+			"label": "Record Type",
+			"keyPrefix": "012",
+			"fields": [
+				"Id",
+				"SobjectType",
+				"NamespacePrefix",
+				"DeveloperName"
+			],
+			"describeUrl": "/services/data/v60.0/sobjects/RecordType/describe"
+		}
+	},
 	"sObjects": {
 		"Account": {
 			"children": [
@@ -94,6 +107,7 @@
 				"PersonTitle",
 				"Phone",
 				"Rating",
+				"RecordTypeId",
 				"Salutation",
 				"ShippingCity",
 				"ShippingCountry",
@@ -116,7 +130,12 @@
 			"label": "Account",
 			"name": "Account",
 			"orderBy": null,
-			"parents": [],
+			"parents": [
+				{
+					"parentId": "RecordTypeId",
+					"sObj": "RecordType"
+				}
+			],
 			"twoPassParents": [],
 			"parentsRequired": []
 		},
@@ -1908,9 +1927,6 @@
 			"Account.MasterRecordId": [
 				"Must be createable",
 				"Recursive parenting for field references is supported, but requires the field to be configured as twoPassReferenceField"
-			],
-			"Account.RecordTypeId": [
-				"Parent sObject [RecordType] is not processed"
 			],
 			"Account.ParentId": [
 				"Recursive parenting for field references is supported, but requires the field to be configured as twoPassReferenceField"
@@ -7065,10 +7081,6 @@
 				"Must be createable",
 				"Must be deletable",
 				"Must be updateable",
-				"Was Not requested"
-			],
-			"RecordType": [
-				"Must be deletable",
 				"Was Not requested"
 			],
 			"RecordsetFilterCriteria": [

@@ -1,0 +1,15 @@
+#Mapping values
+#Sat Jan 06 10:28:06 EST 2024
+Email=PersonEmail
+PostalCode=PersonMailingPostalCode
+Gender=PersonGenderIdentity
+Phone=Phone
+RecordTypeId=RecordTypeId
+Street=PersonMailingStreet
+FanId=FanId__pc
+FirstName=FirstName
+City=PersonMailingCity
+Birthdate=PersonBirthdate
+State=PersonMailingState
+Country=PersonMailingCountry
+LastName=LastName

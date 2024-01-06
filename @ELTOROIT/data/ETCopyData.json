@@ -38,7 +38,15 @@
       "orderBy": null
     }
   ],
-  "sObjectsMetadata": [],
+  "sObjectsMetadata": [
+    {
+      "name": "RecordType",
+      "matchBy": "SobjectType,DeveloperName",
+      "fieldsToExport": "Id,SobjectType,NamespacePrefix,DeveloperName",
+      "where": null,
+      "orderBy": "DeveloperName"
+    }
+  ],
   "rootFolder": "ETCopyData",
   "includeAllCustom": true,
   "customObjectsToIgnore": null,

@@ -1,23 +1,5 @@
 {
-	"fetched": 1,
-	"records": [
-		{
-			"attributes": {
-				"type": "Entitlement",
-				"url": "/services/data/v60.0/sobjects/Entitlement/550IP0000004S8zYAE"
-			},
-			"AccountId": "001IP00000CWeGNYA1",
-			"CasesPerEntitlement": null,
-			"EndDate": "2026-11-17",
-			"Id": "550IP0000004S8zYAE",
-			"IsPerIncident": false,
-			"Name": "Sample Entitlement",
-			"RemainingCases": null,
-			"RemainingWorkOrders": null,
-			"StartDate": "2021-11-17",
-			"Type": "Phone Support",
-			"WorkOrdersPerEntitlement": null
-		}
-	],
-	"total": 1
+	"fetched": 0,
+	"records": [],
+	"total": 0
 }

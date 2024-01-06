@@ -1,0 +1,2 @@
+SELECT Id, AccountId, ContactId, FanId__c
+  FROM case

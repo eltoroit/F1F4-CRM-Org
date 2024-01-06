@@ -12,17 +12,8 @@
       "maxRecords": -1
     },
     {
-      "name": "Contact",
-      "ignoreFields": "OwnerId",
-      "externalIdField": null,
-      "twoPassReferenceFields": "",
-      "where": null,
-      "orderBy": null,
-      "maxRecords": -1
-    },
-    {
       "name": "Account",
-      "ignoreFields": "OwnerId",
+      "ignoreFields": "Name,OwnerId",
       "externalIdField": null,
       "twoPassReferenceFields": "",
       "where": null,

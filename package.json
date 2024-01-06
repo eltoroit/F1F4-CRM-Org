@@ -20,7 +20,9 @@
 	"homepage": "https://eltoroit.medium.com/",
 	"scripts": {
 		"createOrg": "node @ELTOROIT/scripts/nodejs/orgBuilder.mjs --config-file=@ELTOROIT/scripts/nodejs/orgBuilder.jsonc",
-		"exportData": "./node_modules/sfdx-cli/bin/run ETCopyData export --configfolder ./@ELTOROIT/data --loglevel trace --json"
+		"exportData": "./node_modules/sfdx-cli/bin/run ETCopyData export --configfolder ./@ELTOROIT/data --loglevel trace --json > ./etLogs/etCopyData_export.tab",
+		"importData": "./node_modules/sfdx-cli/bin/run ETCopyData import --configfolder ./@ELTOROIT/data --loglevel trace --json > ./etLogs/etCopyData_import.tab",
+		"deleteData": "./node_modules/sfdx-cli/bin/run ETCopyData delete --configfolder ./@ELTOROIT/data --loglevel trace --json > ./etLogs/etCopyData_delete.tab"
 	},
 	"devDependencies": {
 		"@prettier/plugin-xml": "2.2.0",

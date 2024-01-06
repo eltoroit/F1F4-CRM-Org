@@ -5,5 +5,9 @@
 		"**/bower_components": true,
 		"**/.sfdx": true
 	},
-	"codeBuilder.showWelcomePage": false
+	"codeBuilder.showWelcomePage": false,
+	"salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
+	"salesforcedx-vscode-core.push-or-deploy-on-save.preferDeployOnSave": true,
+	"salesforcedx-vscode-core.push-or-deploy-on-save.overrideConflictsOnPush": true,
+	"editor.formatOnSave": true
 }

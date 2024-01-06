@@ -2,7 +2,7 @@
 	"orgName": "@ELTOROIT - Medium.com E-Book F1F4",
 	"edition": "Developer",
 	"hasSampleData": false,
-	"features": ["EnableSetPasswordInApi", "PersonAccounts"],
+	"features": ["EnableSetPasswordInApi", "PersonAccounts", "EinsteinGPTForDevelopers"],
 	"settings": {
 		"lightningExperienceSettings": {
 			"enableS1DesktopEnabled": true

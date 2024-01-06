@@ -4,12 +4,12 @@
 		{
 			"attributes": {
 				"type": "Entitlement",
-				"url": "/services/data/v60.0/sobjects/Entitlement/5500u000000mFH5AAM"
+				"url": "/services/data/v60.0/sobjects/Entitlement/550IP0000004S8zYAE"
 			},
-			"AccountId": "0010u000008L3hsAAC",
+			"AccountId": "001IP00000CWeGNYA1",
 			"CasesPerEntitlement": null,
 			"EndDate": "2026-11-17",
-			"Id": "5500u000000mFH5AAM",
+			"Id": "550IP0000004S8zYAE",
 			"IsPerIncident": false,
 			"Name": "Sample Entitlement",
 			"RemainingCases": null,

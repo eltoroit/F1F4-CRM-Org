@@ -1,6 +1,6 @@
 {
 	"settings": {
-		"days": 1,
+		"days": 30,
 		"alias": "soF1F4",
 		"OpenBrowser": true,
 		"QuitOnErrors": true,

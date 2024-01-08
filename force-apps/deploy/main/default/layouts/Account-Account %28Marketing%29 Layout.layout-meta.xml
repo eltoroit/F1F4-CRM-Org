@@ -29,10 +29,6 @@
                 <behavior>Edit</behavior>
                 <field>Site</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>TMP__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

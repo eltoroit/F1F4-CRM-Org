@@ -41,10 +41,6 @@
                 <behavior>Required</behavior>
                 <field>FanId__pc</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>TMP__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

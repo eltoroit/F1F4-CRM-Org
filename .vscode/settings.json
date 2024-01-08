@@ -6,8 +6,8 @@
 		"**/.sfdx": true
 	},
 	"codeBuilder.showWelcomePage": false,
-	"salesforcedx-vscode-core.push-or-deploy-on-save.enabled": true,
-	"salesforcedx-vscode-core.push-or-deploy-on-save.preferDeployOnSave": true,
-	"salesforcedx-vscode-core.push-or-deploy-on-save.overrideConflictsOnPush": true,
+	"salesforcedx-vscode-core.push-or-deploy-on-save.enabled": false,
+	"salesforcedx-vscode-core.push-or-deploy-on-save.preferDeployOnSave": false,
+	"salesforcedx-vscode-core.push-or-deploy-on-save.overrideConflictsOnPush": false,
 	"editor.formatOnSave": true
 }

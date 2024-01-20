@@ -1,6 +1,6 @@
-FanId,Origin,CSAT,Priority,CaseReason,Subject
-FAN-6632248,Chat,5,Medium,Ticket Purchase Issues,Payment processing errors.
+Contact.FanId__c,Origin,CSAT__c,Priority,Reason,Subject
 FAN-2182093,Phone,3,High,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.
+FAN-6632248,Chat,5,Medium,Ticket Purchase Issues,Payment processing errors.
 FAN-3210151,Email,1,High,Ticket Purchase Issues,Issues with applying promo codes or discounts.
 FAN-6081319,Email,2,Medium,Order Status and Tracking,Tracking information not received.
 FAN-2182093,Email,4,High,Order Status and Tracking,Order confirmation not received.

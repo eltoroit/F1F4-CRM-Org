@@ -4,41 +4,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMdYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5duYAA"
 			},
-			"AccountId": "001IP00000CXE77YAH",
-			"CSAT__c": 5,
-			"Comments": null,
-			"Description": null,
-			"EntitlementId": null,
-			"FanId__c": "FAN-6632248",
-			"Id": "500IP000006QnMdYAK",
-			"IsEscalated": false,
-			"IsStopped": false,
-			"Origin": "Chat",
-			"Priority": "Medium",
-			"Reason": "Ticket Purchase Issues",
-			"SlaStartDate": null,
-			"Status": "New",
-			"Subject": "Payment processing errors.",
-			"SuppliedCompany": null,
-			"SuppliedEmail": null,
-			"SuppliedName": null,
-			"SuppliedPhone": null,
-			"Type": null
-		},
-		{
-			"attributes": {
-				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMeYAK"
-			},
-			"AccountId": "001IP00000CXByRYAX",
+			"AccountId": "001IP00000CnPKbYAN",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2182093",
-			"Id": "500IP000006QnMeYAK",
+			"Id": "500IP000006d5duYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -56,15 +30,41 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMfYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5dvYAA"
 			},
-			"AccountId": "001IP00000CXE4JYAX",
+			"AccountId": "001IP00000CnRA2YAN",
+			"CSAT__c": 5,
+			"Comments": null,
+			"Description": null,
+			"EntitlementId": null,
+			"FanId__c": "FAN-6632248",
+			"Id": "500IP000006d5dvYAA",
+			"IsEscalated": false,
+			"IsStopped": false,
+			"Origin": "Chat",
+			"Priority": "Medium",
+			"Reason": "Ticket Purchase Issues",
+			"SlaStartDate": null,
+			"Status": "New",
+			"Subject": "Payment processing errors.",
+			"SuppliedCompany": null,
+			"SuppliedEmail": null,
+			"SuppliedName": null,
+			"SuppliedPhone": null,
+			"Type": null
+		},
+		{
+			"attributes": {
+				"type": "Case",
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5dwYAA"
+			},
+			"AccountId": "001IP00000CnR77YAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3210151",
-			"Id": "500IP000006QnMfYAK",
+			"Id": "500IP000006d5dwYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -82,15 +82,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMgYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5dxYAA"
 			},
-			"AccountId": "001IP00000CXBK1YAP",
+			"AccountId": "001IP00000CnR9WYAV",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6081319",
-			"Id": "500IP000006QnMgYAK",
+			"Id": "500IP000006d5dxYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -108,15 +108,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMhYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5dyYAA"
 			},
-			"AccountId": "001IP00000CXByRYAX",
+			"AccountId": "001IP00000CnPKbYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2182093",
-			"Id": "500IP000006QnMhYAK",
+			"Id": "500IP000006d5dyYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -134,15 +134,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMiYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5dzYAA"
 			},
-			"AccountId": "001IP00000CXE3nYAH",
+			"AccountId": "001IP00000CnR6bYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2602971",
-			"Id": "500IP000006QnMiYAK",
+			"Id": "500IP000006d5dzYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -160,15 +160,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMjYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5e0YAA"
 			},
-			"AccountId": "001IP00000CXByRYAX",
+			"AccountId": "001IP00000CnPKbYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2182093",
-			"Id": "500IP000006QnMjYAK",
+			"Id": "500IP000006d5e0YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -186,15 +186,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMkYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5e1YAA"
 			},
-			"AccountId": "001IP00000CXEAKYA5",
+			"AccountId": "001IP00000CnRBiYAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8675384",
-			"Id": "500IP000006QnMkYAK",
+			"Id": "500IP000006d5e1YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -212,15 +212,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMlYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5e2YAA"
 			},
-			"AccountId": "001IP00000CXE7JYAX",
+			"AccountId": "001IP00000CnRAEYA3",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6841199",
-			"Id": "500IP000006QnMlYAK",
+			"Id": "500IP000006d5e2YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -238,15 +238,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMmYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5e3YAA"
 			},
-			"AccountId": "001IP00000CXE7WYAX",
+			"AccountId": "001IP00000CnRARYA3",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7106045",
-			"Id": "500IP000006QnMmYAK",
+			"Id": "500IP000006d5e3YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -264,15 +264,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMnYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5e4YAA"
 			},
-			"AccountId": "001IP00000CXE7vYAH",
+			"AccountId": "001IP00000CnRAqYAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7468232",
-			"Id": "500IP000006QnMnYAK",
+			"Id": "500IP000006d5e4YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -290,15 +290,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMoYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5e5YAA"
 			},
-			"AccountId": "001IP00000CXE77YAH",
+			"AccountId": "001IP00000CnRA2YAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6632248",
-			"Id": "500IP000006QnMoYAK",
+			"Id": "500IP000006d5e5YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -316,15 +316,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMpYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5e6YAA"
 			},
-			"AccountId": "001IP00000CXE8YYAX",
+			"AccountId": "001IP00000CnRBTYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8425559",
-			"Id": "500IP000006QnMpYAK",
+			"Id": "500IP000006d5e6YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -342,15 +342,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMqYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5e7YAA"
 			},
-			"AccountId": "001IP00000CXE4kYAH",
+			"AccountId": "001IP00000CnR7YYAV",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3708832",
-			"Id": "500IP000006QnMqYAK",
+			"Id": "500IP000006d5e7YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -368,15 +368,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMrYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5e8YAA"
 			},
-			"AccountId": "001IP00000CXEBeYAP",
+			"AccountId": "001IP00000CnRD2YAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9925460",
-			"Id": "500IP000006QnMrYAK",
+			"Id": "500IP000006d5e8YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -394,15 +394,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMsYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5e9YAA"
 			},
-			"AccountId": "001IP00000CXBy4YAH",
+			"AccountId": "001IP00000CnPKEYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1876301",
-			"Id": "500IP000006QnMsYAK",
+			"Id": "500IP000006d5e9YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -420,15 +420,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMtYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eAYAQ"
 			},
-			"AccountId": "001IP00000CXE8JYAX",
+			"AccountId": "001IP00000CnRBEYA3",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8090324",
-			"Id": "500IP000006QnMtYAK",
+			"Id": "500IP000006d5eAYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -446,15 +446,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMuYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eBYAQ"
 			},
-			"AccountId": "001IP00000CXE6wYAH",
+			"AccountId": "001IP00000CnR9rYAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6446029",
-			"Id": "500IP000006QnMuYAK",
+			"Id": "500IP000006d5eBYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -472,15 +472,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMvYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eCYAQ"
 			},
-			"AccountId": "001IP00000CXBJ4YAP",
+			"AccountId": "001IP00000CnR8ZYAV",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4912460",
-			"Id": "500IP000006QnMvYAK",
+			"Id": "500IP000006d5eCYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -498,15 +498,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMwYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eDYAQ"
 			},
-			"AccountId": "001IP00000CXBy2YAH",
+			"AccountId": "001IP00000CnPKCYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1868430",
-			"Id": "500IP000006QnMwYAK",
+			"Id": "500IP000006d5eDYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -524,15 +524,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMxYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eEYAQ"
 			},
-			"AccountId": "001IP00000CXBJyYAP",
+			"AccountId": "001IP00000CnR9TYAV",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6026267",
-			"Id": "500IP000006QnMxYAK",
+			"Id": "500IP000006d5eEYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -550,15 +550,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMyYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eFYAQ"
 			},
-			"AccountId": "001IP00000CXE4hYAH",
+			"AccountId": "001IP00000CnR7VYAV",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3651555",
-			"Id": "500IP000006QnMyYAK",
+			"Id": "500IP000006d5eFYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -576,15 +576,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnMzYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eGYAQ"
 			},
-			"AccountId": "001IP00000CXEBQYA5",
+			"AccountId": "001IP00000CnRCoYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9783885",
-			"Id": "500IP000006QnMzYAK",
+			"Id": "500IP000006d5eGYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -602,15 +602,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnN0YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eHYAQ"
 			},
-			"AccountId": "001IP00000CXBKCYA5",
+			"AccountId": "001IP00000CnR9hYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6285208",
-			"Id": "500IP000006QnN0YAK",
+			"Id": "500IP000006d5eHYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -628,15 +628,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnN1YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eIYAQ"
 			},
-			"AccountId": "001IP00000CXBxzYAH",
+			"AccountId": "001IP00000CnPK9YAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1822456",
-			"Id": "500IP000006QnN1YAK",
+			"Id": "500IP000006d5eIYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -654,15 +654,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnN2YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eJYAQ"
 			},
-			"AccountId": "001IP00000CXByQYAX",
+			"AccountId": "001IP00000CnPKaYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2142178",
-			"Id": "500IP000006QnN2YAK",
+			"Id": "500IP000006d5eJYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -680,15 +680,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnN3YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eKYAQ"
 			},
-			"AccountId": "001IP00000CXByXYAX",
+			"AccountId": "001IP00000CnPKhYAN",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2285853",
-			"Id": "500IP000006QnN3YAK",
+			"Id": "500IP000006d5eKYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -706,15 +706,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnN4YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eLYAQ"
 			},
-			"AccountId": "001IP00000CXBJDYA5",
+			"AccountId": "001IP00000CnR8iYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5044681",
-			"Id": "500IP000006QnN4YAK",
+			"Id": "500IP000006d5eLYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -732,15 +732,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnN5YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eMYAQ"
 			},
-			"AccountId": "001IP00000CXE77YAH",
+			"AccountId": "001IP00000CnRA2YAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6632248",
-			"Id": "500IP000006QnN5YAK",
+			"Id": "500IP000006d5eMYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -758,15 +758,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnN6YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eNYAQ"
 			},
-			"AccountId": "001IP00000CXE7zYAH",
+			"AccountId": "001IP00000CnRAuYAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7495136",
-			"Id": "500IP000006QnN6YAK",
+			"Id": "500IP000006d5eNYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -784,15 +784,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnN7YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eOYAQ"
 			},
-			"AccountId": "001IP00000CXE5HYAX",
+			"AccountId": "001IP00000CnR85YAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4288380",
-			"Id": "500IP000006QnN7YAK",
+			"Id": "500IP000006d5eOYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -810,15 +810,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnN8YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5ePYAQ"
 			},
-			"AccountId": "001IP00000CXE70YAH",
+			"AccountId": "001IP00000CnR9vYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6563416",
-			"Id": "500IP000006QnN8YAK",
+			"Id": "500IP000006d5ePYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -836,15 +836,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnN9YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eQYAQ"
 			},
-			"AccountId": "001IP00000CXBxrYAH",
+			"AccountId": "001IP00000CnPK1YAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1700571",
-			"Id": "500IP000006QnN9YAK",
+			"Id": "500IP000006d5eQYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -862,15 +862,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNAYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eRYAQ"
 			},
-			"AccountId": "001IP00000CXEB9YAP",
+			"AccountId": "001IP00000CnRCXYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9544449",
-			"Id": "500IP000006QnNAYA0",
+			"Id": "500IP000006d5eRYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -888,15 +888,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNBYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eSYAQ"
 			},
-			"AccountId": "001IP00000CXBxkYAH",
+			"AccountId": "001IP00000CnPJuYAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1570540",
-			"Id": "500IP000006QnNBYA0",
+			"Id": "500IP000006d5eSYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -914,15 +914,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNCYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eTYAQ"
 			},
-			"AccountId": "001IP00000CXEB7YAP",
+			"AccountId": "001IP00000CnRCVYA3",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9485968",
-			"Id": "500IP000006QnNCYA0",
+			"Id": "500IP000006d5eTYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -940,15 +940,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNDYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eUYAQ"
 			},
-			"AccountId": "001IP00000CXByFYAX",
+			"AccountId": "001IP00000CnPKPYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1949136",
-			"Id": "500IP000006QnNDYA0",
+			"Id": "500IP000006d5eUYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -966,15 +966,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNEYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eVYAQ"
 			},
-			"AccountId": "001IP00000CXBJkYAP",
+			"AccountId": "001IP00000CnR9FYAV",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5698447",
-			"Id": "500IP000006QnNEYA0",
+			"Id": "500IP000006d5eVYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -992,15 +992,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNFYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eWYAQ"
 			},
-			"AccountId": "001IP00000CXE4FYAX",
+			"AccountId": "001IP00000CnR73YAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3100350",
-			"Id": "500IP000006QnNFYA0",
+			"Id": "500IP000006d5eWYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -1018,15 +1018,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNGYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eXYAQ"
 			},
-			"AccountId": "001IP00000CXBJbYAP",
+			"AccountId": "001IP00000CnR96YAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5577886",
-			"Id": "500IP000006QnNGYA0",
+			"Id": "500IP000006d5eXYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1044,15 +1044,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNHYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eYYAQ"
 			},
-			"AccountId": "001IP00000CXE8RYAX",
+			"AccountId": "001IP00000CnRBMYA3",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8252780",
-			"Id": "500IP000006QnNHYA0",
+			"Id": "500IP000006d5eYYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -1070,15 +1070,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNIYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eZYAQ"
 			},
-			"AccountId": "001IP00000CXEAwYAP",
+			"AccountId": "001IP00000CnRCKYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9308199",
-			"Id": "500IP000006QnNIYA0",
+			"Id": "500IP000006d5eZYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -1096,15 +1096,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNJYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eaYAA"
 			},
-			"AccountId": "001IP00000CXE7dYAH",
+			"AccountId": "001IP00000CnRAYYA3",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7216049",
-			"Id": "500IP000006QnNJYA0",
+			"Id": "500IP000006d5eaYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -1122,15 +1122,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNKYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5ebYAA"
 			},
-			"AccountId": "001IP00000CXBxpYAH",
+			"AccountId": "001IP00000CnPJzYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1654512",
-			"Id": "500IP000006QnNKYA0",
+			"Id": "500IP000006d5ebYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -1148,15 +1148,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNLYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5ecYAA"
 			},
-			"AccountId": "001IP00000CXEA9YAP",
+			"AccountId": "001IP00000CnRBXYA3",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8495678",
-			"Id": "500IP000006QnNLYA0",
+			"Id": "500IP000006d5ecYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1174,15 +1174,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNMYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5edYAA"
 			},
-			"AccountId": "001IP00000CXEAJYA5",
+			"AccountId": "001IP00000CnRBhYAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8641535",
-			"Id": "500IP000006QnNMYA0",
+			"Id": "500IP000006d5edYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -1200,15 +1200,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNNYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eeYAA"
 			},
-			"AccountId": "001IP00000CXBK5YAP",
+			"AccountId": "001IP00000CnR9aYAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6181985",
-			"Id": "500IP000006QnNNYA0",
+			"Id": "500IP000006d5eeYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -1226,15 +1226,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNOYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5efYAA"
 			},
-			"AccountId": "001IP00000CXEACYA5",
+			"AccountId": "001IP00000CnRBaYAN",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8564819",
-			"Id": "500IP000006QnNOYA0",
+			"Id": "500IP000006d5efYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1252,15 +1252,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNPYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5egYAA"
 			},
-			"AccountId": "001IP00000CXBIuYAP",
+			"AccountId": "001IP00000CnR8PYAV",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4774750",
-			"Id": "500IP000006QnNPYA0",
+			"Id": "500IP000006d5egYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -1278,15 +1278,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNQYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5ehYAA"
 			},
-			"AccountId": "001IP00000CXE86YAH",
+			"AccountId": "001IP00000CnRB1YAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7778510",
-			"Id": "500IP000006QnNQYA0",
+			"Id": "500IP000006d5ehYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -1304,15 +1304,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNRYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eiYAA"
 			},
-			"AccountId": "001IP00000CXBIwYAP",
+			"AccountId": "001IP00000CnR8RYAV",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4794615",
-			"Id": "500IP000006QnNRYA0",
+			"Id": "500IP000006d5eiYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1330,15 +1330,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNSYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5ejYAA"
 			},
-			"AccountId": "001IP00000CXE7hYAH",
+			"AccountId": "001IP00000CnRAcYAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7258700",
-			"Id": "500IP000006QnNSYA0",
+			"Id": "500IP000006d5ejYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1356,15 +1356,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNTYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5ekYAA"
 			},
-			"AccountId": "001IP00000CXE7SYAX",
+			"AccountId": "001IP00000CnRANYA3",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7032518",
-			"Id": "500IP000006QnNTYA0",
+			"Id": "500IP000006d5ekYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -1382,15 +1382,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNUYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5elYAA"
 			},
-			"AccountId": "001IP00000CXE6zYAH",
+			"AccountId": "001IP00000CnR9uYAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6556996",
-			"Id": "500IP000006QnNUYA0",
+			"Id": "500IP000006d5elYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -1408,15 +1408,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNVYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5emYAA"
 			},
-			"AccountId": "001IP00000CXE77YAH",
+			"AccountId": "001IP00000CnRA2YAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6632248",
-			"Id": "500IP000006QnNVYA0",
+			"Id": "500IP000006d5emYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1434,15 +1434,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNWYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5enYAA"
 			},
-			"AccountId": "001IP00000CXEBjYAP",
+			"AccountId": "001IP00000CnRD7YAN",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9958480",
-			"Id": "500IP000006QnNWYA0",
+			"Id": "500IP000006d5enYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1460,15 +1460,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNXYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eoYAA"
 			},
-			"AccountId": "001IP00000CXBK7YAP",
+			"AccountId": "001IP00000CnR9cYAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6213345",
-			"Id": "500IP000006QnNXYA0",
+			"Id": "500IP000006d5eoYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1486,15 +1486,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNYYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5epYAA"
 			},
-			"AccountId": "001IP00000CXE77YAH",
+			"AccountId": "001IP00000CnRA2YAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6632248",
-			"Id": "500IP000006QnNYYA0",
+			"Id": "500IP000006d5epYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -1512,15 +1512,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNZYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eqYAA"
 			},
-			"AccountId": "001IP00000CXE8aYAH",
+			"AccountId": "001IP00000CnRBVYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8476294",
-			"Id": "500IP000006QnNZYA0",
+			"Id": "500IP000006d5eqYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1538,15 +1538,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNaYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5erYAA"
 			},
-			"AccountId": "001IP00000CXE3iYAH",
+			"AccountId": "001IP00000CnPKqYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2453632",
-			"Id": "500IP000006QnNaYAK",
+			"Id": "500IP000006d5erYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1564,15 +1564,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNbYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5esYAA"
 			},
-			"AccountId": "001IP00000CXE5EYAX",
+			"AccountId": "001IP00000CnR82YAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4256097",
-			"Id": "500IP000006QnNbYAK",
+			"Id": "500IP000006d5esYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -1590,15 +1590,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNcYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5etYAA"
 			},
-			"AccountId": "001IP00000CXBK7YAP",
+			"AccountId": "001IP00000CnR9cYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6213345",
-			"Id": "500IP000006QnNcYAK",
+			"Id": "500IP000006d5etYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1616,15 +1616,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNdYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5euYAA"
 			},
-			"AccountId": "001IP00000CXBxlYAH",
+			"AccountId": "001IP00000CnPJvYAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1577132",
-			"Id": "500IP000006QnNdYAK",
+			"Id": "500IP000006d5euYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -1642,15 +1642,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNeYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5evYAA"
 			},
-			"AccountId": "001IP00000CXEBFYA5",
+			"AccountId": "001IP00000CnRCdYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9699213",
-			"Id": "500IP000006QnNeYAK",
+			"Id": "500IP000006d5evYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1668,15 +1668,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNfYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5ewYAA"
 			},
-			"AccountId": "001IP00000CXE5LYAX",
+			"AccountId": "001IP00000CnR89YAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4473215",
-			"Id": "500IP000006QnNfYAK",
+			"Id": "500IP000006d5ewYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1694,15 +1694,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNgYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5exYAA"
 			},
-			"AccountId": "001IP00000CXE5DYAX",
+			"AccountId": "001IP00000CnR81YAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4249771",
-			"Id": "500IP000006QnNgYAK",
+			"Id": "500IP000006d5exYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -1720,15 +1720,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNhYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5eyYAA"
 			},
-			"AccountId": "001IP00000CXE7pYAH",
+			"AccountId": "001IP00000CnRAkYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7404798",
-			"Id": "500IP000006QnNhYAK",
+			"Id": "500IP000006d5eyYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -1746,15 +1746,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNiYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5ezYAA"
 			},
-			"AccountId": "001IP00000CXE8PYAX",
+			"AccountId": "001IP00000CnRBKYA3",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8182403",
-			"Id": "500IP000006QnNiYAK",
+			"Id": "500IP000006d5ezYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1772,15 +1772,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNjYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5f0YAA"
 			},
-			"AccountId": "001IP00000CXE7kYAH",
+			"AccountId": "001IP00000CnRAfYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7332220",
-			"Id": "500IP000006QnNjYAK",
+			"Id": "500IP000006d5f0YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -1798,15 +1798,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNkYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5f1YAA"
 			},
-			"AccountId": "001IP00000CXEBbYAP",
+			"AccountId": "001IP00000CnRCzYAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9913759",
-			"Id": "500IP000006QnNkYAK",
+			"Id": "500IP000006d5f1YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -1824,15 +1824,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNlYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5f2YAA"
 			},
-			"AccountId": "001IP00000CXBJsYAP",
+			"AccountId": "001IP00000CnR9NYAV",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5846137",
-			"Id": "500IP000006QnNlYAK",
+			"Id": "500IP000006d5f2YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -1850,15 +1850,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNmYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5f3YAA"
 			},
-			"AccountId": "001IP00000CXE5PYAX",
+			"AccountId": "001IP00000CnR8DYAV",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4507538",
-			"Id": "500IP000006QnNmYAK",
+			"Id": "500IP000006d5f3YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -1876,15 +1876,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNnYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5f4YAA"
 			},
-			"AccountId": "001IP00000CXE7sYAH",
+			"AccountId": "001IP00000CnRAnYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7419788",
-			"Id": "500IP000006QnNnYAK",
+			"Id": "500IP000006d5f4YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -1902,15 +1902,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNoYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5f5YAA"
 			},
-			"AccountId": "001IP00000CXE7hYAH",
+			"AccountId": "001IP00000CnRAcYAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7258700",
-			"Id": "500IP000006QnNoYAK",
+			"Id": "500IP000006d5f5YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -1928,15 +1928,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNpYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5f6YAA"
 			},
-			"AccountId": "001IP00000CXBJRYA5",
+			"AccountId": "001IP00000CnR8wYAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5346857",
-			"Id": "500IP000006QnNpYAK",
+			"Id": "500IP000006d5f6YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -1954,15 +1954,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNqYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5f7YAA"
 			},
-			"AccountId": "001IP00000CXE8DYAX",
+			"AccountId": "001IP00000CnRB8YAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7917767",
-			"Id": "500IP000006QnNqYAK",
+			"Id": "500IP000006d5f7YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -1980,15 +1980,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNrYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5f8YAA"
 			},
-			"AccountId": "001IP00000CXEAdYAP",
+			"AccountId": "001IP00000CnRC1YAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8905198",
-			"Id": "500IP000006QnNrYAK",
+			"Id": "500IP000006d5f8YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -2006,15 +2006,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNsYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5f9YAA"
 			},
-			"AccountId": "001IP00000CXE77YAH",
+			"AccountId": "001IP00000CnRA2YAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6632248",
-			"Id": "500IP000006QnNsYAK",
+			"Id": "500IP000006d5f9YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2032,15 +2032,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNtYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fAYAQ"
 			},
-			"AccountId": "001IP00000CXBIyYAP",
+			"AccountId": "001IP00000CnR8TYAV",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4816003",
-			"Id": "500IP000006QnNtYAK",
+			"Id": "500IP000006d5fAYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -2058,15 +2058,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNuYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fBYAQ"
 			},
-			"AccountId": "001IP00000CXE4jYAH",
+			"AccountId": "001IP00000CnR7XYAV",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3671488",
-			"Id": "500IP000006QnNuYAK",
+			"Id": "500IP000006d5fBYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2084,15 +2084,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNvYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fCYAQ"
 			},
-			"AccountId": "001IP00000CXE8GYAX",
+			"AccountId": "001IP00000CnRBBYA3",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8052991",
-			"Id": "500IP000006QnNvYAK",
+			"Id": "500IP000006d5fCYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2110,15 +2110,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNwYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fDYAQ"
 			},
-			"AccountId": "001IP00000CXE4ZYAX",
+			"AccountId": "001IP00000CnR7NYAV",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3540412",
-			"Id": "500IP000006QnNwYAK",
+			"Id": "500IP000006d5fDYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -2136,15 +2136,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNxYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fEYAQ"
 			},
-			"AccountId": "001IP00000CXEB0YAP",
+			"AccountId": "001IP00000CnRCOYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9396617",
-			"Id": "500IP000006QnNxYAK",
+			"Id": "500IP000006d5fEYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -2162,15 +2162,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNyYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fFYAQ"
 			},
-			"AccountId": "001IP00000CXE3oYAH",
+			"AccountId": "001IP00000CnR6cYAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2609599",
-			"Id": "500IP000006QnNyYAK",
+			"Id": "500IP000006d5fFYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2188,15 +2188,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnNzYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fGYAQ"
 			},
-			"AccountId": "001IP00000CXEAQYA5",
+			"AccountId": "001IP00000CnRBoYAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8716664",
-			"Id": "500IP000006QnNzYAK",
+			"Id": "500IP000006d5fGYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2214,15 +2214,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnO0YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fHYAQ"
 			},
-			"AccountId": "001IP00000CXBy9YAH",
+			"AccountId": "001IP00000CnPKJYA3",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1896032",
-			"Id": "500IP000006QnO0YAK",
+			"Id": "500IP000006d5fHYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2240,15 +2240,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnO1YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fIYAQ"
 			},
-			"AccountId": "001IP00000CXEBLYA5",
+			"AccountId": "001IP00000CnRCjYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9743416",
-			"Id": "500IP000006QnO1YAK",
+			"Id": "500IP000006d5fIYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2266,15 +2266,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnO2YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fJYAQ"
 			},
-			"AccountId": "001IP00000CXEBJYA5",
+			"AccountId": "001IP00000CnRChYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9732021",
-			"Id": "500IP000006QnO2YAK",
+			"Id": "500IP000006d5fJYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2292,15 +2292,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnO3YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fKYAQ"
 			},
-			"AccountId": "001IP00000CXEB6YAP",
+			"AccountId": "001IP00000CnRCUYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9454297",
-			"Id": "500IP000006QnO3YAK",
+			"Id": "500IP000006d5fKYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2318,15 +2318,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnO4YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fLYAQ"
 			},
-			"AccountId": "001IP00000CXByRYAX",
+			"AccountId": "001IP00000CnPKbYAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2182093",
-			"Id": "500IP000006QnO4YAK",
+			"Id": "500IP000006d5fLYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2344,15 +2344,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnO5YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fMYAQ"
 			},
-			"AccountId": "001IP00000CXE77YAH",
+			"AccountId": "001IP00000CnRA2YAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6632248",
-			"Id": "500IP000006QnO5YAK",
+			"Id": "500IP000006d5fMYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2370,15 +2370,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnO6YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fNYAQ"
 			},
-			"AccountId": "001IP00000CXE8XYAX",
+			"AccountId": "001IP00000CnRBSYA3",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8396198",
-			"Id": "500IP000006QnO6YAK",
+			"Id": "500IP000006d5fNYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2396,15 +2396,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnO7YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fOYAQ"
 			},
-			"AccountId": "001IP00000CXBJnYAP",
+			"AccountId": "001IP00000CnR9IYAV",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5719268",
-			"Id": "500IP000006QnO7YAK",
+			"Id": "500IP000006d5fOYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2422,15 +2422,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnO8YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fPYAQ"
 			},
-			"AccountId": "001IP00000CXBIxYAP",
+			"AccountId": "001IP00000CnR8SYAV",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4812257",
-			"Id": "500IP000006QnO8YAK",
+			"Id": "500IP000006d5fPYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2448,15 +2448,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnO9YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fQYAQ"
 			},
-			"AccountId": "001IP00000CXBJ9YAP",
+			"AccountId": "001IP00000CnR8eYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4979379",
-			"Id": "500IP000006QnO9YAK",
+			"Id": "500IP000006d5fQYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2474,15 +2474,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnOAYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fRYAQ"
 			},
-			"AccountId": "001IP00000CXEAsYAP",
+			"AccountId": "001IP00000CnRCGYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9245915",
-			"Id": "500IP000006QnOAYA0",
+			"Id": "500IP000006d5fRYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2500,15 +2500,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnOBYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fSYAQ"
 			},
-			"AccountId": "001IP00000CXE5LYAX",
+			"AccountId": "001IP00000CnR89YAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4473215",
-			"Id": "500IP000006QnOBYA0",
+			"Id": "500IP000006d5fSYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2526,15 +2526,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QnOCYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fTYAQ"
 			},
-			"AccountId": "001IP00000CXByRYAX",
+			"AccountId": "001IP00000CnPKbYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2182093",
-			"Id": "500IP000006QnOCYA0",
+			"Id": "500IP000006d5fTYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2552,15 +2552,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIfYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d5fUYAQ"
 			},
-			"AccountId": "001IP00000CXE4TYAX",
+			"AccountId": "001IP00000CnR7HYAV",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3447873",
-			"Id": "500IP000006QoIfYAK",
+			"Id": "500IP000006d5fUYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2578,15 +2578,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIgYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tJYAQ"
 			},
-			"AccountId": "001IP00000CXE7NYAX",
+			"AccountId": "001IP00000CnRAIYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6884009",
-			"Id": "500IP000006QoIgYAK",
+			"Id": "500IP000006d6tJYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2604,15 +2604,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIhYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tKYAQ"
 			},
-			"AccountId": "001IP00000CXBK7YAP",
+			"AccountId": "001IP00000CnR9cYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6213345",
-			"Id": "500IP000006QoIhYAK",
+			"Id": "500IP000006d6tKYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2630,15 +2630,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIiYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tLYAQ"
 			},
-			"AccountId": "001IP00000CXE3qYAH",
+			"AccountId": "001IP00000CnR6eYAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2677231",
-			"Id": "500IP000006QoIiYAK",
+			"Id": "500IP000006d6tLYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2656,15 +2656,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIjYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tMYAQ"
 			},
-			"AccountId": "001IP00000CXE7yYAH",
+			"AccountId": "001IP00000CnRAtYAN",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7491155",
-			"Id": "500IP000006QoIjYAK",
+			"Id": "500IP000006d6tMYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -2682,15 +2682,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIkYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tNYAQ"
 			},
-			"AccountId": "001IP00000CXE7NYAX",
+			"AccountId": "001IP00000CnRAIYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6884009",
-			"Id": "500IP000006QoIkYAK",
+			"Id": "500IP000006d6tNYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2708,15 +2708,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIlYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tOYAQ"
 			},
-			"AccountId": "001IP00000CXBJYYA5",
+			"AccountId": "001IP00000CnR93YAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5518568",
-			"Id": "500IP000006QoIlYAK",
+			"Id": "500IP000006d6tOYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2734,15 +2734,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoImYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tPYAQ"
 			},
-			"AccountId": "001IP00000CXE76YAH",
+			"AccountId": "001IP00000CnRA1YAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6619778",
-			"Id": "500IP000006QoImYAK",
+			"Id": "500IP000006d6tPYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -2760,15 +2760,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoInYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tQYAQ"
 			},
-			"AccountId": "001IP00000CXEAjYAP",
+			"AccountId": "001IP00000CnRC7YAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9006656",
-			"Id": "500IP000006QoInYAK",
+			"Id": "500IP000006d6tQYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2786,15 +2786,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIoYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tRYAQ"
 			},
-			"AccountId": "001IP00000CXEBZYA5",
+			"AccountId": "001IP00000CnRCxYAN",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9901729",
-			"Id": "500IP000006QoIoYAK",
+			"Id": "500IP000006d6tRYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -2812,15 +2812,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIpYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tSYAQ"
 			},
-			"AccountId": "001IP00000CXEAUYA5",
+			"AccountId": "001IP00000CnRBsYAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8743159",
-			"Id": "500IP000006QoIpYAK",
+			"Id": "500IP000006d6tSYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2838,15 +2838,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIqYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tTYAQ"
 			},
-			"AccountId": "001IP00000CXE8NYAX",
+			"AccountId": "001IP00000CnRBIYA3",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8155684",
-			"Id": "500IP000006QoIqYAK",
+			"Id": "500IP000006d6tTYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2864,15 +2864,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIrYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tUYAQ"
 			},
-			"AccountId": "001IP00000CXE77YAH",
+			"AccountId": "001IP00000CnRA2YAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6632248",
-			"Id": "500IP000006QoIrYAK",
+			"Id": "500IP000006d6tUYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -2890,15 +2890,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIsYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tVYAQ"
 			},
-			"AccountId": "001IP00000CXEAFYA5",
+			"AccountId": "001IP00000CnRBdYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8591059",
-			"Id": "500IP000006QoIsYAK",
+			"Id": "500IP000006d6tVYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -2916,15 +2916,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoItYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tWYAQ"
 			},
-			"AccountId": "001IP00000CXEB4YAP",
+			"AccountId": "001IP00000CnRCSYA3",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9432595",
-			"Id": "500IP000006QoItYAK",
+			"Id": "500IP000006d6tWYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -2942,15 +2942,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIuYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tXYAQ"
 			},
-			"AccountId": "001IP00000CXBJAYA5",
+			"AccountId": "001IP00000CnR8fYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5011491",
-			"Id": "500IP000006QoIuYAK",
+			"Id": "500IP000006d6tXYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2968,15 +2968,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIvYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tYYAQ"
 			},
-			"AccountId": "001IP00000CXEBiYAP",
+			"AccountId": "001IP00000CnRD6YAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9956275",
-			"Id": "500IP000006QoIvYAK",
+			"Id": "500IP000006d6tYYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -2994,15 +2994,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIwYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tZYAQ"
 			},
-			"AccountId": "001IP00000CXE47YAH",
+			"AccountId": "001IP00000CnR6vYAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3005348",
-			"Id": "500IP000006QoIwYAK",
+			"Id": "500IP000006d6tZYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3020,15 +3020,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIxYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6taYAA"
 			},
-			"AccountId": "001IP00000CXE5NYAX",
+			"AccountId": "001IP00000CnR8BYAV",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4493681",
-			"Id": "500IP000006QoIxYAK",
+			"Id": "500IP000006d6taYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3046,15 +3046,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIyYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tbYAA"
 			},
-			"AccountId": "001IP00000CXBJjYAP",
+			"AccountId": "001IP00000CnR9EYAV",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5684079",
-			"Id": "500IP000006QoIyYAK",
+			"Id": "500IP000006d6tbYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3072,15 +3072,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoIzYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tcYAA"
 			},
-			"AccountId": "001IP00000CXE4VYAX",
+			"AccountId": "001IP00000CnR7JYAV",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3454038",
-			"Id": "500IP000006QoIzYAK",
+			"Id": "500IP000006d6tcYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3098,15 +3098,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJ0YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tdYAA"
 			},
-			"AccountId": "001IP00000CXE8CYAX",
+			"AccountId": "001IP00000CnRB7YAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7886505",
-			"Id": "500IP000006QoJ0YAK",
+			"Id": "500IP000006d6tdYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3124,15 +3124,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJ1YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6teYAA"
 			},
-			"AccountId": "001IP00000CXE4aYAH",
+			"AccountId": "001IP00000CnR7OYAV",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3546849",
-			"Id": "500IP000006QoJ1YAK",
+			"Id": "500IP000006d6teYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3150,15 +3150,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJ2YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tfYAA"
 			},
-			"AccountId": "001IP00000CXBJ7YAP",
+			"AccountId": "001IP00000CnR8cYAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4945909",
-			"Id": "500IP000006QoJ2YAK",
+			"Id": "500IP000006d6tfYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3176,15 +3176,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJ3YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tgYAA"
 			},
-			"AccountId": "001IP00000CXBKBYA5",
+			"AccountId": "001IP00000CnR9gYAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6274921",
-			"Id": "500IP000006QoJ3YAK",
+			"Id": "500IP000006d6tgYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3202,15 +3202,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJ4YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6thYAA"
 			},
-			"AccountId": "001IP00000CXBJ5YAP",
+			"AccountId": "001IP00000CnR8aYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4931307",
-			"Id": "500IP000006QoJ4YAK",
+			"Id": "500IP000006d6thYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3228,15 +3228,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJ5YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tiYAA"
 			},
-			"AccountId": "001IP00000CXEBBYA5",
+			"AccountId": "001IP00000CnRCZYA3",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9609644",
-			"Id": "500IP000006QoJ5YAK",
+			"Id": "500IP000006d6tiYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3254,15 +3254,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJ6YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tjYAA"
 			},
-			"AccountId": "001IP00000CXE5JYAX",
+			"AccountId": "001IP00000CnR87YAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4417821",
-			"Id": "500IP000006QoJ6YAK",
+			"Id": "500IP000006d6tjYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3280,15 +3280,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJ7YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tkYAA"
 			},
-			"AccountId": "001IP00000CXE7LYAX",
+			"AccountId": "001IP00000CnRAGYA3",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6868722",
-			"Id": "500IP000006QoJ7YAK",
+			"Id": "500IP000006d6tkYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3306,15 +3306,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJ8YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tlYAA"
 			},
-			"AccountId": "001IP00000CXE4BYAX",
+			"AccountId": "001IP00000CnR6zYAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3046129",
-			"Id": "500IP000006QoJ8YAK",
+			"Id": "500IP000006d6tlYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3332,15 +3332,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJ9YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tmYAA"
 			},
-			"AccountId": "001IP00000CXE3hYAH",
+			"AccountId": "001IP00000CnPKpYAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2438043",
-			"Id": "500IP000006QoJ9YAK",
+			"Id": "500IP000006d6tmYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -3358,15 +3358,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJAYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tnYAA"
 			},
-			"AccountId": "001IP00000CXEAAYA5",
+			"AccountId": "001IP00000CnRBYYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8500853",
-			"Id": "500IP000006QoJAYA0",
+			"Id": "500IP000006d6tnYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3384,15 +3384,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJBYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6toYAA"
 			},
-			"AccountId": "001IP00000CXE4JYAX",
+			"AccountId": "001IP00000CnR77YAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3210151",
-			"Id": "500IP000006QoJBYA0",
+			"Id": "500IP000006d6toYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3410,15 +3410,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJCYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tpYAA"
 			},
-			"AccountId": "001IP00000CXE49YAH",
+			"AccountId": "001IP00000CnR6xYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3014429",
-			"Id": "500IP000006QoJCYA0",
+			"Id": "500IP000006d6tpYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -3436,15 +3436,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJDYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tqYAA"
 			},
-			"AccountId": "001IP00000CXBJMYA5",
+			"AccountId": "001IP00000CnR8rYAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5213371",
-			"Id": "500IP000006QoJDYA0",
+			"Id": "500IP000006d6tqYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3462,15 +3462,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJEYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6trYAA"
 			},
-			"AccountId": "001IP00000CXE6wYAH",
+			"AccountId": "001IP00000CnR9rYAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6446029",
-			"Id": "500IP000006QoJEYA0",
+			"Id": "500IP000006d6trYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3488,15 +3488,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJFYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tsYAA"
 			},
-			"AccountId": "001IP00000CXBItYAP",
+			"AccountId": "001IP00000CnR8OYAV",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4760490",
-			"Id": "500IP000006QoJFYA0",
+			"Id": "500IP000006d6tsYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -3514,15 +3514,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJGYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6ttYAA"
 			},
-			"AccountId": "001IP00000CXE8KYAX",
+			"AccountId": "001IP00000CnRBFYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8107529",
-			"Id": "500IP000006QoJGYA0",
+			"Id": "500IP000006d6ttYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3540,15 +3540,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJHYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tuYAA"
 			},
-			"AccountId": "001IP00000CXBK7YAP",
+			"AccountId": "001IP00000CnR9cYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6213345",
-			"Id": "500IP000006QoJHYA0",
+			"Id": "500IP000006d6tuYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3566,15 +3566,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJIYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tvYAA"
 			},
-			"AccountId": "001IP00000CXE7NYAX",
+			"AccountId": "001IP00000CnRAIYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6884009",
-			"Id": "500IP000006QoJIYA0",
+			"Id": "500IP000006d6tvYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -3592,15 +3592,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJJYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6twYAA"
 			},
-			"AccountId": "001IP00000CXBK6YAP",
+			"AccountId": "001IP00000CnR9bYAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6192922",
-			"Id": "500IP000006QoJJYA0",
+			"Id": "500IP000006d6twYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -3618,15 +3618,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJKYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6txYAA"
 			},
-			"AccountId": "001IP00000CXBKKYA5",
+			"AccountId": "001IP00000CnR9pYAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6429699",
-			"Id": "500IP000006QoJKYA0",
+			"Id": "500IP000006d6txYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3644,15 +3644,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJLYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tyYAA"
 			},
-			"AccountId": "001IP00000CXE7tYAH",
+			"AccountId": "001IP00000CnRAoYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7430898",
-			"Id": "500IP000006QoJLYA0",
+			"Id": "500IP000006d6tyYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3670,15 +3670,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJMYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6tzYAA"
 			},
-			"AccountId": "001IP00000CXE4PYAX",
+			"AccountId": "001IP00000CnR7DYAV",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3419281",
-			"Id": "500IP000006QoJMYA0",
+			"Id": "500IP000006d6tzYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3696,15 +3696,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJNYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6u0YAA"
 			},
-			"AccountId": "001IP00000CXBJzYAP",
+			"AccountId": "001IP00000CnR9UYAV",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6038732",
-			"Id": "500IP000006QoJNYA0",
+			"Id": "500IP000006d6u0YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3722,15 +3722,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJOYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6u1YAA"
 			},
-			"AccountId": "001IP00000CXE5RYAX",
+			"AccountId": "001IP00000CnR8FYAV",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4585835",
-			"Id": "500IP000006QoJOYA0",
+			"Id": "500IP000006d6u1YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3748,15 +3748,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJPYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6u2YAA"
 			},
-			"AccountId": "001IP00000CXBK7YAP",
+			"AccountId": "001IP00000CnR9cYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6213345",
-			"Id": "500IP000006QoJPYA0",
+			"Id": "500IP000006d6u2YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3774,15 +3774,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJQYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6u3YAA"
 			},
-			"AccountId": "001IP00000CXE4EYAX",
+			"AccountId": "001IP00000CnR72YAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3098704",
-			"Id": "500IP000006QoJQYA0",
+			"Id": "500IP000006d6u3YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3800,15 +3800,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJRYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6u4YAA"
 			},
-			"AccountId": "001IP00000CXByMYAX",
+			"AccountId": "001IP00000CnPKWYA3",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2011048",
-			"Id": "500IP000006QoJRYA0",
+			"Id": "500IP000006d6u4YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3826,15 +3826,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJSYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6u5YAA"
 			},
-			"AccountId": "001IP00000CXE7PYAX",
+			"AccountId": "001IP00000CnRAKYA3",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6969291",
-			"Id": "500IP000006QoJSYA0",
+			"Id": "500IP000006d6u5YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3852,15 +3852,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJTYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6u6YAA"
 			},
-			"AccountId": "001IP00000CXEAnYAP",
+			"AccountId": "001IP00000CnRCBYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9130200",
-			"Id": "500IP000006QoJTYA0",
+			"Id": "500IP000006d6u6YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -3878,15 +3878,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJUYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6u7YAA"
 			},
-			"AccountId": "001IP00000CXEAOYA5",
+			"AccountId": "001IP00000CnRBmYAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8706494",
-			"Id": "500IP000006QoJUYA0",
+			"Id": "500IP000006d6u7YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3904,15 +3904,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJVYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6u8YAA"
 			},
-			"AccountId": "001IP00000CXE3rYAH",
+			"AccountId": "001IP00000CnR6fYAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2697464",
-			"Id": "500IP000006QoJVYA0",
+			"Id": "500IP000006d6u8YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -3930,15 +3930,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJWYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6u9YAA"
 			},
-			"AccountId": "001IP00000CXE3uYAH",
+			"AccountId": "001IP00000CnR6iYAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2741024",
-			"Id": "500IP000006QoJWYA0",
+			"Id": "500IP000006d6u9YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -3956,15 +3956,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJXYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uAYAQ"
 			},
-			"AccountId": "001IP00000CXE7IYAX",
+			"AccountId": "001IP00000CnRADYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6806930",
-			"Id": "500IP000006QoJXYA0",
+			"Id": "500IP000006d6uAYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -3982,15 +3982,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJYYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uBYAQ"
 			},
-			"AccountId": "001IP00000CXE43YAH",
+			"AccountId": "001IP00000CnR6rYAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2912347",
-			"Id": "500IP000006QoJYYA0",
+			"Id": "500IP000006d6uBYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4008,15 +4008,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJZYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uCYAQ"
 			},
-			"AccountId": "001IP00000CXBySYAX",
+			"AccountId": "001IP00000CnPKcYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2238347",
-			"Id": "500IP000006QoJZYA0",
+			"Id": "500IP000006d6uCYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4034,15 +4034,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJaYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uDYAQ"
 			},
-			"AccountId": "001IP00000CXE56YAH",
+			"AccountId": "001IP00000CnR7uYAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4039618",
-			"Id": "500IP000006QoJaYAK",
+			"Id": "500IP000006d6uDYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -4060,15 +4060,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJbYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uEYAQ"
 			},
-			"AccountId": "001IP00000CXByCYAX",
+			"AccountId": "001IP00000CnPKMYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1914303",
-			"Id": "500IP000006QoJbYAK",
+			"Id": "500IP000006d6uEYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4086,15 +4086,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJcYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uFYAQ"
 			},
-			"AccountId": "001IP00000CXE54YAH",
+			"AccountId": "001IP00000CnR7sYAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3992782",
-			"Id": "500IP000006QoJcYAK",
+			"Id": "500IP000006d6uFYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -4112,15 +4112,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJdYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uGYAQ"
 			},
-			"AccountId": "001IP00000CXE8BYAX",
+			"AccountId": "001IP00000CnRB6YAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7870436",
-			"Id": "500IP000006QoJdYAK",
+			"Id": "500IP000006d6uGYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4138,15 +4138,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJeYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uHYAQ"
 			},
-			"AccountId": "001IP00000CXByRYAX",
+			"AccountId": "001IP00000CnPKbYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2182093",
-			"Id": "500IP000006QoJeYAK",
+			"Id": "500IP000006d6uHYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4164,15 +4164,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJfYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uIYAQ"
 			},
-			"AccountId": "001IP00000CXEAzYAP",
+			"AccountId": "001IP00000CnRCNYA3",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9384303",
-			"Id": "500IP000006QoJfYAK",
+			"Id": "500IP000006d6uIYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4190,15 +4190,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJgYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uJYAQ"
 			},
-			"AccountId": "001IP00000CXBItYAP",
+			"AccountId": "001IP00000CnR8OYAV",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4760490",
-			"Id": "500IP000006QoJgYAK",
+			"Id": "500IP000006d6uJYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4216,15 +4216,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJhYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uKYAQ"
 			},
-			"AccountId": "001IP00000CXEAyYAP",
+			"AccountId": "001IP00000CnRCMYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9378596",
-			"Id": "500IP000006QoJhYAK",
+			"Id": "500IP000006d6uKYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4242,15 +4242,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJiYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uLYAQ"
 			},
-			"AccountId": "001IP00000CXBJoYAP",
+			"AccountId": "001IP00000CnR9JYAV",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5725845",
-			"Id": "500IP000006QoJiYAK",
+			"Id": "500IP000006d6uLYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4268,15 +4268,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJjYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uMYAQ"
 			},
-			"AccountId": "001IP00000CXE7hYAH",
+			"AccountId": "001IP00000CnRAcYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7258700",
-			"Id": "500IP000006QoJjYAK",
+			"Id": "500IP000006d6uMYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4294,15 +4294,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJkYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uNYAQ"
 			},
-			"AccountId": "001IP00000CXE77YAH",
+			"AccountId": "001IP00000CnRA2YAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6632248",
-			"Id": "500IP000006QoJkYAK",
+			"Id": "500IP000006d6uNYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4320,15 +4320,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJlYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uOYAQ"
 			},
-			"AccountId": "001IP00000CXBxTYAX",
+			"AccountId": "001IP00000CnPJdYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1290448",
-			"Id": "500IP000006QoJlYAK",
+			"Id": "500IP000006d6uOYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4346,15 +4346,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJmYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uPYAQ"
 			},
-			"AccountId": "001IP00000CXE4JYAX",
+			"AccountId": "001IP00000CnR77YAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3210151",
-			"Id": "500IP000006QoJmYAK",
+			"Id": "500IP000006d6uPYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4372,15 +4372,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJnYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uQYAQ"
 			},
-			"AccountId": "001IP00000CXE3qYAH",
+			"AccountId": "001IP00000CnR6eYAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2677231",
-			"Id": "500IP000006QoJnYAK",
+			"Id": "500IP000006d6uQYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4398,15 +4398,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJoYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uRYAQ"
 			},
-			"AccountId": "001IP00000CXByDYAX",
+			"AccountId": "001IP00000CnPKNYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1927587",
-			"Id": "500IP000006QoJoYAK",
+			"Id": "500IP000006d6uRYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4424,15 +4424,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJpYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uSYAQ"
 			},
-			"AccountId": "001IP00000CXBJTYA5",
+			"AccountId": "001IP00000CnR8yYAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5404908",
-			"Id": "500IP000006QoJpYAK",
+			"Id": "500IP000006d6uSYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -4450,15 +4450,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJqYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uTYAQ"
 			},
-			"AccountId": "001IP00000CXE7ZYAX",
+			"AccountId": "001IP00000CnRAUYA3",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7146245",
-			"Id": "500IP000006QoJqYAK",
+			"Id": "500IP000006d6uTYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4476,15 +4476,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJrYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uUYAQ"
 			},
-			"AccountId": "001IP00000CXBxvYAH",
+			"AccountId": "001IP00000CnPK5YAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1793957",
-			"Id": "500IP000006QoJrYAK",
+			"Id": "500IP000006d6uUYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4502,15 +4502,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJsYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uVYAQ"
 			},
-			"AccountId": "001IP00000CXBy1YAH",
+			"AccountId": "001IP00000CnPKBYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1864252",
-			"Id": "500IP000006QoJsYAK",
+			"Id": "500IP000006d6uVYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4528,15 +4528,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJtYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uWYAQ"
 			},
-			"AccountId": "001IP00000CXBxqYAH",
+			"AccountId": "001IP00000CnPK0YAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1690386",
-			"Id": "500IP000006QoJtYAK",
+			"Id": "500IP000006d6uWYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4554,15 +4554,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJuYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uXYAQ"
 			},
-			"AccountId": "001IP00000CXE7GYAX",
+			"AccountId": "001IP00000CnRABYA3",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6797746",
-			"Id": "500IP000006QoJuYAK",
+			"Id": "500IP000006d6uXYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4580,15 +4580,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJvYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uYYAQ"
 			},
-			"AccountId": "001IP00000CXE44YAH",
+			"AccountId": "001IP00000CnR6sYAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2934219",
-			"Id": "500IP000006QoJvYAK",
+			"Id": "500IP000006d6uYYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -4606,15 +4606,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJwYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uZYAQ"
 			},
-			"AccountId": "001IP00000CXBJWYA5",
+			"AccountId": "001IP00000CnR91YAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5452841",
-			"Id": "500IP000006QoJwYAK",
+			"Id": "500IP000006d6uZYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4632,15 +4632,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJxYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uaYAA"
 			},
-			"AccountId": "001IP00000CXE4qYAH",
+			"AccountId": "001IP00000CnR7eYAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3803300",
-			"Id": "500IP000006QoJxYAK",
+			"Id": "500IP000006d6uaYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -4658,15 +4658,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJyYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6ubYAA"
 			},
-			"AccountId": "001IP00000CXE6wYAH",
+			"AccountId": "001IP00000CnR9rYAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6446029",
-			"Id": "500IP000006QoJyYAK",
+			"Id": "500IP000006d6ubYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4684,15 +4684,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoJzYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6ucYAA"
 			},
-			"AccountId": "001IP00000CXBKDYA5",
+			"AccountId": "001IP00000CnR9iYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6312582",
-			"Id": "500IP000006QoJzYAK",
+			"Id": "500IP000006d6ucYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4710,15 +4710,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoK0YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6udYAA"
 			},
-			"AccountId": "001IP00000CXE8ZYAX",
+			"AccountId": "001IP00000CnRBUYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8432214",
-			"Id": "500IP000006QoK0YAK",
+			"Id": "500IP000006d6udYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -4736,15 +4736,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoK1YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6ueYAA"
 			},
-			"AccountId": "001IP00000CXE4CYAX",
+			"AccountId": "001IP00000CnR70YAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3076198",
-			"Id": "500IP000006QoK1YAK",
+			"Id": "500IP000006d6ueYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4762,15 +4762,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoK2YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6ufYAA"
 			},
-			"AccountId": "001IP00000CXBKJYA5",
+			"AccountId": "001IP00000CnR9oYAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6403070",
-			"Id": "500IP000006QoK2YAK",
+			"Id": "500IP000006d6ufYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4788,15 +4788,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoK3YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6ugYAA"
 			},
-			"AccountId": "001IP00000CXBK3YAP",
+			"AccountId": "001IP00000CnR9YYAV",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6159792",
-			"Id": "500IP000006QoK3YAK",
+			"Id": "500IP000006d6ugYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -4814,15 +4814,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoK4YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uhYAA"
 			},
-			"AccountId": "001IP00000CXEBfYAP",
+			"AccountId": "001IP00000CnRD3YAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9927994",
-			"Id": "500IP000006QoK4YAK",
+			"Id": "500IP000006d6uhYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4840,15 +4840,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoK5YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uiYAA"
 			},
-			"AccountId": "001IP00000CXEBLYA5",
+			"AccountId": "001IP00000CnRCjYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9743416",
-			"Id": "500IP000006QoK5YAK",
+			"Id": "500IP000006d6uiYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4866,15 +4866,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoK6YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6ujYAA"
 			},
-			"AccountId": "001IP00000CXE4JYAX",
+			"AccountId": "001IP00000CnR77YAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3210151",
-			"Id": "500IP000006QoK6YAK",
+			"Id": "500IP000006d6ujYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4892,15 +4892,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoK7YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6ukYAA"
 			},
-			"AccountId": "001IP00000CXEBXYA5",
+			"AccountId": "001IP00000CnRCvYAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9859192",
-			"Id": "500IP000006QoK7YAK",
+			"Id": "500IP000006d6ukYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4918,15 +4918,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoK8YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6ulYAA"
 			},
-			"AccountId": "001IP00000CXE59YAH",
+			"AccountId": "001IP00000CnR7xYAF",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4071192",
-			"Id": "500IP000006QoK8YAK",
+			"Id": "500IP000006d6ulYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -4944,15 +4944,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoK9YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6umYAA"
 			},
-			"AccountId": "001IP00000CXBJKYA5",
+			"AccountId": "001IP00000CnR8pYAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5177054",
-			"Id": "500IP000006QoK9YAK",
+			"Id": "500IP000006d6umYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -4970,15 +4970,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoKAYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6unYAA"
 			},
-			"AccountId": "001IP00000CXEAZYA5",
+			"AccountId": "001IP00000CnRBxYAN",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8841312",
-			"Id": "500IP000006QoKAYA0",
+			"Id": "500IP000006d6unYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -4996,15 +4996,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoKBYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uoYAA"
 			},
-			"AccountId": "001IP00000CXBJuYAP",
+			"AccountId": "001IP00000CnR9PYAV",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5891463",
-			"Id": "500IP000006QoKBYA0",
+			"Id": "500IP000006d6uoYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -5022,15 +5022,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoKCYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6upYAA"
 			},
-			"AccountId": "001IP00000CXBxVYAX",
+			"AccountId": "001IP00000CnPJfYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1293049",
-			"Id": "500IP000006QoKCYA0",
+			"Id": "500IP000006d6upYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5048,15 +5048,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoKDYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uqYAA"
 			},
-			"AccountId": "001IP00000CXBKHYA5",
+			"AccountId": "001IP00000CnR9mYAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6326306",
-			"Id": "500IP000006QoKDYA0",
+			"Id": "500IP000006d6uqYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5074,15 +5074,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoKEYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6urYAA"
 			},
-			"AccountId": "001IP00000CXBK4YAP",
+			"AccountId": "001IP00000CnR9ZYAV",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6175585",
-			"Id": "500IP000006QoKEYA0",
+			"Id": "500IP000006d6urYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -5100,15 +5100,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoKFYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6usYAA"
 			},
-			"AccountId": "001IP00000CXEBNYA5",
+			"AccountId": "001IP00000CnRClYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9768711",
-			"Id": "500IP000006QoKFYA0",
+			"Id": "500IP000006d6usYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -5126,15 +5126,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoKGYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6utYAA"
 			},
-			"AccountId": "001IP00000CXEBcYAP",
+			"AccountId": "001IP00000CnRD0YAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9915193",
-			"Id": "500IP000006QoKGYA0",
+			"Id": "500IP000006d6utYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -5152,15 +5152,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoKHYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uuYAA"
 			},
-			"AccountId": "001IP00000CXE5MYAX",
+			"AccountId": "001IP00000CnR8AYAV",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4487222",
-			"Id": "500IP000006QoKHYA0",
+			"Id": "500IP000006d6uuYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -5178,15 +5178,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoKIYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uvYAA"
 			},
-			"AccountId": "001IP00000CXE7FYAX",
+			"AccountId": "001IP00000CnRAAYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6773409",
-			"Id": "500IP000006QoKIYA0",
+			"Id": "500IP000006d6uvYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5204,15 +5204,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoLtYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uwYAA"
 			},
-			"AccountId": "001IP00000CXBJaYAP",
+			"AccountId": "001IP00000CnR95YAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5549789",
-			"Id": "500IP000006QoLtYAK",
+			"Id": "500IP000006d6uwYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5230,15 +5230,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoLuYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uxYAA"
 			},
-			"AccountId": "001IP00000CXE7eYAH",
+			"AccountId": "001IP00000CnRAZYA3",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7222926",
-			"Id": "500IP000006QoLuYAK",
+			"Id": "500IP000006d6uxYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -5256,15 +5256,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoLvYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uyYAA"
 			},
-			"AccountId": "001IP00000CXBJUYA5",
+			"AccountId": "001IP00000CnR8zYAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5424532",
-			"Id": "500IP000006QoLvYAK",
+			"Id": "500IP000006d6uyYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5282,15 +5282,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoLwYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6uzYAA"
 			},
-			"AccountId": "001IP00000CXE3sYAH",
+			"AccountId": "001IP00000CnR6gYAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2697595",
-			"Id": "500IP000006QoLwYAK",
+			"Id": "500IP000006d6uzYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -5308,15 +5308,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoLxYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6v0YAA"
 			},
-			"AccountId": "001IP00000CXEAlYAP",
+			"AccountId": "001IP00000CnRC9YAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9091170",
-			"Id": "500IP000006QoLxYAK",
+			"Id": "500IP000006d6v0YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5334,15 +5334,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoLyYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6v1YAA"
 			},
-			"AccountId": "001IP00000CXBxeYAH",
+			"AccountId": "001IP00000CnPJoYAN",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1502535",
-			"Id": "500IP000006QoLyYAK",
+			"Id": "500IP000006d6v1YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -5360,15 +5360,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoLzYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6v2YAA"
 			},
-			"AccountId": "001IP00000CXE4JYAX",
+			"AccountId": "001IP00000CnR77YAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3210151",
-			"Id": "500IP000006QoLzYAK",
+			"Id": "500IP000006d6v2YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -5386,15 +5386,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoM0YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6v3YAA"
 			},
-			"AccountId": "001IP00000CXE4YYAX",
+			"AccountId": "001IP00000CnR7MYAV",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3535469",
-			"Id": "500IP000006QoM0YAK",
+			"Id": "500IP000006d6v3YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5412,15 +5412,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoM1YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6v4YAA"
 			},
-			"AccountId": "001IP00000CXE8BYAX",
+			"AccountId": "001IP00000CnRB6YAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7870436",
-			"Id": "500IP000006QoM1YAK",
+			"Id": "500IP000006d6v4YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5438,15 +5438,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoM2YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6v5YAA"
 			},
-			"AccountId": "001IP00000CXBItYAP",
+			"AccountId": "001IP00000CnR8OYAV",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4760490",
-			"Id": "500IP000006QoM2YAK",
+			"Id": "500IP000006d6v5YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5464,15 +5464,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoM3YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6v6YAA"
 			},
-			"AccountId": "001IP00000CXE7rYAH",
+			"AccountId": "001IP00000CnRAmYAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7409534",
-			"Id": "500IP000006QoM3YAK",
+			"Id": "500IP000006d6v6YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5490,15 +5490,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoM4YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6v7YAA"
 			},
-			"AccountId": "001IP00000CXE7uYAH",
+			"AccountId": "001IP00000CnRApYAN",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7460020",
-			"Id": "500IP000006QoM4YAK",
+			"Id": "500IP000006d6v7YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -5516,15 +5516,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoM5YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6v8YAA"
 			},
-			"AccountId": "001IP00000CXE4OYAX",
+			"AccountId": "001IP00000CnR7CYAV",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3386074",
-			"Id": "500IP000006QoM5YAK",
+			"Id": "500IP000006d6v8YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -5542,15 +5542,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoM6YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6v9YAA"
 			},
-			"AccountId": "001IP00000CXBJhYAP",
+			"AccountId": "001IP00000CnR9CYAV",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5646890",
-			"Id": "500IP000006QoM6YAK",
+			"Id": "500IP000006d6v9YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5568,15 +5568,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoM7YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vAYAQ"
 			},
-			"AccountId": "001IP00000CXE7aYAH",
+			"AccountId": "001IP00000CnRAVYA3",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7160701",
-			"Id": "500IP000006QoM7YAK",
+			"Id": "500IP000006d6vAYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -5594,15 +5594,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoM8YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vBYAQ"
 			},
-			"AccountId": "001IP00000CXE4tYAH",
+			"AccountId": "001IP00000CnR7hYAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3858351",
-			"Id": "500IP000006QoM8YAK",
+			"Id": "500IP000006d6vBYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -5620,15 +5620,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoM9YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vCYAQ"
 			},
-			"AccountId": "001IP00000CXE8AYAX",
+			"AccountId": "001IP00000CnRB5YAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7834466",
-			"Id": "500IP000006QoM9YAK",
+			"Id": "500IP000006d6vCYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -5646,15 +5646,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMAYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vDYAQ"
 			},
-			"AccountId": "001IP00000CXBK8YAP",
+			"AccountId": "001IP00000CnR9dYAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6217413",
-			"Id": "500IP000006QoMAYA0",
+			"Id": "500IP000006d6vDYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -5672,15 +5672,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMBYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vEYAQ"
 			},
-			"AccountId": "001IP00000CXE85YAH",
+			"AccountId": "001IP00000CnRB0YAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7778109",
-			"Id": "500IP000006QoMBYA0",
+			"Id": "500IP000006d6vEYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -5698,15 +5698,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMCYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vFYAQ"
 			},
-			"AccountId": "001IP00000CXBJ1YAP",
+			"AccountId": "001IP00000CnR8WYAV",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4856255",
-			"Id": "500IP000006QoMCYA0",
+			"Id": "500IP000006d6vFYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -5724,15 +5724,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMDYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vGYAQ"
 			},
-			"AccountId": "001IP00000CXByRYAX",
+			"AccountId": "001IP00000CnPKbYAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2182093",
-			"Id": "500IP000006QoMDYA0",
+			"Id": "500IP000006d6vGYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -5750,15 +5750,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMEYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vHYAQ"
 			},
-			"AccountId": "001IP00000CXE7AYAX",
+			"AccountId": "001IP00000CnRA5YAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6692229",
-			"Id": "500IP000006QoMEYA0",
+			"Id": "500IP000006d6vHYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -5776,15 +5776,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMFYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vIYAQ"
 			},
-			"AccountId": "001IP00000CXBJxYAP",
+			"AccountId": "001IP00000CnR9SYAV",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5994508",
-			"Id": "500IP000006QoMFYA0",
+			"Id": "500IP000006d6vIYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -5802,15 +5802,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMGYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vJYAQ"
 			},
-			"AccountId": "001IP00000CXE4rYAH",
+			"AccountId": "001IP00000CnR7fYAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3821647",
-			"Id": "500IP000006QoMGYA0",
+			"Id": "500IP000006d6vJYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5828,15 +5828,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMHYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vKYAQ"
 			},
-			"AccountId": "001IP00000CXEBTYA5",
+			"AccountId": "001IP00000CnRCrYAN",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9816331",
-			"Id": "500IP000006QoMHYA0",
+			"Id": "500IP000006d6vKYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5854,15 +5854,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMIYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vLYAQ"
 			},
-			"AccountId": "001IP00000CXEAmYAP",
+			"AccountId": "001IP00000CnRCAYA3",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9092701",
-			"Id": "500IP000006QoMIYA0",
+			"Id": "500IP000006d6vLYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -5880,15 +5880,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMJYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vMYAQ"
 			},
-			"AccountId": "001IP00000CXE5SYAX",
+			"AccountId": "001IP00000CnR8GYAV",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4609141",
-			"Id": "500IP000006QoMJYA0",
+			"Id": "500IP000006d6vMYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -5906,15 +5906,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMKYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vNYAQ"
 			},
-			"AccountId": "001IP00000CXE7XYAX",
+			"AccountId": "001IP00000CnRASYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7113971",
-			"Id": "500IP000006QoMKYA0",
+			"Id": "500IP000006d6vNYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -5932,15 +5932,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMLYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vOYAQ"
 			},
-			"AccountId": "001IP00000CXBK0YAP",
+			"AccountId": "001IP00000CnR9VYAV",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6069281",
-			"Id": "500IP000006QoMLYA0",
+			"Id": "500IP000006d6vOYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -5958,15 +5958,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMMYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vPYAQ"
 			},
-			"AccountId": "001IP00000CXE4tYAH",
+			"AccountId": "001IP00000CnR7hYAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3858351",
-			"Id": "500IP000006QoMMYA0",
+			"Id": "500IP000006d6vPYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -5984,15 +5984,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMNYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vQYAQ"
 			},
-			"AccountId": "001IP00000CXE8UYAX",
+			"AccountId": "001IP00000CnRBPYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8366014",
-			"Id": "500IP000006QoMNYA0",
+			"Id": "500IP000006d6vQYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -6010,15 +6010,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMOYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vRYAQ"
 			},
-			"AccountId": "001IP00000CXE4bYAH",
+			"AccountId": "001IP00000CnR7PYAV",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3556696",
-			"Id": "500IP000006QoMOYA0",
+			"Id": "500IP000006d6vRYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -6036,15 +6036,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMPYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vSYAQ"
 			},
-			"AccountId": "001IP00000CXEBKYA5",
+			"AccountId": "001IP00000CnRCiYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9733696",
-			"Id": "500IP000006QoMPYA0",
+			"Id": "500IP000006d6vSYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -6062,15 +6062,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMQYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vTYAQ"
 			},
-			"AccountId": "001IP00000CXE5QYAX",
+			"AccountId": "001IP00000CnR8EYAV",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4546736",
-			"Id": "500IP000006QoMQYA0",
+			"Id": "500IP000006d6vTYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -6088,15 +6088,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMRYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vUYAQ"
 			},
-			"AccountId": "001IP00000CXE4oYAH",
+			"AccountId": "001IP00000CnR7cYAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3768183",
-			"Id": "500IP000006QoMRYA0",
+			"Id": "500IP000006d6vUYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -6114,15 +6114,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMSYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vVYAQ"
 			},
-			"AccountId": "001IP00000CXEAxYAP",
+			"AccountId": "001IP00000CnRCLYA3",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9376033",
-			"Id": "500IP000006QoMSYA0",
+			"Id": "500IP000006d6vVYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -6140,15 +6140,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMTYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vWYAQ"
 			},
-			"AccountId": "001IP00000CXE6wYAH",
+			"AccountId": "001IP00000CnR9rYAF",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6446029",
-			"Id": "500IP000006QoMTYA0",
+			"Id": "500IP000006d6vWYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -6166,15 +6166,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMUYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vXYAQ"
 			},
-			"AccountId": "001IP00000CXByGYAX",
+			"AccountId": "001IP00000CnPKQYA3",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1958740",
-			"Id": "500IP000006QoMUYA0",
+			"Id": "500IP000006d6vXYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -6192,15 +6192,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMVYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vYYAQ"
 			},
-			"AccountId": "001IP00000CXByBYAX",
+			"AccountId": "001IP00000CnPKLYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1910648",
-			"Id": "500IP000006QoMVYA0",
+			"Id": "500IP000006d6vYYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -6218,15 +6218,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMWYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vZYAQ"
 			},
-			"AccountId": "001IP00000CXE8bYAH",
+			"AccountId": "001IP00000CnRBWYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8492379",
-			"Id": "500IP000006QoMWYA0",
+			"Id": "500IP000006d6vZYAQ",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -6244,15 +6244,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMXYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vaYAA"
 			},
-			"AccountId": "001IP00000CXE3yYAH",
+			"AccountId": "001IP00000CnR6mYAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2799224",
-			"Id": "500IP000006QoMXYA0",
+			"Id": "500IP000006d6vaYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -6270,15 +6270,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMYYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vbYAA"
 			},
-			"AccountId": "001IP00000CXBJJYA5",
+			"AccountId": "001IP00000CnR8oYAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5135309",
-			"Id": "500IP000006QoMYYA0",
+			"Id": "500IP000006d6vbYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -6296,15 +6296,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMZYA0"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vcYAA"
 			},
-			"AccountId": "001IP00000CXE77YAH",
+			"AccountId": "001IP00000CnRA2YAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6632248",
-			"Id": "500IP000006QoMZYA0",
+			"Id": "500IP000006d6vcYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -6322,15 +6322,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMaYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vdYAA"
 			},
-			"AccountId": "001IP00000CXEBhYAP",
+			"AccountId": "001IP00000CnRD5YAN",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9953546",
-			"Id": "500IP000006QoMaYAK",
+			"Id": "500IP000006d6vdYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -6348,15 +6348,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMbYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6veYAA"
 			},
-			"AccountId": "001IP00000CXBJbYAP",
+			"AccountId": "001IP00000CnR96YAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5577886",
-			"Id": "500IP000006QoMbYAK",
+			"Id": "500IP000006d6veYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -6374,15 +6374,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMcYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vfYAA"
 			},
-			"AccountId": "001IP00000CXE4zYAH",
+			"AccountId": "001IP00000CnR7nYAF",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3959601",
-			"Id": "500IP000006QoMcYAK",
+			"Id": "500IP000006d6vfYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -6400,15 +6400,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMdYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vgYAA"
 			},
-			"AccountId": "001IP00000CXE4wYAH",
+			"AccountId": "001IP00000CnR7kYAF",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3943223",
-			"Id": "500IP000006QoMdYAK",
+			"Id": "500IP000006d6vgYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -6426,15 +6426,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMeYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vhYAA"
 			},
-			"AccountId": "001IP00000CXE7hYAH",
+			"AccountId": "001IP00000CnRAcYAN",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7258700",
-			"Id": "500IP000006QoMeYAK",
+			"Id": "500IP000006d6vhYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -6452,15 +6452,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMfYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6viYAA"
 			},
-			"AccountId": "001IP00000CXE4iYAH",
+			"AccountId": "001IP00000CnR7WYAV",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3652969",
-			"Id": "500IP000006QoMfYAK",
+			"Id": "500IP000006d6viYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -6478,15 +6478,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMgYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vjYAA"
 			},
-			"AccountId": "001IP00000CXEBHYA5",
+			"AccountId": "001IP00000CnRCfYAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9704369",
-			"Id": "500IP000006QoMgYAK",
+			"Id": "500IP000006d6vjYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -6504,15 +6504,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMhYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vkYAA"
 			},
-			"AccountId": "001IP00000CXByQYAX",
+			"AccountId": "001IP00000CnPKaYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2142178",
-			"Id": "500IP000006QoMhYAK",
+			"Id": "500IP000006d6vkYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -6530,15 +6530,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMiYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vlYAA"
 			},
-			"AccountId": "001IP00000CXE7MYAX",
+			"AccountId": "001IP00000CnRAHYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6879382",
-			"Id": "500IP000006QoMiYAK",
+			"Id": "500IP000006d6vlYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -6556,15 +6556,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMjYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vmYAA"
 			},
-			"AccountId": "001IP00000CXEATYA5",
+			"AccountId": "001IP00000CnRBrYAN",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8737687",
-			"Id": "500IP000006QoMjYAK",
+			"Id": "500IP000006d6vmYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -6582,15 +6582,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMkYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vnYAA"
 			},
-			"AccountId": "001IP00000CXE75YAH",
+			"AccountId": "001IP00000CnRA0YAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6612908",
-			"Id": "500IP000006QoMkYAK",
+			"Id": "500IP000006d6vnYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -6608,15 +6608,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMlYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6voYAA"
 			},
-			"AccountId": "001IP00000CXE7QYAX",
+			"AccountId": "001IP00000CnRALYA3",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6991462",
-			"Id": "500IP000006QoMlYAK",
+			"Id": "500IP000006d6voYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -6634,15 +6634,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMmYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vpYAA"
 			},
-			"AccountId": "001IP00000CXEAHYA5",
+			"AccountId": "001IP00000CnRBfYAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-8629846",
-			"Id": "500IP000006QoMmYAK",
+			"Id": "500IP000006d6vpYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -6660,15 +6660,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMnYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vqYAA"
 			},
-			"AccountId": "001IP00000CXEB3YAP",
+			"AccountId": "001IP00000CnRCRYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9425182",
-			"Id": "500IP000006QoMnYAK",
+			"Id": "500IP000006d6vqYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -6686,15 +6686,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMoYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vrYAA"
 			},
-			"AccountId": "001IP00000CXE4RYAX",
+			"AccountId": "001IP00000CnR7FYAV",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3433993",
-			"Id": "500IP000006QoMoYAK",
+			"Id": "500IP000006d6vrYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -6712,15 +6712,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMpYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vsYAA"
 			},
-			"AccountId": "001IP00000CXE4fYAH",
+			"AccountId": "001IP00000CnR7TYAV",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3587425",
-			"Id": "500IP000006QoMpYAK",
+			"Id": "500IP000006d6vsYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -6738,15 +6738,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMqYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vtYAA"
 			},
-			"AccountId": "001IP00000CXEBMYA5",
+			"AccountId": "001IP00000CnRCkYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9753719",
-			"Id": "500IP000006QoMqYAK",
+			"Id": "500IP000006d6vtYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -6764,15 +6764,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMrYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vuYAA"
 			},
-			"AccountId": "001IP00000CXE77YAH",
+			"AccountId": "001IP00000CnRA2YAN",
 			"CSAT__c": 3,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6632248",
-			"Id": "500IP000006QoMrYAK",
+			"Id": "500IP000006d6vuYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -6790,15 +6790,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMsYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vvYAA"
 			},
-			"AccountId": "001IP00000CXE80YAH",
+			"AccountId": "001IP00000CnRAvYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-7560477",
-			"Id": "500IP000006QoMsYAK",
+			"Id": "500IP000006d6vvYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -6816,15 +6816,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMtYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vwYAA"
 			},
-			"AccountId": "001IP00000CXBJLYA5",
+			"AccountId": "001IP00000CnR8qYAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5194773",
-			"Id": "500IP000006QoMtYAK",
+			"Id": "500IP000006d6vwYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -6842,15 +6842,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMuYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vxYAA"
 			},
-			"AccountId": "001IP00000CXEB2YAP",
+			"AccountId": "001IP00000CnRCQYA3",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9411625",
-			"Id": "500IP000006QoMuYAK",
+			"Id": "500IP000006d6vxYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -6868,15 +6868,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMvYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vyYAA"
 			},
-			"AccountId": "001IP00000CXEAiYAP",
+			"AccountId": "001IP00000CnRC6YAN",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9001272",
-			"Id": "500IP000006QoMvYAK",
+			"Id": "500IP000006d6vyYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -6894,15 +6894,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMwYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6vzYAA"
 			},
-			"AccountId": "001IP00000CXE4dYAH",
+			"AccountId": "001IP00000CnR7RYAV",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-3566269",
-			"Id": "500IP000006QoMwYAK",
+			"Id": "500IP000006d6vzYAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -6920,15 +6920,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMxYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6w0YAA"
 			},
-			"AccountId": "001IP00000CXBxUYAX",
+			"AccountId": "001IP00000CnPJeYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1291177",
-			"Id": "500IP000006QoMxYAK",
+			"Id": "500IP000006d6w0YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -6946,15 +6946,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMyYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6w1YAA"
 			},
-			"AccountId": "001IP00000CXBxdYAH",
+			"AccountId": "001IP00000CnPJnYAN",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-1447620",
-			"Id": "500IP000006QoMyYAK",
+			"Id": "500IP000006d6w1YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -6972,15 +6972,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoMzYAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6w2YAA"
 			},
-			"AccountId": "001IP00000CXE5NYAX",
+			"AccountId": "001IP00000CnR8BYAV",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4493681",
-			"Id": "500IP000006QoMzYAK",
+			"Id": "500IP000006d6w2YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -6998,15 +6998,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoN0YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6w3YAA"
 			},
-			"AccountId": "001IP00000CXEAtYAP",
+			"AccountId": "001IP00000CnRCHYA3",
 			"CSAT__c": 2,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-9248524",
-			"Id": "500IP000006QoN0YAK",
+			"Id": "500IP000006d6w3YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Email",
@@ -7024,15 +7024,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoN1YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6w4YAA"
 			},
-			"AccountId": "001IP00000CXE3mYAH",
+			"AccountId": "001IP00000CnPKuYAN",
 			"CSAT__c": 4,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-2597100",
-			"Id": "500IP000006QoN1YAK",
+			"Id": "500IP000006d6w4YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -7050,15 +7050,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoN2YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6w5YAA"
 			},
-			"AccountId": "001IP00000CXE5CYAX",
+			"AccountId": "001IP00000CnR80YAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-4178110",
-			"Id": "500IP000006QoN2YAK",
+			"Id": "500IP000006d6w5YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Chat",
@@ -7076,15 +7076,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoN3YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6w6YAA"
 			},
-			"AccountId": "001IP00000CXBJcYAP",
+			"AccountId": "001IP00000CnR97YAF",
 			"CSAT__c": 1,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-5580824",
-			"Id": "500IP000006QoN3YAK",
+			"Id": "500IP000006d6w6YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",
@@ -7102,15 +7102,15 @@
 		{
 			"attributes": {
 				"type": "Case",
-				"url": "/services/data/v60.0/sobjects/Case/500IP000006QoN4YAK"
+				"url": "/services/data/v60.0/sobjects/Case/500IP000006d6w7YAA"
 			},
-			"AccountId": "001IP00000CXE7NYAX",
+			"AccountId": "001IP00000CnRAIYA3",
 			"CSAT__c": 5,
 			"Comments": null,
 			"Description": null,
 			"EntitlementId": null,
 			"FanId__c": "FAN-6884009",
-			"Id": "500IP000006QoN4YAK",
+			"Id": "500IP000006d6w7YAA",
 			"IsEscalated": false,
 			"IsStopped": false,
 			"Origin": "Phone",

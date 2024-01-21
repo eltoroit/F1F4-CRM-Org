@@ -1,21 +1,21 @@
 ProdId,Category,Cost,Price,Description
-PROD-0001,Event Tickets,127.30,249.99,"Tickets for FIFA events, including the regional qualifiers, and other international competitions."
-PROD-0002,Event Tickets,699.60,1389.99,Tickets for FIFA World Cup events
-PROD-0003,Event Tickets,68.60,129.99,Concert tickets for entertainment events associated with FIFA tournaments.
-PROD-0004,Event Tickets,11.80,19.99,Digital streaming passes for live coverage of events.
-PROD-0005,Event Tickets (VIP),1079.40,2149.99,"Premium ticket packages with added perks, such as VIP seating, access to hospitality areas, and meet-and-greet opportunities with players."
-PROD-0006,Event Tickets (VIP),177.90,349.99,"Experiences such as stadium tours, fan festivals, or access to official pre-match events."
-PROD-0007,Event Tickets (VIP),231.60,459.99,Exclusive behind-the-scenes content or interviews.
-PROD-0008,Event Tickets (VIP),76.90,149.99,"Membership or subscription services providing exclusive content, discounts on merchandise, or early access to ticket sales."
-PROD-0009,Merchandise,16.60,29.99,"Official team jerseys, scarves, hats, and other apparel."
-PROD-0010,Merchandise,20.30,39.99,Merchandise specific to national teams or individual players.
-PROD-0011,Merchandise,281.90,559.99,"Autographed items, including jerseys, balls, or photographs."
-PROD-0012,Merchandise,13.30,19.99,"Branded accessories such as keychains, phone cases, and backpacks."
-PROD-0013,Merchandise,71.40,139.99,"Collectibles and memorabilia, such as signed merchandise or limited edition items."
-PROD-0014,Merchandise,19.30,29.99,"Soccer balls, goal nets, and other equipment with FIFA branding."
-PROD-0015,Merchandise,211.70,419.99,Training gear used by national teams.
-PROD-0016,Merchandise,47.10,89.99,Personalized jerseys with custom names and numbers.
-PROD-0017,Merchandise,7.00,9.99,Customizable merchandise such as mugs or phone cases.
-PROD-0018,Merchandise,24.40,39.99,"Books, DVDs, or online courses related to soccer tactics, history, or skills development."
-PROD-0019,Merchandise,7.40,9.99,"Printed or digital event programs with information about teams, players, and schedules."
-PROD-0020,Merchandise,79.50,149.99,Official publications or commemorative books.
+PROD-0001,Event Tickets,161.1,319.99,"Tickets for FIFA events, including the regional qualifiers, and other international competitions."
+PROD-0002,Event Tickets,755.5,1509.99,Tickets for FIFA World Cup events
+PROD-0003,Event Tickets,56.9,109.99,Concert tickets for entertainment events associated with FIFA tournaments.
+PROD-0004,Event Tickets,9.4,9.99,Digital streaming passes for live coverage of events.
+PROD-0005,Event Tickets (VIP),1343.1,2679.99,"Premium ticket packages with added perks, such as VIP seating, access to hospitality areas, and meet-and-greet opportunities with players."
+PROD-0006,Event Tickets (VIP),151.8,299.99,"Experiences such as stadium tours, fan festivals, or access to official pre-match events."
+PROD-0007,Event Tickets (VIP),135.2,269.99,Exclusive behind-the-scenes content or interviews.
+PROD-0008,Event Tickets (VIP),98,189.99,"Membership or subscription services providing exclusive content, discounts on merchandise, or early access to ticket sales."
+PROD-0009,Merchandise,13.7,19.99,"Official team jerseys, scarves, hats, and other apparel."
+PROD-0010,Merchandise,22.8,39.99,Merchandise specific to national teams or individual players.
+PROD-0011,Merchandise,249.5,489.99,"Autographed items, including jerseys, balls, or photographs."
+PROD-0012,Merchandise,16.1,29.99,"Branded accessories such as keychains, phone cases, and backpacks."
+PROD-0013,Merchandise,92.9,179.99,"Collectibles and memorabilia, such as signed merchandise or limited edition items."
+PROD-0014,Merchandise,20.7,39.99,"Soccer balls, goal nets, and other equipment with FIFA branding."
+PROD-0015,Merchandise,241.8,479.99,Training gear used by national teams.
+PROD-0016,Merchandise,45.4,89.99,Personalized jerseys with custom names and numbers.
+PROD-0017,Merchandise,5.3,9.99,Customizable merchandise such as mugs or phone cases.
+PROD-0018,Merchandise,20.5,39.99,"Books, DVDs, or online courses related to soccer tactics, history, or skills development."
+PROD-0019,Merchandise,5.9,9.99,"Printed or digital event programs with information about teams, players, and schedules."
+PROD-0020,Merchandise,80.6,159.99,Official publications or commemorative books.

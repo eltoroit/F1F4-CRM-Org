@@ -10,7 +10,8 @@ const SHEET_ID = "1NVE3z33tqAeEA21G7fIvI30kBnlMugkqp55XDt6yRCE"; // https://docs
 
 const FILES = {
 	original: `FIFA Data (With formulas)`,
-	cleaned: `FIFA Data (Cleaned)`
+	cleaned: `FIFA Data (Cleaned)`,
+	TEMP_SHEET: "TEMP Data"
 };
 
 function assert(bool, msg) {
@@ -24,73 +25,82 @@ class ExportCSV {
 
 	execute() {
 		console.log("execute()");
-		let folder = DriveApp.getFolderById(FOLDER_ID);
-		// // RECREATE
-		// this._deleteCleanedSheet(folder);
-		// let newFile = this._copyOriginal(folder);
-		// REUSE
-		let newFile = DriveApp.getFileById(SHEET_ID);
+		let sourceFolder = DriveApp.getFolderById(FOLDER_ID);
+		let newFolder = sourceFolder.createFolder(new Date().toJSON());
+		let newFile = this._copyOriginal(sourceFolder, newFolder);
 		let { spreadsheet, sheets } = this._getSpreadsheet(newFile);
-		// this._removeFormulas(sheets);
-		// this._clearColumns(spreadsheet);
-		this._makeFilesCSV(folder, sheets);
+		this._removeFormulas(spreadsheet, sheets);
+		sheets = this._clearSpreadsheet(spreadsheet, sheets);
+		this._makeFilesCSV(newFolder, sheets);
 		console.log("DONE");
 	}
 
-	_deleteCleanedSheet(folder) {
-		console.log("_deleteCleanedSheet()");
-		let trash = folder.getFoldersByName(`TRASH`);
-		assert(trash.hasNext, "TRASH folder does not exist");
-		trash = trash.next();
-
-		let count = 0;
-		let files = folder.getFilesByName(FILES.cleaned);
-		while (files.hasNext()) {
-			count++;
-			files.next().moveTo(trash);
-		}
-		assert(count <= 1, "Too many files found");
-	}
-
-	_copyOriginal(folder) {
+	_copyOriginal(sourceFolder, newFolder) {
 		console.log("_copyOriginal()");
-		let files = folder.getFilesByName(FILES.original);
+		let files = sourceFolder.getFilesByName(FILES.original);
 		assert(files.hasNext(), "Could not find original spreadsheet");
 		let original = files.next();
 		let newFile = original.makeCopy(FILES.cleaned);
+		newFile.moveTo(newFolder);
 		return newFile;
 	}
 
-	_getSpreadsheet(file) {
+	_getSpreadsheet(newFile) {
 		console.log("_getSpreadsheet()");
-		let spreadsheet = SpreadsheetApp.openById(file.getId());
+		let spreadsheet = SpreadsheetApp.openById(newFile.getId());
 		let sheets = spreadsheet.getSheets();
 		assert(!(sheets === undefined || sheets.length === 0), "Spreadsheet could not be opened");
 		return { spreadsheet, sheets };
 	}
 
-	// _removeFormulas(sheets) {
-	//   console.log("_removeFormulas()");
-	//   for (let sheetIdx in sheets) {
-	//     let sheet = sheets[sheetIdx];
-	//     var activeRange = sheet.getDataRange();
-	//   }
+	_removeFormulas(spreadsheet, sheets) {
+		console.log("_removeFormulas()");
+		for (let sheet of sheets) {
+			console.log(`Remove formulas | Sheet: ${sheet.getName()}`);
+			var activeRange = sheet.getDataRange();
+			activeRange.copyTo(activeRange, { contentsOnly: true });
+		}
+	}
 
-	//   let sheetCount = sheets.length;
-	//   for (let idxSheet = 0; idxSheet < sheetCount; idxSheet++) {
-	//     let sheet = sheets[idxSheet];
-	//     console.log(`Sheet: ${sheet.getName()}`);
-	//     let range = sheet.getDataRange();
-	//     range.copyTo(range, { contentsOnly: true });
-	//   }
-	// }
+	_clearSpreadsheet(spreadsheet, sheets) {
+		console.log("_clearSpreadsheet()");
+		for (let sheet of sheets) {
+			let fistBlack = -1;
+			var activeRange = sheet.getDataRange();
+			let maxColumns = activeRange.getNumColumns();
+			for (let idxCol = 1; idxCol <= maxColumns; idxCol++) {
+				let cell = activeRange.getCell(1, idxCol);
+				let bgColor = cell.getBackground();
+				if (bgColor === "#000000") {
+					fistBlack = idxCol;
+					break;
+				}
+			}
 
-	_makeFilesCSV(rootFolder, sheets) {
-		let folder = rootFolder.getFoldersByName("CSV").next();
-		for (var s in sheets) {
-			let content = this._convertRangeToCsvFile(sheets[s]);
-			if (content) {
-				folder.createFile(sheets[s].getName() + ".csv", content);
+			if (fistBlack > 0) {
+				let coords = {
+					Row: 1,
+					Col: fistBlack,
+					NumRows: activeRange.getNumRows(),
+					NumCols: maxColumns - fistBlack + 1
+				};
+				let rangeToclear = sheet.getRange(coords.Row, coords.Col, coords.NumRows, coords.NumCols);
+				console.log(`Clear columns | Sheet: ${sheet.getName()} | ${rangeToclear.getA1Notation()}`);
+				rangeToclear.clear();
+			}
+		}
+
+		// Remove TEMP sheet
+		let sheet = spreadsheet.getSheetByName(FILES.TEMP_SHEET);
+		spreadsheet.deleteSheet(sheet);
+		return SpreadsheetApp.openById(spreadsheet.getId()).getSheets();
+	}
+
+	// CSV
+	_makeFilesCSV(newFolder, sheets) {
+		for (var sheet of sheets) {
+			if (sheet.getName() !== FILES.TEMP_SHEET) {
+				newFolder.createFile(sheet.getName() + ".csv", this._convertRangeToCsvFile(sheet));
 			}
 		}
 	}
@@ -100,45 +110,29 @@ class ExportCSV {
 		try {
 			// get available data range in the spreadsheet
 			var activeRange = sheet.getDataRange();
+			console.log(`Export To CSV | Sheet ${sheet.getName()}`);
+			var data = activeRange.getValues();
 
-			// find the first black column
-			let fistBlack = -1;
-			let range = sheet.getDataRange();
-			let maxColumns = range.getNumColumns();
-			for (let idxCol = 1; idxCol <= maxColumns; idxCol++) {
-				let cell = range.getCell(1, idxCol);
-				let bgColor = cell.getBackground();
-				if (bgColor === "#000000") {
-					fistBlack = idxCol;
-					break;
-				}
-			}
-			console.log(`Sheet ${sheet.getName()}: ${fistBlack}/${maxColumns} columns`);
-
-			if (fistBlack > 0) {
-				var data = activeRange.getValues();
-
-				// loop through the data in the range and build a string with the csv data
-				if (data.length > 1) {
-					var csv = "";
-					for (var row = 0; row < data.length; row++) {
-						// Replace fields with commas
-						for (var col = 0; col < data[row].length; col++) {
-							if (data[row][col].toString().indexOf(",") != -1) {
-								data[row][col] = '"' + data[row][col] + '"';
-							}
-						}
-
-						// Join each row's columns
-						if (row < data.length - 1) {
-							// Add a carriage return to end of each row, except for the last one
-							csv += data[row].slice(0, fistBlack - 1).join(",") + "\r\n";
-						} else {
-							csv += data[row];
+			// loop through the data in the range and build a string with the csv data
+			if (data.length > 1) {
+				var csv = "";
+				for (var row = 0; row < data.length; row++) {
+					// Replace fields with commas
+					for (var col = 0; col < data[row].length; col++) {
+						if (data[row][col].toString().indexOf(",") != -1) {
+							data[row][col] = '"' + data[row][col] + '"';
 						}
 					}
-					csvFile = csv;
+
+					// Join each row's columns
+					if (row < data.length - 1) {
+						// Add a carriage return to end of each row, except for the last one
+						csv += data[row].join(",") + "\r\n";
+					} else {
+						csv += data[row];
+					}
 				}
+				csvFile = csv;
 			}
 		} catch (err) {
 			Logger.log(err);
@@ -152,12 +146,3 @@ function main() {
 	let main = new ExportCSV();
 	main.execute();
 }
-
-/*
-
-
-// _clearColumns(spreadsheet) {
-//   let namedRanges = spreadsheet.getNamedRanges();
-//   namedRanges.forEach(namedRange => namedRange.getRange().clear());
-// }
-*/

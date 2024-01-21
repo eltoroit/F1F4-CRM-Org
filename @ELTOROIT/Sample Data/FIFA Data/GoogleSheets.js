@@ -60,6 +60,7 @@ class ExportCSV {
 			var activeRange = sheet.getDataRange();
 			activeRange.copyTo(activeRange, { contentsOnly: true });
 		}
+		SpreadsheetApp.flush();
 	}
 
 	_clearSpreadsheet(spreadsheet, sheets) {

@@ -52,6 +52,7 @@
 				"BillingState",
 				"BillingStreet",
 				"CleanStatus",
+				"CreatedDate",
 				"Description",
 				"DunsNumber",
 				"FanId__pc",
@@ -60,6 +61,7 @@
 				"Id",
 				"Industry",
 				"Jigsaw",
+				"LastModifiedDate",
 				"LastName",
 				"NaicsCode",
 				"NaicsDesc",
@@ -138,13 +140,16 @@
 			"fields": [
 				"AccountId",
 				"CSAT__c",
+				"ClosedDate",
 				"Comments",
+				"CreatedDate",
 				"Description",
 				"EntitlementId",
 				"FanId__c",
 				"Id",
 				"IsEscalated",
 				"IsStopped",
+				"LastModifiedDate",
 				"Origin",
 				"Priority",
 				"Reason",
@@ -186,9 +191,11 @@
 			"fields": [
 				"AccountId",
 				"CasesPerEntitlement",
+				"CreatedDate",
 				"EndDate",
 				"Id",
 				"IsPerIncident",
+				"LastModifiedDate",
 				"Name",
 				"RemainingCases",
 				"RemainingWorkOrders",
@@ -344,6 +351,7 @@
 		"AdditionalNumber": [],
 		"Address": [],
 		"AggregateResult": [],
+		"AllowedEmailDomain": [],
 		"AlternativePaymentMethod": [],
 		"AlternativePaymentMethodShare": [],
 		"Announcement": [],
@@ -1449,6 +1457,8 @@
 		"UriEvent": [],
 		"UriEventStream": [],
 		"User": [],
+		"UserAccessChange": [],
+		"UserAccessPolicy": [],
 		"UserAppInfo": [],
 		"UserAppMenuCustomization": [],
 		"UserAppMenuCustomizationShare": [],
@@ -1563,18 +1573,10 @@
 			"Entitlement.IsDeleted": [
 				"Must be createable"
 			],
-			"Entitlement.CreatedDate": [
-				"Must be createable"
-			],
 			"Entitlement.CreatedById": [
-				"Must be createable",
 				"Parent sObject [User] is not processed"
 			],
-			"Entitlement.LastModifiedDate": [
-				"Must be createable"
-			],
 			"Entitlement.LastModifiedById": [
-				"Must be createable",
 				"Parent sObject [User] is not processed"
 			],
 			"Entitlement.SystemModstamp": [
@@ -1642,9 +1644,6 @@
 			"Case.IsClosed": [
 				"Must be createable"
 			],
-			"Case.ClosedDate": [
-				"Must be createable"
-			],
 			"Case.OwnerId": [
 				"User asked for this field to be excluded",
 				"Reference, but it points to 0 or more than 1 sObject: | Group | User | "
@@ -1658,18 +1657,10 @@
 			"Case.StopStartDate": [
 				"Must be createable"
 			],
-			"Case.CreatedDate": [
-				"Must be createable"
-			],
 			"Case.CreatedById": [
-				"Must be createable",
 				"Parent sObject [User] is not processed"
 			],
-			"Case.LastModifiedDate": [
-				"Must be createable"
-			],
 			"Case.LastModifiedById": [
-				"Must be createable",
 				"Parent sObject [User] is not processed"
 			],
 			"Case.SystemModstamp": [
@@ -1728,18 +1719,10 @@
 				"User asked for this field to be excluded",
 				"Parent sObject [User] is not processed"
 			],
-			"Account.CreatedDate": [
-				"Must be createable"
-			],
 			"Account.CreatedById": [
-				"Must be createable",
 				"Parent sObject [User] is not processed"
 			],
-			"Account.LastModifiedDate": [
-				"Must be createable"
-			],
 			"Account.LastModifiedById": [
-				"Must be createable",
 				"Parent sObject [User] is not processed"
 			],
 			"Account.SystemModstamp": [
@@ -2746,6 +2729,9 @@
 				"Must be queryable",
 				"Must be retrieveable",
 				"Must be updateable",
+				"Was Not requested"
+			],
+			"AllowedEmailDomain": [
 				"Was Not requested"
 			],
 			"AlternativePaymentMethod": [
@@ -7752,6 +7738,15 @@
 			],
 			"User": [
 				"Must be deletable",
+				"Was Not requested"
+			],
+			"UserAccessChange": [
+				"Must be createable",
+				"Must be deletable",
+				"Must be updateable",
+				"Was Not requested"
+			],
+			"UserAccessPolicy": [
 				"Was Not requested"
 			],
 			"UserAppInfo": [

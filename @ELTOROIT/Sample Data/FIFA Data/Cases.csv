@@ -1,275 +1,275 @@
-Contact.FanId__c,Origin,CSAT__c,Priority,Reason,Subject,Status,CaseOpened__c,ClosedDate
-FAN-6632248,Chat,5,Medium,Ticket Purchase Issues,Payment processing errors.,Escalated,45092,
-FAN-2182093,Phone,3,High,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Escalated,45224,
-FAN-3210151,Email,1,High,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,45187,
-FAN-6081319,Email,2,Medium,Order Status and Tracking,Tracking information not received.,Escalated,45275,
-FAN-2182093,Email,4,High,Order Status and Tracking,Order confirmation not received.,Closed,45025,45311
-FAN-2602971,Phone,4,High,Order Status and Tracking,Requesting updates on the shipping status.,Closed,45044,45311
-FAN-2182093,Email,2,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Escalated,45268,
-FAN-8675384,Chat,5,Low,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Closed,45190,45311
-FAN-6841199,Email,3,Medium,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Escalated,45143,
-FAN-7106045,Email,4,High,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Escalated,45256,
-FAN-7468232,Chat,1,High,General Inquiries and Information Requests,Event details and schedule inquiries.,Escalated,45053,
-FAN-6632248,Chat,1,High,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Closed,45224,45311
-FAN-8425559,Chat,5,High,General Inquiries and Information Requests,Information about venue policies.,Escalated,45080,
-FAN-3708832,Email,1,High,Technical Support,Unable to log in or create an account.,Closed,44974,45311
-FAN-9925460,Phone,2,Medium,Technical Support,Technical errors during the checkout process.,Closed,45169,45311
-FAN-1876301,Email,2,Medium,Technical Support,Mobile app functionality problems.,Closed,45223,45311
-FAN-8090324,Chat,1,,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,45276,
-FAN-6446029,Chat,5,High,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,45271,
-FAN-4912460,Phone,4,Medium,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Closed,45308,45311
-FAN-1868430,Chat,5,High,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Escalated,45280,
-FAN-6026267,Chat,2,Low,Accessibility and Special Requests,Special seating requests for events.,Escalated,45006,
-FAN-3651555,Email,3,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,Escalated,45297,
-FAN-9783885,Phone,2,High,Complaints and Feedback,Poor customer service experience.,Escalated,45227,
-FAN-6285208,Phone,4,Medium,Complaints and Feedback,Unresolved issues with a previous case.,Escalated,45038,
-FAN-1822456,Phone,1,Low,Complaints and Feedback,Suggestions for improvement.,Escalated,45048,
-FAN-2142178,Chat,2,Medium,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Escalated,45120,
-FAN-2285853,Chat,3,Low,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Escalated,45153,
-FAN-5044681,Phone,4,,Ticket Purchase Issues,Payment processing errors.,Closed,45055,45311
-FAN-6632248,Phone,2,Medium,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Closed,45081,45311
-FAN-7495136,Chat,1,Medium,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,44984,
-FAN-4288380,Chat,3,Medium,Order Status and Tracking,Tracking information not received.,Closed,45175,45311
-FAN-6563416,Phone,4,Medium,Order Status and Tracking,Order confirmation not received.,Escalated,45033,
-FAN-1700571,Email,1,High,Order Status and Tracking,Requesting updates on the shipping status.,Working,45083,
-FAN-9544449,Chat,5,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Escalated,45298,
-FAN-1570540,Phone,5,High,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,New,45016,
-FAN-9485968,Chat,3,Medium,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Escalated,45219,
-FAN-1949136,Chat,2,Low,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Escalated,45065,
-FAN-5698447,Chat,2,Low,General Inquiries and Information Requests,Event details and schedule inquiries.,Working,45283,
-FAN-3100350,Phone,1,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Closed,45210,45311
-FAN-5577886,Email,3,High,General Inquiries and Information Requests,Information about venue policies.,New,45298,
-FAN-8252780,Phone,1,Low,Technical Support,Unable to log in or create an account.,Working,45042,
-FAN-9308199,Phone,2,Medium,Technical Support,Technical errors during the checkout process.,Escalated,45084,
-FAN-7216049,Chat,3,Low,Technical Support,Mobile app functionality problems.,Escalated,45301,
-FAN-1654512,Chat,4,Medium,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,45037,
-FAN-8495678,Email,4,Low,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,45045,
-FAN-8641535,Chat,1,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Closed,45229,45311
-FAN-6181985,Chat,3,High,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Escalated,45305,
-FAN-8564819,Email,3,Medium,Accessibility and Special Requests,Special seating requests for events.,Escalated,45048,
-FAN-4774750,Chat,1,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,Escalated,45308,
-FAN-7778510,Chat,5,Low,Complaints and Feedback,Poor customer service experience.,New,45214,
-FAN-4794615,Email,5,High,Complaints and Feedback,Unresolved issues with a previous case.,Working,45155,
-FAN-7258700,Email,1,High,Complaints and Feedback,Suggestions for improvement.,New,45253,
-FAN-7032518,Chat,1,Medium,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Escalated,45121,
-FAN-6556996,Chat,5,High,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Closed,45069,45311
-FAN-6632248,Email,2,Medium,Ticket Purchase Issues,Payment processing errors.,Escalated,44985,
-FAN-9958480,Email,3,Low,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Closed,45069,45311
-FAN-6213345,Email,3,High,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Closed,45059,45311
-FAN-6632248,Phone,4,Medium,Order Status and Tracking,Tracking information not received.,Closed,45126,45311
-FAN-8476294,Email,5,Low,Order Status and Tracking,Order confirmation not received.,Escalated,45303,
-FAN-2453632,Email,4,Low,Order Status and Tracking,Requesting updates on the shipping status.,Escalated,45137,
-FAN-4256097,Phone,5,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,New,45136,
-FAN-6213345,Email,4,Low,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Escalated,45206,
-FAN-1577132,Chat,5,Low,Ticket Transfer and Resale,Guidance on the ticket transfer process.,New,45203,
-FAN-9699213,Email,2,High,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Closed,45040,45311
-FAN-4473215,Email,2,,General Inquiries and Information Requests,Event details and schedule inquiries.,New,45034,
-FAN-4249771,Phone,1,High,General Inquiries and Information Requests,Merchandise sizing and availability questions.,New,45138,
-FAN-7404798,Phone,2,Medium,General Inquiries and Information Requests,Information about venue policies.,Escalated,45064,
-FAN-8182403,Email,4,,Technical Support,Unable to log in or create an account.,Escalated,45060,
-FAN-7332220,Chat,2,Low,Technical Support,Technical errors during the checkout process.,Escalated,45209,
-FAN-9913759,Phone,1,Low,Technical Support,Mobile app functionality problems.,Closed,44967,45311
-FAN-5846137,Phone,5,High,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,45116,
-FAN-4507538,Email,3,Low,Merchandise Returns and Exchanges,Incorrect size or color received.,Closed,45039,45311
-FAN-7419788,Chat,2,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Escalated,45272,
-FAN-7258700,Phone,1,High,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Closed,45223,45311
-FAN-5346857,Chat,3,Low,Accessibility and Special Requests,Special seating requests for events.,Working,45096,
-FAN-7917767,Phone,1,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,Closed,45038,45311
-FAN-8905198,Chat,2,Low,Complaints and Feedback,Poor customer service experience.,Escalated,45187,
-FAN-6632248,Email,5,Medium,Complaints and Feedback,Unresolved issues with a previous case.,Escalated,45038,
-FAN-4816003,Chat,4,High,Complaints and Feedback,Suggestions for improvement.,Escalated,45082,
-FAN-3671488,Email,1,High,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Closed,45111,45311
-FAN-8052991,Email,1,Low,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Escalated,45226,
-FAN-3540412,Chat,5,Low,Ticket Purchase Issues,Payment processing errors.,Closed,45118,45311
-FAN-9396617,Chat,5,High,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Working,45056,
-FAN-2609599,Email,2,Low,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,44949,
-FAN-8716664,Email,5,Medium,Order Status and Tracking,Tracking information not received.,Closed,45041,45311
-FAN-1896032,Phone,1,Medium,Order Status and Tracking,Order confirmation not received.,Escalated,45286,
-FAN-9743416,Email,2,High,Order Status and Tracking,Requesting updates on the shipping status.,Escalated,45201,
-FAN-9732021,Email,4,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,New,45074,
-FAN-9454297,Email,2,Medium,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Escalated,45119,
-FAN-2182093,Phone,5,High,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Escalated,45243,
-FAN-6632248,Email,2,Low,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Closed,44985,45311
-FAN-8396198,Phone,3,High,General Inquiries and Information Requests,Event details and schedule inquiries.,Working,45097,
-FAN-5719268,Phone,3,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Escalated,45238,
-FAN-4812257,Phone,1,Low,General Inquiries and Information Requests,Information about venue policies.,Escalated,45278,
-FAN-4979379,Email,4,Low,Technical Support,Unable to log in or create an account.,Escalated,45068,
-FAN-9245915,Phone,2,High,Technical Support,Technical errors during the checkout process.,Closed,45206,45311
-FAN-4473215,Email,4,Low,Technical Support,Mobile app functionality problems.,Escalated,45153,
-FAN-2182093,Phone,4,Medium,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,44973,
-FAN-3447873,Email,5,Low,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,45274,
-FAN-6884009,Phone,5,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Escalated,44960,
-FAN-6213345,Email,4,High,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Escalated,45289,
-FAN-2677231,Phone,5,Medium,Accessibility and Special Requests,Special seating requests for events.,Escalated,45234,
-FAN-7491155,Chat,3,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,Closed,45190,45311
-FAN-6884009,Email,5,Low,Complaints and Feedback,Poor customer service experience.,Escalated,45055,
-FAN-5518568,Email,3,Low,Complaints and Feedback,Unresolved issues with a previous case.,Working,45292,
-FAN-6619778,Chat,2,High,Complaints and Feedback,Suggestions for improvement.,Working,45231,
-FAN-9006656,Phone,5,,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Closed,45069,45311
-FAN-9901729,Chat,3,High,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Escalated,45194,
-FAN-8743159,Phone,5,Low,Ticket Purchase Issues,Payment processing errors.,Escalated,45148,
-FAN-8155684,Phone,3,Low,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Escalated,45054,
-FAN-6632248,Chat,4,High,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,44969,
-FAN-8591059,Chat,4,High,Order Status and Tracking,Tracking information not received.,Escalated,45216,
-FAN-9432595,Email,4,Medium,Order Status and Tracking,Order confirmation not received.,Closed,44961,45311
-FAN-5011491,Phone,4,High,Order Status and Tracking,Requesting updates on the shipping status.,Escalated,45163,
-FAN-9956275,Phone,2,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Escalated,45100,
-FAN-3005348,Email,1,Low,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Escalated,45070,
-FAN-4493681,Email,1,High,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Escalated,45306,
-FAN-5684079,Email,3,Low,Ticket Transfer and Resale,Assistance with listing tickets for resale.,New,45182,
-FAN-3454038,Email,2,High,General Inquiries and Information Requests,Event details and schedule inquiries.,Closed,45197,45311
-FAN-7886505,Email,1,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Closed,45121,45311
-FAN-3546849,Email,3,High,General Inquiries and Information Requests,Information about venue policies.,Working,45194,
-FAN-4945909,Email,3,High,Technical Support,Unable to log in or create an account.,Escalated,45181,
-FAN-6274921,Chat,1,Low,Technical Support,Technical errors during the checkout process.,Escalated,45138,
-FAN-4931307,Email,4,Low,Technical Support,Mobile app functionality problems.,Escalated,44970,
-FAN-9609644,Email,3,Medium,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,New,45306,
-FAN-4417821,Email,5,Low,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,45301,
-FAN-6868722,Email,1,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Escalated,45013,
-FAN-3046129,Chat,3,High,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,New,45138,
-FAN-2438043,Phone,1,High,Accessibility and Special Requests,Special seating requests for events.,Escalated,45095,
-FAN-8500853,Chat,2,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,Escalated,45218,
-FAN-3210151,Chat,2,Low,Complaints and Feedback,Poor customer service experience.,Escalated,45139,
-FAN-3014429,Phone,4,Low,Complaints and Feedback,Unresolved issues with a previous case.,Escalated,45223,
-FAN-5213371,Chat,2,High,Complaints and Feedback,Suggestions for improvement.,Escalated,45127,
-FAN-6446029,Chat,3,High,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Escalated,45167,
-FAN-4760490,Phone,2,High,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Escalated,45118,
-FAN-8107529,Email,5,High,Ticket Purchase Issues,Payment processing errors.,Escalated,45144,
-FAN-6213345,Email,4,High,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Closed,45186,45311
-FAN-6884009,Phone,5,,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,45184,
-FAN-6192922,Phone,3,Low,Order Status and Tracking,Tracking information not received.,Escalated,45231,
-FAN-6429699,Chat,5,Low,Order Status and Tracking,Order confirmation not received.,Escalated,45240,
-FAN-7430898,Chat,4,High,Order Status and Tracking,Requesting updates on the shipping status.,Closed,44949,45311
-FAN-3419281,Chat,5,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Escalated,45224,
-FAN-6038732,Chat,4,High,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Escalated,45194,
-FAN-4585835,Email,5,Medium,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Escalated,45096,
-FAN-6213345,Email,4,High,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Escalated,45300,
-FAN-3098704,Chat,5,Low,General Inquiries and Information Requests,Event details and schedule inquiries.,Escalated,45034,
-FAN-2011048,Chat,4,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,New,45020,
-FAN-6969291,Email,3,High,General Inquiries and Information Requests,Information about venue policies.,Escalated,44992,
-FAN-9130200,Email,2,Low,Technical Support,Unable to log in or create an account.,Working,45000,
-FAN-8706494,Chat,5,Medium,Technical Support,Technical errors during the checkout process.,Escalated,45288,
-FAN-2697464,Chat,2,Low,Technical Support,Mobile app functionality problems.,Escalated,45300,
-FAN-2741024,Phone,1,Low,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Closed,45077,45311
-FAN-6806930,Phone,2,Medium,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,45037,
-FAN-2912347,Chat,5,Medium,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Closed,45074,45311
-FAN-2238347,Chat,4,Low,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Escalated,45202,
-FAN-4039618,Phone,1,Medium,Accessibility and Special Requests,Special seating requests for events.,Closed,44950,45311
-FAN-1914303,Chat,2,Medium,Accessibility and Special Requests,Dietary restrictions for event-related services.,Escalated,45228,
-FAN-3992782,Phone,5,Medium,Complaints and Feedback,Poor customer service experience.,Escalated,44951,
-FAN-7870436,Email,2,High,Complaints and Feedback,Unresolved issues with a previous case.,New,45224,
-FAN-2182093,Email,2,High,Complaints and Feedback,Suggestions for improvement.,Escalated,45052,
-FAN-9384303,Email,1,Medium,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,New,45210,
-FAN-4760490,Email,4,Medium,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Working,45179,
-FAN-9378596,Chat,5,High,Ticket Purchase Issues,Payment processing errors.,Escalated,45231,
-FAN-5725845,Email,3,Low,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Escalated,45257,
-FAN-7258700,Email,4,Medium,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Closed,45182,45311
-FAN-6632248,Email,5,Medium,Order Status and Tracking,Tracking information not received.,Escalated,45277,
-FAN-1290448,Email,2,Medium,Order Status and Tracking,Order confirmation not received.,Closed,45178,45311
-FAN-3210151,Chat,5,High,Order Status and Tracking,Requesting updates on the shipping status.,Escalated,45256,
-FAN-2677231,Email,2,Medium,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Escalated,44967,
-FAN-1927587,Chat,5,Low,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Working,45183,
-FAN-5404908,Phone,2,Medium,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Escalated,45303,
-FAN-7146245,Chat,1,Low,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Escalated,45161,
-FAN-1793957,Email,1,Low,General Inquiries and Information Requests,Event details and schedule inquiries.,Escalated,45148,
-FAN-1864252,Chat,5,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Escalated,45056,
-FAN-1690386,Email,4,Low,General Inquiries and Information Requests,Information about venue policies.,Escalated,45275,
-FAN-6797746,Chat,3,Low,Technical Support,Unable to log in or create an account.,Working,45109,
-FAN-2934219,Phone,2,Low,Technical Support,Technical errors during the checkout process.,Working,45254,
-FAN-5452841,Email,3,High,Technical Support,Mobile app functionality problems.,Escalated,44955,
-FAN-3803300,Phone,2,Low,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Working,45132,
-FAN-6446029,Chat,5,High,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,45143,
-FAN-6312582,Email,4,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Closed,45088,45311
-FAN-8432214,Phone,2,Medium,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Escalated,45215,
-FAN-3076198,Email,2,Medium,Accessibility and Special Requests,Special seating requests for events.,Working,45170,
-FAN-6403070,Chat,2,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,Escalated,45019,
-FAN-6159792,Phone,2,High,Complaints and Feedback,Poor customer service experience.,Closed,45088,45311
-FAN-9927994,Chat,4,Low,Complaints and Feedback,Unresolved issues with a previous case.,Escalated,45122,
-FAN-9743416,Email,4,High,Complaints and Feedback,Suggestions for improvement.,Escalated,45051,
-FAN-3210151,Chat,4,High,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Closed,45277,45311
-FAN-9859192,Chat,1,Low,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Working,45158,
-FAN-4071192,Phone,4,Low,Ticket Purchase Issues,Payment processing errors.,Escalated,44981,
-FAN-5177054,Chat,1,Medium,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Escalated,45144,
-FAN-8841312,Email,3,High,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,45144,
-FAN-5891463,Chat,5,Medium,Order Status and Tracking,Tracking information not received.,Working,45134,
-FAN-1293049,Email,4,Medium,Order Status and Tracking,Order confirmation not received.,Escalated,44955,
-FAN-6326306,Email,1,High,Order Status and Tracking,Requesting updates on the shipping status.,Working,45001,
-FAN-6175585,Chat,2,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Escalated,44985,
-FAN-9768711,Chat,2,Low,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Escalated,45267,
-FAN-9915193,Phone,2,Low,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Escalated,45065,
-FAN-4487222,Phone,4,Low,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Working,45070,
-FAN-6773409,Email,5,Low,General Inquiries and Information Requests,Event details and schedule inquiries.,Escalated,45304,
-FAN-5549789,Email,5,High,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Escalated,45247,
-FAN-7222926,Chat,4,Low,General Inquiries and Information Requests,Information about venue policies.,Closed,45140,45311
-FAN-5424532,Email,2,Low,Technical Support,Unable to log in or create an account.,Escalated,45308,
-FAN-2697595,Phone,1,Low,Technical Support,Technical errors during the checkout process.,Escalated,45219,
-FAN-9091170,Email,5,Medium,Technical Support,Mobile app functionality problems.,Escalated,45087,
-FAN-1502535,Phone,3,Medium,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Closed,45261,45311
-FAN-3210151,Chat,1,Low,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,45298,
-FAN-3535469,Email,2,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Working,45024,
-FAN-7870436,Email,1,Medium,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Closed,45171,45311
-FAN-4760490,Email,5,Low,Accessibility and Special Requests,Special seating requests for events.,Closed,45174,45311
-FAN-7409534,Email,5,High,Accessibility and Special Requests,Dietary restrictions for event-related services.,Closed,44996,45311
-FAN-7460020,Phone,3,Low,Complaints and Feedback,Poor customer service experience.,Escalated,45276,
-FAN-3386074,Chat,1,High,Complaints and Feedback,Unresolved issues with a previous case.,Escalated,45077,
-FAN-5646890,Email,2,Low,Complaints and Feedback,Suggestions for improvement.,Working,44995,
-FAN-7160701,Phone,4,High,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Closed,44965,45311
-FAN-3858351,Phone,2,,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Working,45174,
-FAN-7834466,Phone,1,Low,Ticket Purchase Issues,Payment processing errors.,Closed,45093,45311
-FAN-6217413,Phone,5,Medium,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Closed,45142,45311
-FAN-7778109,Phone,5,High,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,44990,
-FAN-4856255,Chat,5,Low,Order Status and Tracking,Tracking information not received.,Working,45307,
-FAN-2182093,Chat,1,Low,Order Status and Tracking,Order confirmation not received.,Escalated,44989,
-FAN-6692229,Phone,2,Medium,Order Status and Tracking,Requesting updates on the shipping status.,Closed,44989,45311
-FAN-5994508,Chat,5,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Escalated,45248,
-FAN-3821647,Email,3,Low,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Working,45249,
-FAN-9816331,Email,3,High,Ticket Transfer and Resale,Guidance on the ticket transfer process.,New,45223,
-FAN-9092701,Phone,3,Medium,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Escalated,45066,
-FAN-4609141,Email,5,Medium,General Inquiries and Information Requests,Event details and schedule inquiries.,New,45223,
-FAN-7113971,Chat,5,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Escalated,45082,
-FAN-6069281,Chat,4,Low,General Inquiries and Information Requests,Information about venue policies.,Escalated,45009,
-FAN-3858351,Phone,3,Low,Technical Support,Unable to log in or create an account.,Closed,45231,45311
-FAN-8366014,Chat,2,Medium,Technical Support,Technical errors during the checkout process.,Escalated,45216,
-FAN-3556696,Phone,3,Medium,Technical Support,Mobile app functionality problems.,Working,45246,
-FAN-9733696,Chat,2,Low,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,45271,
-FAN-4546736,Phone,3,Low,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,45193,
-FAN-3768183,Phone,1,Medium,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Closed,44995,45311
-FAN-9376033,Phone,3,Low,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Escalated,45159,
-FAN-6446029,Chat,5,High,Accessibility and Special Requests,Special seating requests for events.,Escalated,45063,
-FAN-1958740,Chat,4,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,New,45288,
-FAN-1910648,Chat,5,Medium,Complaints and Feedback,Poor customer service experience.,Closed,45271,45311
-FAN-8492379,Chat,2,Low,Complaints and Feedback,Unresolved issues with a previous case.,Escalated,45267,
-FAN-2799224,Chat,3,Medium,Complaints and Feedback,Suggestions for improvement.,Escalated,45016,
-FAN-5135309,Phone,1,Low,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Closed,44994,45311
-FAN-6632248,Phone,1,Medium,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Escalated,45273,
-FAN-9953546,Chat,5,High,Ticket Purchase Issues,Payment processing errors.,Closed,45199,45311
-FAN-5577886,Email,3,High,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,New,45079,
-FAN-3959601,Email,3,Low,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,45247,
-FAN-3943223,Phone,2,Low,Order Status and Tracking,Tracking information not received.,Working,45307,
-FAN-7258700,Email,3,Medium,Order Status and Tracking,Order confirmation not received.,Closed,45047,45311
-FAN-3652969,Phone,1,Medium,Order Status and Tracking,Requesting updates on the shipping status.,Working,45194,
-FAN-9704369,Email,1,Medium,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Escalated,45131,
-FAN-2142178,Email,2,Medium,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Escalated,44948,
-FAN-6879382,Phone,2,Low,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Escalated,45044,
-FAN-8737687,Email,3,Low,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Escalated,45207,
-FAN-6612908,Email,1,High,General Inquiries and Information Requests,Event details and schedule inquiries.,Closed,45097,45311
-FAN-6991462,Chat,4,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,New,45079,
-FAN-8629846,Email,1,Medium,General Inquiries and Information Requests,Information about venue policies.,Escalated,45123,
-FAN-9425182,Email,2,High,Technical Support,Unable to log in or create an account.,Escalated,44964,
-FAN-3433993,Phone,1,Low,Technical Support,Technical errors during the checkout process.,Escalated,45248,
-FAN-3587425,Chat,1,High,Technical Support,Mobile app functionality problems.,Working,45241,
-FAN-9753719,Phone,2,Low,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,45292,
-FAN-6632248,Phone,3,Medium,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,45311,
-FAN-7560477,Email,4,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,New,45047,
-FAN-5194773,Chat,1,Low,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Escalated,45041,
-FAN-9411625,Email,1,Medium,Accessibility and Special Requests,Special seating requests for events.,New,45079,
-FAN-9001272,Chat,1,Medium,Accessibility and Special Requests,Dietary restrictions for event-related services.,Escalated,45228,
-FAN-3566269,Email,5,Low,Complaints and Feedback,Poor customer service experience.,Escalated,45311,
-FAN-1291177,Phone,4,Medium,Complaints and Feedback,Unresolved issues with a previous case.,Escalated,44975,
-FAN-1447620,Email,2,Medium,Complaints and Feedback,Suggestions for improvement.,Closed,45149,45311
-FAN-4493681,Chat,1,High,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Escalated,45113,
-FAN-9248524,Email,2,Medium,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Escalated,45148,
-FAN-2597100,Chat,4,Low,Ticket Purchase Issues,Payment processing errors.,Closed,45121,45311
-FAN-4178110,Chat,1,Low,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Closed,45156,45311
-FAN-5580824,Phone,1,Low,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,45113,
-FAN-6884009,Phone,5,Low,Order Status and Tracking,Tracking information not received.,Escalated,44993,
+Contact.FanId__c,Origin,CSAT__c,Priority,Reason,Subject,Status,CreatedDate,ClosedDate
+FAN-1290448,Email,2,Medium,Order Status and Tracking,Order confirmation not received.,Escalated,2024-01-14T00:00:00,
+FAN-1291177,Phone,4,Medium,Complaints and Feedback,Unresolved issues with a previous case.,Escalated,2023-08-09T00:00:00,
+FAN-1293049,Email,4,Medium,Order Status and Tracking,Order confirmation not received.,Escalated,2023-02-19T00:00:00,
+FAN-1447620,Email,2,Medium,Complaints and Feedback,Suggestions for improvement.,Closed,2023-06-25T00:00:00,2024-01-21T00:00:00
+FAN-1502535,Phone,3,Medium,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,2023-12-18T00:00:00,
+FAN-1570540,Phone,5,High,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Escalated,2023-05-08T00:00:00,
+FAN-1577132,Chat,5,Low,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Closed,2023-03-02T00:00:00,2024-01-21T00:00:00
+FAN-1654512,Chat,4,Medium,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,2023-01-26T00:00:00,
+FAN-1690386,Email,4,Low,General Inquiries and Information Requests,Information about venue policies.,Escalated,2023-03-22T00:00:00,
+FAN-1700571,Email,1,High,Order Status and Tracking,Requesting updates on the shipping status.,Escalated,2024-01-07T00:00:00,
+FAN-1793957,Email,1,Low,General Inquiries and Information Requests,Event details and schedule inquiries.,Escalated,2023-07-28T00:00:00,
+FAN-1822456,Phone,1,Low,Complaints and Feedback,Suggestions for improvement.,Escalated,2023-06-25T00:00:00,
+FAN-1864252,Chat,5,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Escalated,2023-06-19T00:00:00,
+FAN-1868430,Chat,5,High,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Working,2023-06-07T00:00:00,
+FAN-1876301,Email,2,Medium,Technical Support,Mobile app functionality problems.,Escalated,2023-06-12T00:00:00,
+FAN-1896032,Phone,1,Medium,Order Status and Tracking,Order confirmation not received.,Working,2023-03-22T00:00:00,
+FAN-1910648,Chat,5,Medium,Complaints and Feedback,Poor customer service experience.,Closed,2023-10-28T00:00:00,2024-01-21T00:00:00
+FAN-1914303,Chat,2,Medium,Accessibility and Special Requests,Dietary restrictions for event-related services.,Closed,2023-06-04T00:00:00,2024-01-21T00:00:00
+FAN-1927587,Chat,5,Low,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,New,2023-09-03T00:00:00,
+FAN-1949136,Chat,2,Low,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Working,2023-05-17T00:00:00,
+FAN-1958740,Chat,4,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,Escalated,2023-12-29T00:00:00,
+FAN-2011048,Chat,4,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Escalated,2023-07-01T00:00:00,
+FAN-2142178,Chat,2,Medium,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Escalated,2023-03-23T00:00:00,
+FAN-2142178,Email,2,Medium,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Escalated,2023-03-30T00:00:00,
+FAN-2182093,Phone,3,High,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Escalated,2023-07-19T00:00:00,
+FAN-2182093,Email,4,High,Order Status and Tracking,Order confirmation not received.,Escalated,2023-12-28T00:00:00,
+FAN-2182093,Email,2,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Escalated,2023-07-30T00:00:00,
+FAN-2182093,Phone,5,High,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Closed,2023-03-17T00:00:00,2024-01-21T00:00:00
+FAN-2182093,Phone,4,Medium,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,2023-02-03T00:00:00,
+FAN-2182093,Email,2,High,Complaints and Feedback,Suggestions for improvement.,Escalated,2023-09-22T00:00:00,
+FAN-2182093,Chat,1,Low,Order Status and Tracking,Order confirmation not received.,Escalated,2024-01-19T00:00:00,
+FAN-2238347,Chat,4,Low,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Closed,2023-02-11T00:00:00,2024-01-21T00:00:00
+FAN-2285853,Chat,3,Low,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Working,2023-09-17T00:00:00,
+FAN-2438043,Phone,1,High,Accessibility and Special Requests,Special seating requests for events.,Working,2023-04-27T00:00:00,
+FAN-2453632,Email,4,Low,Order Status and Tracking,Requesting updates on the shipping status.,Escalated,2023-06-15T00:00:00,
+FAN-2597100,Chat,4,Low,Ticket Purchase Issues,Payment processing errors.,Escalated,2023-12-01T00:00:00,
+FAN-2602971,Phone,4,High,Order Status and Tracking,Requesting updates on the shipping status.,Escalated,2023-04-28T00:00:00,
+FAN-2609599,Email,2,Low,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,2023-11-18T00:00:00,
+FAN-2677231,Phone,5,Medium,Accessibility and Special Requests,Special seating requests for events.,New,2023-02-20T00:00:00,
+FAN-2677231,Email,2,Medium,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Escalated,2023-06-23T00:00:00,
+FAN-2697464,Chat,2,Low,Technical Support,Mobile app functionality problems.,Closed,2023-06-05T00:00:00,2024-01-21T00:00:00
+FAN-2697595,Phone,1,Low,Technical Support,Technical errors during the checkout process.,Closed,2023-06-09T00:00:00,2024-01-21T00:00:00
+FAN-2741024,Phone,1,Low,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,2024-01-19T00:00:00,
+FAN-2799224,Chat,3,Medium,Complaints and Feedback,Suggestions for improvement.,Escalated,2023-05-25T00:00:00,
+FAN-2912347,Chat,5,Medium,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Closed,2023-10-09T00:00:00,2024-01-21T00:00:00
+FAN-2934219,Phone,2,Low,Technical Support,Technical errors during the checkout process.,New,2023-05-15T00:00:00,
+FAN-3005348,Email,1,Low,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Closed,2023-12-30T00:00:00,2024-01-21T00:00:00
+FAN-3014429,Phone,4,Low,Complaints and Feedback,Unresolved issues with a previous case.,Working,2023-06-06T00:00:00,
+FAN-3046129,Chat,3,High,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Escalated,2023-04-07T00:00:00,
+FAN-3076198,Email,2,Medium,Accessibility and Special Requests,Special seating requests for events.,Escalated,2023-04-08T00:00:00,
+FAN-3098704,Chat,5,Low,General Inquiries and Information Requests,Event details and schedule inquiries.,New,2023-10-14T00:00:00,
+FAN-3100350,Phone,1,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Escalated,2023-03-24T00:00:00,
+FAN-3210151,Email,1,High,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,2023-06-16T00:00:00,
+FAN-3210151,Chat,2,Low,Complaints and Feedback,Poor customer service experience.,Escalated,2023-12-11T00:00:00,
+FAN-3210151,Chat,5,High,Order Status and Tracking,Requesting updates on the shipping status.,Closed,2023-07-02T00:00:00,2024-01-21T00:00:00
+FAN-3210151,Chat,4,High,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Escalated,2023-06-10T00:00:00,
+FAN-3210151,Chat,1,Low,Merchandise Returns and Exchanges,Incorrect size or color received.,Working,2023-08-27T00:00:00,
+FAN-3386074,Chat,1,High,Complaints and Feedback,Unresolved issues with a previous case.,Escalated,2023-11-20T00:00:00,
+FAN-3419281,Chat,5,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,New,2023-07-03T00:00:00,
+FAN-3433993,Phone,1,Low,Technical Support,Technical errors during the checkout process.,Closed,2023-11-16T00:00:00,2024-01-21T00:00:00
+FAN-3447873,Email,5,Low,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,2023-09-04T00:00:00,
+FAN-3454038,Email,2,High,General Inquiries and Information Requests,Event details and schedule inquiries.,Escalated,2023-04-10T00:00:00,
+FAN-3535469,Email,2,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Closed,2023-04-18T00:00:00,2024-01-21T00:00:00
+FAN-3540412,Chat,5,Low,Ticket Purchase Issues,Payment processing errors.,Closed,2023-12-05T00:00:00,2024-01-21T00:00:00
+FAN-3546849,Email,3,High,General Inquiries and Information Requests,Information about venue policies.,Escalated,2023-11-22T00:00:00,
+FAN-3556696,Phone,3,Medium,Technical Support,Mobile app functionality problems.,Escalated,2023-08-02T00:00:00,
+FAN-3566269,Email,5,Low,Complaints and Feedback,Poor customer service experience.,Working,2023-09-20T00:00:00,
+FAN-3587425,Chat,1,High,Technical Support,Mobile app functionality problems.,Escalated,2023-10-17T00:00:00,
+FAN-3651555,Email,3,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,Escalated,2023-02-16T00:00:00,
+FAN-3652969,Phone,1,Medium,Order Status and Tracking,Requesting updates on the shipping status.,Escalated,2023-03-07T00:00:00,
+FAN-3671488,Email,1,High,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Escalated,2023-04-25T00:00:00,
+FAN-3708832,Email,1,High,Technical Support,Unable to log in or create an account.,Escalated,2023-11-22T00:00:00,
+FAN-3768183,Phone,1,Medium,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Closed,2023-07-09T00:00:00,2024-01-21T00:00:00
+FAN-3803300,Phone,2,Low,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,New,2023-06-27T00:00:00,
+FAN-3821647,Email,3,Low,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Escalated,2024-01-18T00:00:00,
+FAN-3858351,Phone,2,,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Escalated,2023-07-30T00:00:00,
+FAN-3858351,Phone,3,Low,Technical Support,Unable to log in or create an account.,Closed,2023-05-14T00:00:00,2024-01-21T00:00:00
+FAN-3943223,Phone,2,Low,Order Status and Tracking,Tracking information not received.,Escalated,2023-04-17T00:00:00,
+FAN-3959601,Email,3,Low,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Working,2023-11-30T00:00:00,
+FAN-3992782,Phone,5,Medium,Complaints and Feedback,Poor customer service experience.,Working,2023-08-27T00:00:00,
+FAN-4039618,Phone,1,Medium,Accessibility and Special Requests,Special seating requests for events.,Escalated,2023-05-28T00:00:00,
+FAN-4071192,Phone,4,Low,Ticket Purchase Issues,Payment processing errors.,Closed,2023-04-23T00:00:00,2024-01-21T00:00:00
+FAN-4178110,Chat,1,Low,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Closed,2023-02-09T00:00:00,2024-01-21T00:00:00
+FAN-4249771,Phone,1,High,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Escalated,2023-04-05T00:00:00,
+FAN-4256097,Phone,5,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Closed,2023-11-05T00:00:00,2024-01-21T00:00:00
+FAN-4288380,Chat,3,Medium,Order Status and Tracking,Tracking information not received.,Closed,2023-06-16T00:00:00,2024-01-21T00:00:00
+FAN-4417821,Email,5,Low,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,2023-11-13T00:00:00,
+FAN-4473215,Email,2,,General Inquiries and Information Requests,Event details and schedule inquiries.,Escalated,2023-07-31T00:00:00,
+FAN-4473215,Email,4,Low,Technical Support,Mobile app functionality problems.,Escalated,2023-10-22T00:00:00,
+FAN-4487222,Phone,4,Low,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Escalated,2023-06-20T00:00:00,
+FAN-4493681,Email,1,High,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Closed,2023-02-03T00:00:00,2024-01-21T00:00:00
+FAN-4493681,Chat,1,High,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Working,2023-05-07T00:00:00,
+FAN-4507538,Email,3,Low,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,2023-09-14T00:00:00,
+FAN-4546736,Phone,3,Low,Merchandise Returns and Exchanges,Incorrect size or color received.,New,2023-01-26T00:00:00,
+FAN-4585835,Email,5,Medium,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Escalated,2023-03-19T00:00:00,
+FAN-4609141,Email,5,Medium,General Inquiries and Information Requests,Event details and schedule inquiries.,Escalated,2023-05-05T00:00:00,
+FAN-4760490,Phone,2,High,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Escalated,2023-04-18T00:00:00,
+FAN-4760490,Email,4,Medium,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Escalated,2023-08-19T00:00:00,
+FAN-4760490,Email,5,Low,Accessibility and Special Requests,Special seating requests for events.,Escalated,2023-10-25T00:00:00,
+FAN-4774750,Chat,1,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,New,2023-02-23T00:00:00,
+FAN-4794615,Email,5,High,Complaints and Feedback,Unresolved issues with a previous case.,Closed,2024-01-02T00:00:00,2024-01-21T00:00:00
+FAN-4812257,Phone,1,Low,General Inquiries and Information Requests,Information about venue policies.,New,2023-04-07T00:00:00,
+FAN-4816003,Chat,4,High,Complaints and Feedback,Suggestions for improvement.,Escalated,2023-09-03T00:00:00,
+FAN-4856255,Chat,5,Low,Order Status and Tracking,Tracking information not received.,Escalated,2023-01-24T00:00:00,
+FAN-4912460,Phone,4,Medium,Merchandise Returns and Exchanges,Defective or damaged merchandise.,New,2023-03-23T00:00:00,
+FAN-4931307,Email,4,Low,Technical Support,Mobile app functionality problems.,Escalated,2023-06-06T00:00:00,
+FAN-4945909,Email,3,High,Technical Support,Unable to log in or create an account.,Closed,2023-12-03T00:00:00,2024-01-21T00:00:00
+FAN-4979379,Email,4,Low,Technical Support,Unable to log in or create an account.,Escalated,2023-07-11T00:00:00,
+FAN-5011491,Phone,4,High,Order Status and Tracking,Requesting updates on the shipping status.,Escalated,2023-01-25T00:00:00,
+FAN-5044681,Phone,4,,Ticket Purchase Issues,Payment processing errors.,Escalated,2023-07-25T00:00:00,
+FAN-5135309,Phone,1,Low,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Escalated,2023-03-17T00:00:00,
+FAN-5177054,Chat,1,Medium,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,New,2023-06-24T00:00:00,
+FAN-5194773,Chat,1,Low,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Escalated,2023-03-22T00:00:00,
+FAN-5213371,Chat,2,High,Complaints and Feedback,Suggestions for improvement.,Escalated,2023-11-25T00:00:00,
+FAN-5346857,Chat,3,Low,Accessibility and Special Requests,Special seating requests for events.,New,2023-07-26T00:00:00,
+FAN-5404908,Phone,2,Medium,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Closed,2023-02-15T00:00:00,2024-01-21T00:00:00
+FAN-5424532,Email,2,Low,Technical Support,Unable to log in or create an account.,Escalated,2023-02-14T00:00:00,
+FAN-5452841,Email,3,High,Technical Support,Mobile app functionality problems.,New,2023-05-29T00:00:00,
+FAN-5518568,Email,3,Low,Complaints and Feedback,Unresolved issues with a previous case.,Working,2023-11-19T00:00:00,
+FAN-5549789,Email,5,High,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Escalated,2023-11-14T00:00:00,
+FAN-5577886,Email,3,High,General Inquiries and Information Requests,Information about venue policies.,New,2023-10-26T00:00:00,
+FAN-5577886,Email,3,High,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Closed,2023-12-02T00:00:00,2024-01-21T00:00:00
+FAN-5580824,Phone,1,Low,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,2023-09-18T00:00:00,
+FAN-5646890,Email,2,Low,Complaints and Feedback,Suggestions for improvement.,Escalated,2023-09-26T00:00:00,
+FAN-5684079,Email,3,Low,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Escalated,2023-06-09T00:00:00,
+FAN-5698447,Chat,2,Low,General Inquiries and Information Requests,Event details and schedule inquiries.,New,2023-10-04T00:00:00,
+FAN-5719268,Phone,3,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,New,2023-01-31T00:00:00,
+FAN-5725845,Email,3,Low,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Escalated,2023-06-18T00:00:00,
+FAN-5846137,Phone,5,High,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,2023-03-23T00:00:00,
+FAN-5891463,Chat,5,Medium,Order Status and Tracking,Tracking information not received.,Closed,2023-08-31T00:00:00,2024-01-21T00:00:00
+FAN-5994508,Chat,5,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Escalated,2023-12-17T00:00:00,
+FAN-6026267,Chat,2,Low,Accessibility and Special Requests,Special seating requests for events.,New,2023-04-01T00:00:00,
+FAN-6038732,Chat,4,High,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Escalated,2023-08-18T00:00:00,
+FAN-6069281,Chat,4,Low,General Inquiries and Information Requests,Information about venue policies.,Escalated,2023-08-07T00:00:00,
+FAN-6081319,Email,2,Medium,Order Status and Tracking,Tracking information not received.,Escalated,2023-10-16T00:00:00,
+FAN-6159792,Phone,2,High,Complaints and Feedback,Poor customer service experience.,New,2023-07-16T00:00:00,
+FAN-6175585,Chat,2,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Closed,2023-11-10T00:00:00,2024-01-21T00:00:00
+FAN-6181985,Chat,3,High,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Escalated,2023-11-04T00:00:00,
+FAN-6192922,Phone,3,Low,Order Status and Tracking,Tracking information not received.,Closed,2023-06-03T00:00:00,2024-01-21T00:00:00
+FAN-6213345,Email,3,High,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,2023-06-19T00:00:00,
+FAN-6213345,Email,4,Low,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Escalated,2023-10-21T00:00:00,
+FAN-6213345,Email,4,High,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,New,2023-01-22T00:00:00,
+FAN-6213345,Email,4,High,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Escalated,2023-06-25T00:00:00,
+FAN-6213345,Email,4,High,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Escalated,2023-05-27T00:00:00,
+FAN-6217413,Phone,5,Medium,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Working,2023-02-20T00:00:00,
+FAN-6274921,Chat,1,Low,Technical Support,Technical errors during the checkout process.,Escalated,2023-04-18T00:00:00,
+FAN-6285208,Phone,4,Medium,Complaints and Feedback,Unresolved issues with a previous case.,Escalated,2023-02-21T00:00:00,
+FAN-6312582,Email,4,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Escalated,2023-09-11T00:00:00,
+FAN-6326306,Email,1,High,Order Status and Tracking,Requesting updates on the shipping status.,Escalated,2023-10-09T00:00:00,
+FAN-6403070,Chat,2,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,Closed,2023-07-11T00:00:00,2024-01-21T00:00:00
+FAN-6429699,Chat,5,Low,Order Status and Tracking,Order confirmation not received.,Escalated,2023-10-19T00:00:00,
+FAN-6446029,Chat,5,High,Merchandise Returns and Exchanges,Incorrect size or color received.,New,2024-01-12T00:00:00,
+FAN-6446029,Chat,3,High,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Escalated,2023-08-31T00:00:00,
+FAN-6446029,Chat,5,High,Merchandise Returns and Exchanges,Incorrect size or color received.,Closed,2023-02-25T00:00:00,2024-01-21T00:00:00
+FAN-6446029,Chat,5,High,Accessibility and Special Requests,Special seating requests for events.,Escalated,2023-01-30T00:00:00,
+FAN-6556996,Chat,5,High,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,New,2023-11-05T00:00:00,
+FAN-6563416,Phone,4,Medium,Order Status and Tracking,Order confirmation not received.,Closed,2023-06-05T00:00:00,2024-01-21T00:00:00
+FAN-6612908,Email,1,High,General Inquiries and Information Requests,Event details and schedule inquiries.,Escalated,2023-11-18T00:00:00,
+FAN-6619778,Chat,2,High,Complaints and Feedback,Suggestions for improvement.,Escalated,2023-02-01T00:00:00,
+FAN-6632248,Chat,5,Medium,Ticket Purchase Issues,Payment processing errors.,Escalated,2024-01-04T00:00:00,
+FAN-6632248,Chat,1,High,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Escalated,2023-09-27T00:00:00,
+FAN-6632248,Phone,2,Medium,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,New,2023-08-28T00:00:00,
+FAN-6632248,Email,2,Medium,Ticket Purchase Issues,Payment processing errors.,Escalated,2023-08-07T00:00:00,
+FAN-6632248,Phone,4,Medium,Order Status and Tracking,Tracking information not received.,Escalated,2023-07-06T00:00:00,
+FAN-6632248,Email,5,Medium,Complaints and Feedback,Unresolved issues with a previous case.,Closed,2023-02-05T00:00:00,2024-01-21T00:00:00
+FAN-6632248,Email,2,Low,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Escalated,2023-10-30T00:00:00,
+FAN-6632248,Chat,4,High,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,2023-06-18T00:00:00,
+FAN-6632248,Email,5,Medium,Order Status and Tracking,Tracking information not received.,Escalated,2024-01-11T00:00:00,
+FAN-6632248,Phone,1,Medium,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Escalated,2023-12-05T00:00:00,
+FAN-6632248,Phone,3,Medium,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,2023-05-15T00:00:00,
+FAN-6692229,Phone,2,Medium,Order Status and Tracking,Requesting updates on the shipping status.,Escalated,2024-01-06T00:00:00,
+FAN-6773409,Email,5,Low,General Inquiries and Information Requests,Event details and schedule inquiries.,Closed,2023-03-20T00:00:00,2024-01-21T00:00:00
+FAN-6797746,Chat,3,Low,Technical Support,Unable to log in or create an account.,Escalated,2023-06-03T00:00:00,
+FAN-6806930,Phone,2,Medium,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,2023-11-22T00:00:00,
+FAN-6841199,Email,3,Medium,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Escalated,2023-12-20T00:00:00,
+FAN-6868722,Email,1,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Closed,2023-02-25T00:00:00,2024-01-21T00:00:00
+FAN-6879382,Phone,2,Low,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Escalated,2023-01-28T00:00:00,
+FAN-6884009,Phone,5,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Working,2023-05-01T00:00:00,
+FAN-6884009,Email,5,Low,Complaints and Feedback,Poor customer service experience.,Escalated,2023-08-25T00:00:00,
+FAN-6884009,Phone,5,,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Closed,2023-11-03T00:00:00,2024-01-21T00:00:00
+FAN-6884009,Phone,5,Low,Order Status and Tracking,Tracking information not received.,Escalated,2024-01-15T00:00:00,
+FAN-6969291,Email,3,High,General Inquiries and Information Requests,Information about venue policies.,Escalated,2023-07-10T00:00:00,
+FAN-6991462,Chat,4,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Closed,2024-01-11T00:00:00,2024-01-21T00:00:00
+FAN-7032518,Chat,1,Medium,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Closed,2023-07-26T00:00:00,2024-01-21T00:00:00
+FAN-7106045,Email,4,High,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Working,2023-12-19T00:00:00,
+FAN-7113971,Chat,5,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Escalated,2023-05-30T00:00:00,
+FAN-7146245,Chat,1,Low,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Closed,2023-06-10T00:00:00,2024-01-21T00:00:00
+FAN-7160701,Phone,4,High,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Closed,2023-11-25T00:00:00,2024-01-21T00:00:00
+FAN-7216049,Chat,3,Low,Technical Support,Mobile app functionality problems.,Escalated,2023-03-15T00:00:00,
+FAN-7222926,Chat,4,Low,General Inquiries and Information Requests,Information about venue policies.,Escalated,2023-06-23T00:00:00,
+FAN-7258700,Email,1,High,Complaints and Feedback,Suggestions for improvement.,Escalated,2023-03-19T00:00:00,
+FAN-7258700,Phone,1,High,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Escalated,2023-06-30T00:00:00,
+FAN-7258700,Email,4,Medium,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,2023-07-22T00:00:00,
+FAN-7258700,Email,3,Medium,Order Status and Tracking,Order confirmation not received.,Working,2023-11-29T00:00:00,
+FAN-7332220,Chat,2,Low,Technical Support,Technical errors during the checkout process.,Closed,2024-01-15T00:00:00,2024-01-21T00:00:00
+FAN-7404798,Phone,2,Medium,General Inquiries and Information Requests,Information about venue policies.,Escalated,2023-02-26T00:00:00,
+FAN-7409534,Email,5,High,Accessibility and Special Requests,Dietary restrictions for event-related services.,Closed,2023-01-23T00:00:00,2024-01-21T00:00:00
+FAN-7419788,Chat,2,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Closed,2023-05-02T00:00:00,2024-01-21T00:00:00
+FAN-7430898,Chat,4,High,Order Status and Tracking,Requesting updates on the shipping status.,Closed,2024-01-14T00:00:00,2024-01-21T00:00:00
+FAN-7460020,Phone,3,Low,Complaints and Feedback,Poor customer service experience.,Escalated,2023-07-27T00:00:00,
+FAN-7468232,Chat,1,High,General Inquiries and Information Requests,Event details and schedule inquiries.,Escalated,2023-06-22T00:00:00,
+FAN-7491155,Chat,3,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,Escalated,2023-03-15T00:00:00,
+FAN-7495136,Chat,1,Medium,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Closed,2023-12-21T00:00:00,2024-01-21T00:00:00
+FAN-7560477,Email,4,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Escalated,2023-10-08T00:00:00,
+FAN-7778109,Phone,5,High,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Working,2023-03-30T00:00:00,
+FAN-7778510,Chat,5,Low,Complaints and Feedback,Poor customer service experience.,Working,2023-11-07T00:00:00,
+FAN-7834466,Phone,1,Low,Ticket Purchase Issues,Payment processing errors.,Escalated,2023-05-02T00:00:00,
+FAN-7870436,Email,2,High,Complaints and Feedback,Unresolved issues with a previous case.,Escalated,2023-10-08T00:00:00,
+FAN-7870436,Email,1,Medium,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Escalated,2023-03-18T00:00:00,
+FAN-7886505,Email,1,Low,General Inquiries and Information Requests,Merchandise sizing and availability questions.,Closed,2023-11-07T00:00:00,2024-01-21T00:00:00
+FAN-7917767,Phone,1,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,Escalated,2023-03-29T00:00:00,
+FAN-8052991,Email,1,Low,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Closed,2023-12-24T00:00:00,2024-01-21T00:00:00
+FAN-8090324,Chat,1,,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,2023-12-10T00:00:00,
+FAN-8107529,Email,5,High,Ticket Purchase Issues,Payment processing errors.,Escalated,2023-07-03T00:00:00,
+FAN-8155684,Phone,3,Low,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Escalated,2023-05-26T00:00:00,
+FAN-8182403,Email,4,,Technical Support,Unable to log in or create an account.,Closed,2023-10-02T00:00:00,2024-01-21T00:00:00
+FAN-8252780,Phone,1,Low,Technical Support,Unable to log in or create an account.,Escalated,2023-03-15T00:00:00,
+FAN-8366014,Chat,2,Medium,Technical Support,Technical errors during the checkout process.,Closed,2023-08-22T00:00:00,2024-01-21T00:00:00
+FAN-8396198,Phone,3,High,General Inquiries and Information Requests,Event details and schedule inquiries.,Closed,2023-07-14T00:00:00,2024-01-21T00:00:00
+FAN-8425559,Chat,5,High,General Inquiries and Information Requests,Information about venue policies.,Escalated,2024-01-03T00:00:00,
+FAN-8432214,Phone,2,Medium,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,New,2023-09-15T00:00:00,
+FAN-8476294,Email,5,Low,Order Status and Tracking,Order confirmation not received.,Escalated,2023-05-26T00:00:00,
+FAN-8492379,Chat,2,Low,Complaints and Feedback,Unresolved issues with a previous case.,Escalated,2023-12-09T00:00:00,
+FAN-8495678,Email,4,Low,Merchandise Returns and Exchanges,Incorrect size or color received.,Escalated,2023-03-07T00:00:00,
+FAN-8500853,Chat,2,Low,Accessibility and Special Requests,Dietary restrictions for event-related services.,Escalated,2023-09-12T00:00:00,
+FAN-8564819,Email,3,Medium,Accessibility and Special Requests,Special seating requests for events.,Escalated,2023-05-14T00:00:00,
+FAN-8591059,Chat,4,High,Order Status and Tracking,Tracking information not received.,Escalated,2023-11-06T00:00:00,
+FAN-8629846,Email,1,Medium,General Inquiries and Information Requests,Information about venue policies.,Escalated,2023-08-14T00:00:00,
+FAN-8641535,Chat,1,Low,Merchandise Returns and Exchanges,Defective or damaged merchandise.,Escalated,2023-08-05T00:00:00,
+FAN-8675384,Chat,5,Low,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Closed,2023-06-26T00:00:00,2024-01-21T00:00:00
+FAN-8706494,Chat,5,Medium,Technical Support,Technical errors during the checkout process.,Escalated,2023-07-20T00:00:00,
+FAN-8716664,Email,5,Medium,Order Status and Tracking,Tracking information not received.,Escalated,2023-05-18T00:00:00,
+FAN-8737687,Email,3,Low,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Escalated,2023-02-24T00:00:00,
+FAN-8743159,Phone,5,Low,Ticket Purchase Issues,Payment processing errors.,Closed,2023-04-27T00:00:00,2024-01-21T00:00:00
+FAN-8841312,Email,3,High,Ticket Purchase Issues,Issues with applying promo codes or discounts.,Escalated,2023-03-08T00:00:00,
+FAN-8905198,Chat,2,Low,Complaints and Feedback,Poor customer service experience.,Escalated,2023-08-27T00:00:00,
+FAN-9001272,Chat,1,Medium,Accessibility and Special Requests,Dietary restrictions for event-related services.,New,2023-05-19T00:00:00,
+FAN-9006656,Phone,5,,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Closed,2023-08-21T00:00:00,2024-01-21T00:00:00
+FAN-9091170,Email,5,Medium,Technical Support,Mobile app functionality problems.,Escalated,2023-03-20T00:00:00,
+FAN-9092701,Phone,3,Medium,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Closed,2023-05-29T00:00:00,2024-01-21T00:00:00
+FAN-9130200,Email,2,Low,Technical Support,Unable to log in or create an account.,Escalated,2023-07-07T00:00:00,
+FAN-9245915,Phone,2,High,Technical Support,Technical errors during the checkout process.,Working,2023-11-23T00:00:00,
+FAN-9248524,Email,2,Medium,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Escalated,2023-09-04T00:00:00,
+FAN-9308199,Phone,2,Medium,Technical Support,Technical errors during the checkout process.,Closed,2023-05-14T00:00:00,2024-01-21T00:00:00
+FAN-9376033,Phone,3,Low,Accessibility and Special Requests,Requesting accommodations for persons with disabilities.,Closed,2024-01-06T00:00:00,2024-01-21T00:00:00
+FAN-9378596,Chat,5,High,Ticket Purchase Issues,Payment processing errors.,Escalated,2023-02-09T00:00:00,
+FAN-9384303,Email,1,Medium,Membership and Loyalty Program Issues,Problems with accessing loyalty program benefits.,Escalated,2023-02-09T00:00:00,
+FAN-9396617,Chat,5,High,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,New,2023-05-28T00:00:00,
+FAN-9411625,Email,1,Medium,Accessibility and Special Requests,Special seating requests for events.,Closed,2023-09-03T00:00:00,2024-01-21T00:00:00
+FAN-9425182,Email,2,High,Technical Support,Unable to log in or create an account.,Closed,2023-08-11T00:00:00,2024-01-21T00:00:00
+FAN-9432595,Email,4,Medium,Order Status and Tracking,Order confirmation not received.,Working,2023-04-20T00:00:00,
+FAN-9454297,Email,2,Medium,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Escalated,2023-05-22T00:00:00,
+FAN-9485968,Chat,3,Medium,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Closed,2023-06-26T00:00:00,2024-01-21T00:00:00
+FAN-9544449,Chat,5,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,New,2023-06-04T00:00:00,
+FAN-9609644,Email,3,Medium,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,2023-08-24T00:00:00,
+FAN-9699213,Email,2,High,Ticket Transfer and Resale,Assistance with listing tickets for resale.,Escalated,2023-10-04T00:00:00,
+FAN-9704369,Email,1,Medium,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Escalated,2023-11-28T00:00:00,
+FAN-9732021,Email,4,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Escalated,2023-08-19T00:00:00,
+FAN-9733696,Chat,2,Low,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Escalated,2023-12-23T00:00:00,
+FAN-9743416,Email,2,High,Order Status and Tracking,Requesting updates on the shipping status.,Escalated,2023-09-22T00:00:00,
+FAN-9743416,Email,4,High,Complaints and Feedback,Suggestions for improvement.,Working,2023-10-22T00:00:00,
+FAN-9753719,Phone,2,Low,Merchandise Returns and Exchanges,Dissatisfaction with the received product.,Closed,2023-09-01T00:00:00,2024-01-21T00:00:00
+FAN-9768711,Chat,2,Low,Refund and Cancellation Requests,Dissatisfaction with the purchased product or service.,Escalated,2023-07-26T00:00:00,
+FAN-9783885,Phone,2,High,Complaints and Feedback,Poor customer service experience.,Closed,2023-06-29T00:00:00,2024-01-21T00:00:00
+FAN-9816331,Email,3,High,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Escalated,2023-02-02T00:00:00,
+FAN-9859192,Chat,1,Low,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Escalated,2023-06-30T00:00:00,
+FAN-9901729,Chat,3,High,Membership and Loyalty Program Issues,Inquiries about membership renewal or expiration.,Closed,2023-09-28T00:00:00,2024-01-21T00:00:00
+FAN-9913759,Phone,1,Low,Technical Support,Mobile app functionality problems.,Escalated,2024-01-14T00:00:00,
+FAN-9915193,Phone,2,Low,Ticket Transfer and Resale,Guidance on the ticket transfer process.,Escalated,2023-10-17T00:00:00,
+FAN-9925460,Phone,2,Medium,Technical Support,Technical errors during the checkout process.,Working,2023-10-20T00:00:00,
+FAN-9927994,Chat,4,Low,Complaints and Feedback,Unresolved issues with a previous case.,New,2023-07-13T00:00:00,
+FAN-9953546,Chat,5,High,Ticket Purchase Issues,Payment processing errors.,Working,2023-11-30T00:00:00,
+FAN-9956275,Phone,2,Low,Refund and Cancellation Requests,Change in plans or unforeseen circumstances.,Working,2024-01-14T00:00:00,
+FAN-9958480,Email,3,Low,Ticket Purchase Issues,Difficulty navigating the ticket purchase portal.,Working,2023-08-10T00:00:00,

@@ -176,7 +176,7 @@
                     },
                     {
                         "sourceField": "fanid__c",
-                        "targetField": "FanId__c"
+                        "targetField": "Fan_ID__c"
                     },
                     {
                         "sourceField": "PK",

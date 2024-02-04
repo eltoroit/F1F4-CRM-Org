@@ -6,7 +6,7 @@
             "parameters": {
                 "dataset": {
                     "type": "dataLakeObject",
-                    "name": "Sales_Transactions__dll"
+                    "name": "SalesTransactions__dll"
                 },
                 "sampleDetails": {
                     "type": "TopN"
@@ -29,7 +29,7 @@
                 "grainExtractions": []
             },
             "sources": [
-                "LOAD_DATASET0"
+                "FORMULA1"
             ]
         },
         "AGGREGATE1": {
@@ -54,6 +54,24 @@
                         "label": "Unique OrderID",
                         "action": "UNIQUE",
                         "source": "orderid__c"
+                    },
+                    {
+                        "name": "SUM_Line_Cost__c",
+                        "label": "Sum of Line Cost",
+                        "action": "SUM",
+                        "source": "Line_Cost"
+                    },
+                    {
+                        "name": "SUM_Line_Price__c",
+                        "label": "Sum of Line Price",
+                        "action": "SUM",
+                        "source": "Line_Price"
+                    },
+                    {
+                        "name": "SUM_quantity__c",
+                        "label": "Sum of Quantity",
+                        "action": "SUM",
+                        "source": "quantity__c"
                     }
                 ],
                 "groupings": [
@@ -99,7 +117,14 @@
                     "ignoreMissingFields": true,
                     "fields": [
                         "SalesTrans.orderid__c",
-                        "SalesTrans.fanid__c"
+                        "SalesTrans.fanid__c",
+                        "SalesTrans.prodid__c",
+                        "UNIQUE_dateordered__c",
+                        "UNIQUE_fanid__c",
+                        "UNIQUE_orderid__c",
+                        "SalesTrans.unitcost__c",
+                        "SalesTrans.quantity__c",
+                        "SalesTrans.unitprice__c"
                     ]
                 }
             },
@@ -122,30 +147,6 @@
             },
             "sources": [
                 "DROP_FIELDS1"
-            ]
-        },
-        "OUTPUT0": {
-            "action": "outputD360",
-            "parameters": {
-                "type": "dataLakeObject",
-                "name": "Sales_Order__dll",
-                "fieldsMappings": [
-                    {
-                        "sourceField": "fanid__c",
-                        "targetField": "FanId__c"
-                    },
-                    {
-                        "sourceField": "orderid__c",
-                        "targetField": "OrderID__c"
-                    },
-                    {
-                        "sourceField": "SalesTrans.dateordered__c",
-                        "targetField": "DateOrdered__c"
-                    }
-                ]
-            },
-            "sources": [
-                "DROP_FIELDS2"
             ]
         },
         "FILTER0": {
@@ -183,6 +184,70 @@
             "sources": [
                 "DROP_FIELDS2"
             ]
+        },
+        "FORMULA0": {
+            "action": "formula",
+            "parameters": {
+                "expressionType": "SQL",
+                "fields": [
+                    {
+                        "name": "Line_Cost",
+                        "label": "Line Cost",
+                        "formulaExpression": "quantity__c*unitcost__c",
+                        "type": "NUMBER",
+                        "precision": 10,
+                        "scale": 2,
+                        "defaultValue": ""
+                    }
+                ]
+            },
+            "sources": [
+                "LOAD_DATASET0"
+            ]
+        },
+        "FORMULA1": {
+            "action": "formula",
+            "parameters": {
+                "expressionType": "SQL",
+                "fields": [
+                    {
+                        "name": "Line_Price",
+                        "label": "Line Price",
+                        "formulaExpression": "quantity__c*unitprice__c",
+                        "type": "NUMBER",
+                        "precision": 10,
+                        "scale": 2,
+                        "defaultValue": ""
+                    }
+                ]
+            },
+            "sources": [
+                "FORMULA0"
+            ]
+        },
+        "OUTPUT0": {
+            "action": "outputD360",
+            "parameters": {
+                "type": "dataLakeObject",
+                "name": "Sales_Orders__dll",
+                "fieldsMappings": [
+                    {
+                        "sourceField": "fanid__c",
+                        "targetField": "Fan_ID__c"
+                    },
+                    {
+                        "sourceField": "orderid__c",
+                        "targetField": "Order_ID__c"
+                    },
+                    {
+                        "sourceField": "SalesTrans.dateordered__c",
+                        "targetField": "Date_Ordered__c"
+                    }
+                ]
+            },
+            "sources": [
+                "DROP_FIELDS2"
+            ]
         }
     },
     "ui": {
@@ -197,11 +262,11 @@
                 }
             },
             "AGGREGATE0": {
-                "label": "Remove Duplicates",
+                "label": "Remove duplicates",
                 "description": "",
                 "type": "AGGREGATE",
                 "top": 112,
-                "left": 252,
+                "left": 392,
                 "graph": {
                     "EXTRACT0": null,
                     "AGGREGATE1": null
@@ -218,14 +283,14 @@
                 "description": "",
                 "type": "JOIN",
                 "top": 112,
-                "left": 392
+                "left": 532
             },
             "TRANSFORM1": {
                 "label": "Clean Fields",
                 "description": "",
                 "type": "TRANSFORM",
                 "top": 112,
-                "left": 532,
+                "left": 672,
                 "graph": {
                     "DROP_FIELDS1": {
                         "label": "Drop Columns"
@@ -241,13 +306,6 @@
                     }
                 ]
             },
-            "OUTPUT0": {
-                "label": "Output to Sales Order DLO",
-                "description": "",
-                "type": "OUTPUT",
-                "top": 112,
-                "left": 672
-            },
             "FILTER0": {
                 "label": "Check #1",
                 "description": "",
@@ -261,6 +319,40 @@
                 "type": "FILTER",
                 "top": 252,
                 "left": 672
+            },
+            "TRANSFORM2": {
+                "label": "Row level values",
+                "description": "",
+                "type": "TRANSFORM",
+                "top": 112,
+                "left": 252,
+                "graph": {
+                    "FORMULA0": {
+                        "parameters": {
+                            "type": "BASE_FORMULA_UI"
+                        },
+                        "label": "Formula"
+                    },
+                    "FORMULA1": {
+                        "parameters": {
+                            "type": "BASE_FORMULA_UI"
+                        },
+                        "label": "Formula"
+                    }
+                },
+                "connectors": [
+                    {
+                        "source": "FORMULA0",
+                        "target": "FORMULA1"
+                    }
+                ]
+            },
+            "OUTPUT0": {
+                "label": "Output to Sales Orders DLO",
+                "description": "",
+                "type": "OUTPUT",
+                "top": 113.30000000000001,
+                "left": 812
             }
         },
         "connectors": [
@@ -269,7 +361,7 @@
                 "target": "JOIN0"
             },
             {
-                "source": "LOAD_DATASET0",
+                "source": "TRANSFORM2",
                 "target": "AGGREGATE0"
             },
             {
@@ -281,16 +373,20 @@
                 "target": "TRANSFORM1"
             },
             {
-                "source": "TRANSFORM1",
-                "target": "OUTPUT0"
-            },
-            {
                 "source": "LOAD_DATASET0",
                 "target": "FILTER0"
             },
             {
                 "source": "TRANSFORM1",
                 "target": "FILTER1"
+            },
+            {
+                "source": "LOAD_DATASET0",
+                "target": "TRANSFORM2"
+            },
+            {
+                "source": "TRANSFORM1",
+                "target": "OUTPUT0"
             }
         ],
         "hiddenColumns": []

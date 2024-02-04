@@ -1,0 +1,326 @@
+{
+    "version": "56.0",
+    "nodes": {
+        "LOAD_DATASET0": {
+            "action": "load",
+            "parameters": {
+                "dataset": {
+                    "type": "dataLakeObject",
+                    "name": "Fans__dll"
+                },
+                "sampleDetails": {
+                    "type": "TopN"
+                },
+                "fields": [
+                    "email1__c",
+                    "email2__c",
+                    "fanid__c"
+                ]
+            },
+            "sources": []
+        },
+        "FILTER0": {
+            "action": "sqlFilter",
+            "parameters": {
+                "sqlFilterExpression": "char_length(email1__c) > 0"
+            },
+            "sources": [
+                "LOAD_DATASET0"
+            ]
+        },
+        "DROP_FIELDS0": {
+            "action": "schema",
+            "parameters": {
+                "slice": {
+                    "mode": "DROP",
+                    "ignoreMissingFields": true,
+                    "fields": [
+                        "email2__c"
+                    ]
+                }
+            },
+            "sources": [
+                "FILTER0"
+            ]
+        },
+        "FORMULA0": {
+            "action": "formula",
+            "parameters": {
+                "expressionType": "SQL",
+                "fields": [
+                    {
+                        "name": "PK",
+                        "label": "PK",
+                        "formulaExpression": "concat(fanid__c, '_Email1')",
+                        "type": "TEXT",
+                        "precision": 40,
+                        "defaultValue": ""
+                    }
+                ]
+            },
+            "sources": [
+                "DROP_FIELDS0"
+            ]
+        },
+        "EDIT_ATTRIBUTES0": {
+            "action": "schema",
+            "parameters": {
+                "fields": [
+                    {
+                        "name": "email1__c",
+                        "newProperties": {
+                            "name": "email",
+                            "label": "Email",
+                            "typeProperties": null
+                        }
+                    }
+                ]
+            },
+            "sources": [
+                "FORMULA0"
+            ]
+        },
+        "FILTER0_copy0": {
+            "action": "sqlFilter",
+            "parameters": {
+                "sqlFilterExpression": "char_length(email2__c) > 0"
+            },
+            "sources": [
+                "LOAD_DATASET0"
+            ]
+        },
+        "DROP_FIELDS0_copy0": {
+            "action": "schema",
+            "parameters": {
+                "slice": {
+                    "mode": "DROP",
+                    "ignoreMissingFields": true,
+                    "fields": [
+                        "email1__c"
+                    ]
+                }
+            },
+            "sources": [
+                "FILTER0_copy0"
+            ]
+        },
+        "FORMULA0_copy0": {
+            "action": "formula",
+            "parameters": {
+                "expressionType": "SQL",
+                "fields": [
+                    {
+                        "name": "PK",
+                        "label": "PK",
+                        "formulaExpression": "concat(fanid__c, '_Email2')",
+                        "type": "TEXT",
+                        "precision": 40,
+                        "defaultValue": ""
+                    }
+                ]
+            },
+            "sources": [
+                "DROP_FIELDS0_copy0"
+            ]
+        },
+        "EDIT_ATTRIBUTES1": {
+            "action": "schema",
+            "parameters": {
+                "fields": [
+                    {
+                        "name": "email2__c",
+                        "newProperties": {
+                            "name": "email",
+                            "label": "Email",
+                            "typeProperties": null
+                        }
+                    }
+                ]
+            },
+            "sources": [
+                "FORMULA0_copy0"
+            ]
+        },
+        "APPEND0": {
+            "action": "appendV2",
+            "parameters": {
+                "fieldMappings": [
+                    {
+                        "top": "email",
+                        "bottom": "email"
+                    },
+                    {
+                        "top": "fanid__c",
+                        "bottom": "fanid__c"
+                    },
+                    {
+                        "top": "PK",
+                        "bottom": "PK"
+                    }
+                ]
+            },
+            "sources": [
+                "EDIT_ATTRIBUTES0",
+                "EDIT_ATTRIBUTES1"
+            ]
+        },
+        "OUTPUT0": {
+            "action": "outputD360",
+            "parameters": {
+                "type": "dataLakeObject",
+                "name": "Fan_Emails__dll",
+                "fieldsMappings": [
+                    {
+                        "sourceField": "email",
+                        "targetField": "Email__c"
+                    },
+                    {
+                        "sourceField": "fanid__c",
+                        "targetField": "FanId__c"
+                    },
+                    {
+                        "sourceField": "PK",
+                        "targetField": "PK__c"
+                    }
+                ]
+            },
+            "sources": [
+                "APPEND0"
+            ]
+        }
+    },
+    "ui": {
+        "nodes": {
+            "LOAD_DATASET0": {
+                "label": "Fans",
+                "type": "LOAD_DATASET",
+                "top": 112,
+                "left": 112,
+                "parameters": {
+                    "sampleSize": 2000
+                }
+            },
+            "FILTER0": {
+                "label": "Only records with Email1",
+                "description": "",
+                "type": "FILTER",
+                "top": 112,
+                "left": 252
+            },
+            "TRANSFORM0": {
+                "label": "Transform Email1 Data",
+                "description": "",
+                "type": "TRANSFORM",
+                "top": 112,
+                "left": 392,
+                "graph": {
+                    "DROP_FIELDS0": {
+                        "label": "Drop Columns"
+                    },
+                    "FORMULA0": {
+                        "parameters": {
+                            "type": "BASE_FORMULA_UI"
+                        },
+                        "label": "Formula"
+                    },
+                    "EDIT_ATTRIBUTES0": {
+                        "label": "Edit Attributes"
+                    }
+                },
+                "connectors": [
+                    {
+                        "source": "DROP_FIELDS0",
+                        "target": "FORMULA0"
+                    },
+                    {
+                        "source": "FORMULA0",
+                        "target": "EDIT_ATTRIBUTES0"
+                    }
+                ]
+            },
+            "FILTER0_copy0": {
+                "label": "Only records with Email2",
+                "description": "",
+                "type": "FILTER",
+                "top": 252,
+                "left": 112
+            },
+            "TRANSFORM0_copy0": {
+                "label": "Transform Email2 Data",
+                "description": "",
+                "type": "TRANSFORM",
+                "top": 252,
+                "left": 252,
+                "graph": {
+                    "DROP_FIELDS0_copy0": {
+                        "label": "Drop Columns"
+                    },
+                    "FORMULA0_copy0": {
+                        "parameters": {
+                            "type": "BASE_FORMULA_UI"
+                        },
+                        "label": "Formula"
+                    },
+                    "EDIT_ATTRIBUTES1": {
+                        "label": "Edit Attributes"
+                    }
+                },
+                "connectors": [
+                    {
+                        "source": "DROP_FIELDS0_copy0",
+                        "target": "FORMULA0_copy0"
+                    },
+                    {
+                        "source": "FORMULA0_copy0",
+                        "target": "EDIT_ATTRIBUTES1"
+                    }
+                ]
+            },
+            "APPEND0": {
+                "label": "Merge Data",
+                "description": "",
+                "type": "APPEND",
+                "top": 112,
+                "left": 532
+            },
+            "OUTPUT0": {
+                "label": "Output to Fan Emails DLO",
+                "description": "",
+                "type": "OUTPUT",
+                "top": 112,
+                "left": 672
+            }
+        },
+        "connectors": [
+            {
+                "source": "LOAD_DATASET0",
+                "target": "FILTER0"
+            },
+            {
+                "source": "FILTER0",
+                "target": "TRANSFORM0"
+            },
+            {
+                "source": "FILTER0_copy0",
+                "target": "TRANSFORM0_copy0"
+            },
+            {
+                "source": "LOAD_DATASET0",
+                "target": "FILTER0_copy0"
+            },
+            {
+                "source": "TRANSFORM0",
+                "target": "APPEND0"
+            },
+            {
+                "source": "TRANSFORM0_copy0",
+                "target": "APPEND0"
+            },
+            {
+                "source": "APPEND0",
+                "target": "OUTPUT0"
+            }
+        ],
+        "hiddenColumns": []
+    }
+}

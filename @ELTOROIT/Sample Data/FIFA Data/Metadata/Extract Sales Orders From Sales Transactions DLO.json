@@ -1,0 +1,298 @@
+{
+    "version": "56.0",
+    "nodes": {
+        "LOAD_DATASET0": {
+            "action": "load",
+            "parameters": {
+                "dataset": {
+                    "type": "dataLakeObject",
+                    "name": "Sales_Transactions__dll"
+                },
+                "sampleDetails": {
+                    "type": "TopN"
+                },
+                "fields": [
+                    "orderid__c",
+                    "prodid__c",
+                    "unitcost__c",
+                    "quantity__c",
+                    "dateordered__c",
+                    "fanid__c",
+                    "unitprice__c"
+                ]
+            },
+            "sources": []
+        },
+        "EXTRACT0": {
+            "action": "extractGrains",
+            "parameters": {
+                "grainExtractions": []
+            },
+            "sources": [
+                "LOAD_DATASET0"
+            ]
+        },
+        "AGGREGATE1": {
+            "action": "aggregate",
+            "parameters": {
+                "nodeType": "STANDARD",
+                "aggregations": [
+                    {
+                        "name": "UNIQUE_dateordered__c",
+                        "label": "Unique DateOrdered",
+                        "action": "UNIQUE",
+                        "source": "dateordered__c"
+                    },
+                    {
+                        "name": "UNIQUE_fanid__c",
+                        "label": "Unique FanId",
+                        "action": "UNIQUE",
+                        "source": "fanid__c"
+                    },
+                    {
+                        "name": "UNIQUE_orderid__c",
+                        "label": "Unique OrderID",
+                        "action": "UNIQUE",
+                        "source": "orderid__c"
+                    }
+                ],
+                "groupings": [
+                    "fanid__c",
+                    "orderid__c"
+                ]
+            },
+            "sources": [
+                "EXTRACT0"
+            ]
+        },
+        "JOIN0": {
+            "action": "join",
+            "parameters": {
+                "joinType": "LOOKUP",
+                "leftKeys": [
+                    "orderid__c",
+                    "fanid__c"
+                ],
+                "rightQualifier": "SalesTrans",
+                "rightKeys": [
+                    "orderid__c",
+                    "fanid__c"
+                ]
+            },
+            "schema": {
+                "slice": {
+                    "mode": "DROP",
+                    "ignoreMissingFields": true,
+                    "fields": []
+                }
+            },
+            "sources": [
+                "AGGREGATE1",
+                "LOAD_DATASET0"
+            ]
+        },
+        "DROP_FIELDS1": {
+            "action": "schema",
+            "parameters": {
+                "slice": {
+                    "mode": "DROP",
+                    "ignoreMissingFields": true,
+                    "fields": [
+                        "SalesTrans.orderid__c",
+                        "SalesTrans.fanid__c"
+                    ]
+                }
+            },
+            "sources": [
+                "JOIN0"
+            ]
+        },
+        "DROP_FIELDS2": {
+            "action": "schema",
+            "parameters": {
+                "slice": {
+                    "mode": "DROP",
+                    "ignoreMissingFields": true,
+                    "fields": [
+                        "UNIQUE_dateordered__c",
+                        "UNIQUE_fanid__c",
+                        "UNIQUE_orderid__c"
+                    ]
+                }
+            },
+            "sources": [
+                "DROP_FIELDS1"
+            ]
+        },
+        "OUTPUT0": {
+            "action": "outputD360",
+            "parameters": {
+                "type": "dataLakeObject",
+                "name": "Sales_Order__dll",
+                "fieldsMappings": [
+                    {
+                        "sourceField": "fanid__c",
+                        "targetField": "FanId__c"
+                    },
+                    {
+                        "sourceField": "orderid__c",
+                        "targetField": "OrderID__c"
+                    },
+                    {
+                        "sourceField": "SalesTrans.dateordered__c",
+                        "targetField": "DateOrdered__c"
+                    }
+                ]
+            },
+            "sources": [
+                "DROP_FIELDS2"
+            ]
+        },
+        "FILTER0": {
+            "action": "filter",
+            "parameters": {
+                "filterExpressions": [
+                    {
+                        "field": "orderid__c",
+                        "operator": "EQUAL",
+                        "operands": [
+                            "13049"
+                        ],
+                        "type": "TEXT"
+                    }
+                ]
+            },
+            "sources": [
+                "LOAD_DATASET0"
+            ]
+        },
+        "FILTER1": {
+            "action": "filter",
+            "parameters": {
+                "filterExpressions": [
+                    {
+                        "field": "orderid__c",
+                        "operator": "EQUAL",
+                        "operands": [
+                            "13049"
+                        ],
+                        "type": "TEXT"
+                    }
+                ]
+            },
+            "sources": [
+                "DROP_FIELDS2"
+            ]
+        }
+    },
+    "ui": {
+        "nodes": {
+            "LOAD_DATASET0": {
+                "label": "Sales Transactions",
+                "type": "LOAD_DATASET",
+                "top": 112,
+                "left": 112,
+                "parameters": {
+                    "sampleSize": 2000
+                }
+            },
+            "AGGREGATE0": {
+                "label": "Remove Duplicates",
+                "description": "",
+                "type": "AGGREGATE",
+                "top": 112,
+                "left": 252,
+                "graph": {
+                    "EXTRACT0": null,
+                    "AGGREGATE1": null
+                },
+                "connectors": [
+                    {
+                        "source": "EXTRACT0",
+                        "target": "AGGREGATE1"
+                    }
+                ]
+            },
+            "JOIN0": {
+                "label": "Recover date value",
+                "description": "",
+                "type": "JOIN",
+                "top": 112,
+                "left": 392
+            },
+            "TRANSFORM1": {
+                "label": "Clean Fields",
+                "description": "",
+                "type": "TRANSFORM",
+                "top": 112,
+                "left": 532,
+                "graph": {
+                    "DROP_FIELDS1": {
+                        "label": "Drop Columns"
+                    },
+                    "DROP_FIELDS2": {
+                        "label": "Drop Columns"
+                    }
+                },
+                "connectors": [
+                    {
+                        "source": "DROP_FIELDS1",
+                        "target": "DROP_FIELDS2"
+                    }
+                ]
+            },
+            "OUTPUT0": {
+                "label": "Output to Sales Order DLO",
+                "description": "",
+                "type": "OUTPUT",
+                "top": 112,
+                "left": 672
+            },
+            "FILTER0": {
+                "label": "Check #1",
+                "description": "",
+                "type": "FILTER",
+                "top": 252,
+                "left": 252
+            },
+            "FILTER1": {
+                "label": "Check #2",
+                "description": "",
+                "type": "FILTER",
+                "top": 252,
+                "left": 672
+            }
+        },
+        "connectors": [
+            {
+                "source": "AGGREGATE0",
+                "target": "JOIN0"
+            },
+            {
+                "source": "LOAD_DATASET0",
+                "target": "AGGREGATE0"
+            },
+            {
+                "source": "LOAD_DATASET0",
+                "target": "JOIN0"
+            },
+            {
+                "source": "JOIN0",
+                "target": "TRANSFORM1"
+            },
+            {
+                "source": "TRANSFORM1",
+                "target": "OUTPUT0"
+            },
+            {
+                "source": "LOAD_DATASET0",
+                "target": "FILTER0"
+            },
+            {
+                "source": "TRANSFORM1",
+                "target": "FILTER1"
+            }
+        ],
+        "hiddenColumns": []
+    }
+}

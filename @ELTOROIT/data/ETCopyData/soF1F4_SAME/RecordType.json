@@ -4,9 +4,9 @@
 		{
 			"attributes": {
 				"type": "RecordType",
-				"url": "/services/data/v60.0/sobjects/RecordType/012IP0000001NYrYAM"
+				"url": "/services/data/v60.0/sobjects/RecordType/0127e000002bd8IAAQ"
 			},
-			"Id": "012IP0000001NYrYAM",
+			"Id": "0127e000002bd8IAAQ",
 			"SobjectType": "Account",
 			"NamespacePrefix": null,
 			"DeveloperName": "Business_Account"
@@ -14,9 +14,9 @@
 		{
 			"attributes": {
 				"type": "RecordType",
-				"url": "/services/data/v60.0/sobjects/RecordType/012IP0000001NYsYAM"
+				"url": "/services/data/v60.0/sobjects/RecordType/0127e000002bd8JAAQ"
 			},
-			"Id": "012IP0000001NYsYAM",
+			"Id": "0127e000002bd8JAAQ",
 			"SobjectType": "Account",
 			"NamespacePrefix": null,
 			"DeveloperName": "PersonAccount"

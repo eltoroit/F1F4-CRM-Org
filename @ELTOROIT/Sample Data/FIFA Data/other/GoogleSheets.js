@@ -3,10 +3,43 @@ DOCS:
 https://developers.google.com/apps-script/reference/drive/drive-app
 https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet-app
 https://developers.google.com/apps-script/reference/spreadsheet/range
+
+Steps To Create Project
+- Open incognito window
+- Login to JS4IoT account
+- Navigate to https://script.google.com/home
+- Click "+ New Project"
+- Rename file from "Code.gs" to "Exporter.gs"
+- Paste this code
+- Rename Project to "F1F4 Export Data"
+
+Steps to Execute Code
+- Open incognito window
+- Login to JS4IoT account
+- Navigate to https://script.google.com/home
+- Click "My Projects"
+- Click "F1F4 Export Data"
+- Open "Exporter.gs"
+- Select "main" method to execute that
+- Click Run
+
+Application can be debugged as well!
+
+Authorization Required?
+- Click Review Permissions
+- Select JS4IoT account
+- Click "Advanced"
+- Click "Go to F1F4 Export Data (unsafe)"
+- Click "Allow"
 */
 
-const FOLDER_ID = "1WC6sX6Hws2EvToKHbLq2TXXlSOeBoTRj"; // https://drive.google.com/drive/u/2/folders/FOLDER_ID
-const SHEET_ID = "1NVE3z33tqAeEA21G7fIvI30kBnlMugkqp55XDt6yRCE"; // https://docs.google.com/spreadsheets/d/SHEET_ID/edit#gid=1761503630
+// https://drive.google.com/drive/u/2/folders/FOLDER_ID
+// https://drive.google.com/drive/u/2/folders/1WC6sX6Hws2EvToKHbLq2TXXlSOeBoTRj > My Drive > Data Cloud
+const FOLDER_ID = "1WC6sX6Hws2EvToKHbLq2TXXlSOeBoTRj";
+
+// https://docs.google.com/spreadsheets/d/SHEET_ID/edit#gid=0
+// https://docs.google.com/spreadsheets/d/1IAasWmqEhY1JuWFc9FpMLFU4QOTl3kF2T-ZYE1y_5EQ/edit#gid=0 > FIFA Data (With formulas)
+const SHEET_ID = "1IAasWmqEhY1JuWFc9FpMLFU4QOTl3kF2T-ZYE1y_5EQ";
 
 const FILES = {
 	original: `FIFA Data (With formulas)`,
@@ -15,7 +48,10 @@ const FILES = {
 };
 
 function assert(bool, msg) {
-	if (!bool) throw msg;
+	if (!bool) {
+		debugger;
+		throw msg;
+	}
 }
 
 class ExportCSV {
@@ -26,12 +62,14 @@ class ExportCSV {
 	execute() {
 		console.log("execute()");
 		let sourceFolder = DriveApp.getFolderById(FOLDER_ID);
-		let newFolder = sourceFolder.createFolder(new Date().toJSON());
+		let folderName = new Date().toJSON();
+		let newFolder = sourceFolder.createFolder(folderName);
 		let newFile = this._copyOriginal(sourceFolder, newFolder);
 		let { spreadsheet, sheets } = this._getSpreadsheet(newFile);
 		this._removeFormulas(spreadsheet, sheets);
 		sheets = this._clearSpreadsheet(spreadsheet, sheets);
 		this._makeFilesCSV(newFolder, sheets);
+		console.log(`Files created in folder: ${folderName}`);
 		console.log("DONE");
 	}
 
@@ -65,6 +103,14 @@ class ExportCSV {
 
 	_clearSpreadsheet(spreadsheet, sheets) {
 		console.log("_clearSpreadsheet()");
+
+		// Remove TEMP sheet
+		console.log("Removing TEMP sheet");
+		let sheet = spreadsheet.getSheetByName(FILES.TEMP_SHEET);
+		spreadsheet.deleteSheet(sheet);
+
+		// Process remaining sheets
+		sheets = SpreadsheetApp.openById(spreadsheet.getId()).getSheets();
 		for (let sheet of sheets) {
 			let fistBlack = -1;
 			var activeRange = sheet.getDataRange();
@@ -78,6 +124,7 @@ class ExportCSV {
 				}
 			}
 
+			assert(fistBlack > 0, `Sheet: ${sheet.getName()} does not have a black column`);
 			if (fistBlack > 0) {
 				let coords = {
 					Row: 1,
@@ -85,16 +132,19 @@ class ExportCSV {
 					NumRows: activeRange.getNumRows(),
 					NumCols: maxColumns - fistBlack + 1
 				};
+
+				// Clear Columns
 				let rangeToclear = sheet.getRange(coords.Row, coords.Col, coords.NumRows, coords.NumCols);
 				console.log(`Clear columns | Sheet: ${sheet.getName()} | ${rangeToclear.getA1Notation()}`);
-				rangeToclear.clear();
+				sheet.deleteColumns(fistBlack, coords.NumCols);
+
+				// Clear background colors
+				rangeToclear = sheet.getRange(coords.Row, 1, coords.NumRows, fistBlack - 1);
+				rangeToclear.setBackground(null);
 			}
 		}
 
-		// Remove TEMP sheet
-		let sheet = spreadsheet.getSheetByName(FILES.TEMP_SHEET);
-		spreadsheet.deleteSheet(sheet);
-		return SpreadsheetApp.openById(spreadsheet.getId()).getSheets();
+		return sheets;
 	}
 
 	// CSV

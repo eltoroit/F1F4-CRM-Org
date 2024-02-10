@@ -1,0 +1,239 @@
+{
+    "version": "56.0",
+    "nodes": {
+        "LOAD_DATASET0": {
+            "action": "load",
+            "parameters": {
+                "dataset": {
+                    "type": "dataModelObject",
+                    "name": "ssot__PartyIdentification__dlm"
+                },
+                "sampleDetails": {
+                    "type": "TopN"
+                },
+                "fields": [
+                    "ssot__DataSourceId__c",
+                    "ssot__DataSourceObjectId__c",
+                    "ssot__Name__c",
+                    "ssot__IdentificationNumber__c",
+                    "ssot__InternalOrganizationId__c",
+                    "KQ_PartyId__c",
+                    "KQ_Id__c",
+                    "ssot__PartyId__c",
+                    "ssot__Id__c",
+                    "ssot__PartyIdentificationTypeId__c"
+                ]
+            },
+            "sources": []
+        },
+        "EXTRACT0": {
+            "action": "extractGrains",
+            "parameters": {
+                "grainExtractions": []
+            },
+            "sources": [
+                "LOAD_DATASET0"
+            ]
+        },
+        "AGGREGATE1": {
+            "action": "aggregate",
+            "parameters": {
+                "nodeType": "STANDARD",
+                "aggregations": [
+                    {
+                        "name": "COUNT_Rows__c",
+                        "label": "Rows",
+                        "action": "COUNT"
+                    }
+                ],
+                "groupings": [
+                    "ssot__DataSourceId__c",
+                    "ssot__DataSourceObjectId__c",
+                    "ssot__PartyIdentificationTypeId__c",
+                    "ssot__Name__c"
+                ]
+            },
+            "sources": [
+                "EXTRACT0"
+            ]
+        },
+        "EXTRACT1": {
+            "action": "extractGrains",
+            "parameters": {
+                "grainExtractions": []
+            },
+            "sources": [
+                "LOAD_DATASET0"
+            ]
+        },
+        "AGGREGATE3": {
+            "action": "aggregate",
+            "parameters": {
+                "nodeType": "STANDARD",
+                "aggregations": [
+                    {
+                        "name": "COUNT_Rows__c",
+                        "label": "Rows",
+                        "action": "COUNT"
+                    }
+                ],
+                "groupings": [
+                    "ssot__IdentificationNumber__c"
+                ]
+            },
+            "sources": [
+                "EXTRACT1"
+            ]
+        },
+        "FILTER0": {
+            "action": "filter",
+            "parameters": {
+                "filterExpressions": [
+                    {
+                        "field": "COUNT_Rows__c",
+                        "operator": "GREATER_THAN",
+                        "operands": [
+                            "3"
+                        ],
+                        "type": "NUMBER"
+                    }
+                ]
+            },
+            "sources": [
+                "AGGREGATE3"
+            ]
+        },
+        "FILTER1": {
+            "action": "filter",
+            "parameters": {
+                "filterExpressions": [
+                    {
+                        "field": "ssot__IdentificationNumber__c",
+                        "operator": "EQUAL",
+                        "operands": [
+                            "FAN-6632248"
+                        ],
+                        "type": "TEXT"
+                    }
+                ]
+            },
+            "sources": [
+                "LOAD_DATASET0"
+            ]
+        },
+        "DROP_FIELDS0": {
+            "action": "schema",
+            "parameters": {
+                "slice": {
+                    "mode": "DROP",
+                    "ignoreMissingFields": true,
+                    "fields": [
+                        "ssot__InternalOrganizationId__c",
+                        "KQ_PartyId__c",
+                        "KQ_Id__c"
+                    ]
+                }
+            },
+            "sources": [
+                "FILTER1"
+            ]
+        }
+    },
+    "ui": {
+        "nodes": {
+            "LOAD_DATASET0": {
+                "label": "Party Identification",
+                "type": "LOAD_DATASET",
+                "top": 112,
+                "left": 112,
+                "parameters": {
+                    "sampleSize": 2000
+                }
+            },
+            "AGGREGATE0": {
+                "label": "Group by Source, and Party Identification",
+                "description": "",
+                "type": "AGGREGATE",
+                "top": 112,
+                "left": 252,
+                "graph": {
+                    "EXTRACT0": null,
+                    "AGGREGATE1": null
+                },
+                "connectors": [
+                    {
+                        "source": "EXTRACT0",
+                        "target": "AGGREGATE1"
+                    }
+                ]
+            },
+            "AGGREGATE2": {
+                "label": "Count records per Fan ID",
+                "description": "",
+                "type": "AGGREGATE",
+                "top": 252.7,
+                "left": 252,
+                "graph": {
+                    "EXTRACT1": null,
+                    "AGGREGATE3": null
+                },
+                "connectors": [
+                    {
+                        "source": "EXTRACT1",
+                        "target": "AGGREGATE3"
+                    }
+                ]
+            },
+            "FILTER0": {
+                "label": "Count > 3",
+                "description": "",
+                "type": "FILTER",
+                "top": 252,
+                "left": 392
+            },
+            "FILTER1": {
+                "label": "Records for Fan ID: FAN-6632248",
+                "description": "",
+                "type": "FILTER",
+                "top": 392.5,
+                "left": 252
+            },
+            "TRANSFORM0": {
+                "label": "Remove extra columns",
+                "description": "",
+                "type": "TRANSFORM",
+                "top": 392,
+                "left": 392,
+                "graph": {
+                    "DROP_FIELDS0": {
+                        "label": "Drop Columns"
+                    }
+                },
+                "connectors": []
+            }
+        },
+        "connectors": [
+            {
+                "source": "LOAD_DATASET0",
+                "target": "AGGREGATE0"
+            },
+            {
+                "source": "LOAD_DATASET0",
+                "target": "AGGREGATE2"
+            },
+            {
+                "source": "AGGREGATE2",
+                "target": "FILTER0"
+            },
+            {
+                "source": "LOAD_DATASET0",
+                "target": "FILTER1"
+            },
+            {
+                "source": "FILTER1",
+                "target": "TRANSFORM0"
+            }
+        ],
+        "hiddenColumns": []
+    }
+}

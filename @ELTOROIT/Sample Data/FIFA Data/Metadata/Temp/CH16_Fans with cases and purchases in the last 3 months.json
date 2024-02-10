@@ -1,0 +1,600 @@
+{
+    "version": "56.0",
+    "nodes": {
+        "LOAD_DATASET0": {
+            "action": "load",
+            "parameters": {
+                "dataset": {
+                    "type": "dataModelObject",
+                    "name": "UnifiedLinkssotIndividual0002__dlm"
+                },
+                "sampleDetails": {
+                    "type": "TopN"
+                },
+                "fields": [
+                    "ssot__DataSourceId__c",
+                    "SourceRecordId__c",
+                    "UnifiedRecordId__c",
+                    "ssot__DataSourceObjectId__c"
+                ]
+            },
+            "sources": []
+        },
+        "LOAD_DATASET1": {
+            "action": "load",
+            "parameters": {
+                "dataset": {
+                    "type": "dataModelObject",
+                    "name": "ssot__Case__dlm"
+                },
+                "sampleDetails": {
+                    "type": "TopN"
+                },
+                "fields": [
+                    "ssot__CaseCategoryId__c",
+                    "ssot__CaseNumber__c",
+                    "ssot__CaseStatusId__c",
+                    "ssot__CreatedDate__c",
+                    "ssot__DataSourceObjectId__c",
+                    "ssot__IndividualId__c",
+                    "ssot__LastModifiedDate__c",
+                    "ssot__Subject__c"
+                ]
+            },
+            "sources": []
+        },
+        "LOAD_DATASET2": {
+            "action": "load",
+            "parameters": {
+                "dataset": {
+                    "type": "dataModelObject",
+                    "name": "ssot__SalesOrder__dlm"
+                },
+                "sampleDetails": {
+                    "type": "TopN"
+                },
+                "fields": [
+                    "ssot__DataSourceId__c",
+                    "ssot__DataSourceObjectId__c",
+                    "ssot__PurchaseOrderDate__c",
+                    "ssot__Id__c",
+                    "ssot__SoldToCustomerId__c"
+                ]
+            },
+            "sources": []
+        },
+        "FILTER2": {
+            "action": "filter",
+            "parameters": {
+                "filterExpressions": [
+                    {
+                        "field": "ssot__PurchaseOrderDate__c",
+                        "operator": "IN_RANGE",
+                        "operands": [
+                            {
+                                "argument": -3,
+                                "type": "N_MONTHS"
+                            },
+                            {
+                                "argument": 0,
+                                "type": "N_YEARS"
+                            }
+                        ],
+                        "type": "DATETIME"
+                    }
+                ]
+            },
+            "sources": [
+                "LOAD_DATASET2"
+            ]
+        },
+        "FILTER3": {
+            "action": "filter",
+            "parameters": {
+                "filterExpressions": [
+                    {
+                        "field": "ssot__CreatedDate__c",
+                        "operator": "IN_RANGE",
+                        "operands": [
+                            {
+                                "argument": -3,
+                                "type": "N_MONTHS"
+                            },
+                            {
+                                "argument": 0,
+                                "type": "N_YEARS"
+                            }
+                        ],
+                        "type": "DATETIME"
+                    }
+                ]
+            },
+            "sources": [
+                "LOAD_DATASET1"
+            ]
+        },
+        "JOIN0": {
+            "action": "join",
+            "parameters": {
+                "joinType": "LOOKUP",
+                "leftKeys": [
+                    "ssot__IndividualId__c"
+                ],
+                "rightQualifier": "UnifiedLin",
+                "rightKeys": [
+                    "SourceRecordId__c"
+                ]
+            },
+            "schema": {
+                "slice": {
+                    "mode": "DROP",
+                    "ignoreMissingFields": true,
+                    "fields": [
+                        "UnifiedLin.SourceRecordId__c"
+                    ]
+                }
+            },
+            "sources": [
+                "FILTER3",
+                "LOAD_DATASET0"
+            ]
+        },
+        "JOIN1": {
+            "action": "join",
+            "parameters": {
+                "joinType": "LOOKUP",
+                "leftKeys": [
+                    "ssot__SoldToCustomerId__c"
+                ],
+                "rightQualifier": "UnifiedLin",
+                "rightKeys": [
+                    "SourceRecordId__c"
+                ]
+            },
+            "schema": {
+                "slice": {
+                    "mode": "DROP",
+                    "ignoreMissingFields": true,
+                    "fields": [
+                        "UnifiedLin.SourceRecordId__c"
+                    ]
+                }
+            },
+            "sources": [
+                "FILTER2",
+                "LOAD_DATASET0"
+            ]
+        },
+        "JOIN2": {
+            "action": "join",
+            "parameters": {
+                "joinType": "INNER",
+                "rightQualifier": "FindUnifie",
+                "leftKeys": [
+                    "UnifiedLin.UnifiedRecordId__c"
+                ],
+                "rightKeys": [
+                    "UnifiedLin.UnifiedRecordId__c"
+                ]
+            },
+            "schema": {
+                "slice": {
+                    "mode": "DROP",
+                    "ignoreMissingFields": true,
+                    "fields": []
+                }
+            },
+            "sources": [
+                "AGGREGATE3",
+                "AGGREGATE1"
+            ]
+        },
+        "EXTRACT0": {
+            "action": "extractGrains",
+            "parameters": {
+                "grainExtractions": []
+            },
+            "sources": [
+                "JOIN0"
+            ]
+        },
+        "AGGREGATE1": {
+            "action": "aggregate",
+            "parameters": {
+                "nodeType": "STANDARD",
+                "aggregations": [
+                    {
+                        "name": "COUNT_Rows__c",
+                        "label": "Rows",
+                        "action": "COUNT"
+                    }
+                ],
+                "groupings": [
+                    "ssot__IndividualId__c",
+                    "UnifiedLin.UnifiedRecordId__c"
+                ]
+            },
+            "sources": [
+                "EXTRACT0"
+            ]
+        },
+        "EXTRACT1": {
+            "action": "extractGrains",
+            "parameters": {
+                "grainExtractions": []
+            },
+            "sources": [
+                "JOIN1"
+            ]
+        },
+        "AGGREGATE3": {
+            "action": "aggregate",
+            "parameters": {
+                "nodeType": "STANDARD",
+                "aggregations": [
+                    {
+                        "name": "COUNT_Rows__c",
+                        "label": "Rows",
+                        "action": "COUNT"
+                    }
+                ],
+                "groupings": [
+                    "ssot__SoldToCustomerId__c",
+                    "UnifiedLin.UnifiedRecordId__c"
+                ]
+            },
+            "sources": [
+                "EXTRACT1"
+            ]
+        },
+        "EXTRACT2": {
+            "action": "extractGrains",
+            "parameters": {
+                "grainExtractions": []
+            },
+            "sources": [
+                "LOAD_DATASET0"
+            ]
+        },
+        "AGGREGATE5": {
+            "action": "aggregate",
+            "parameters": {
+                "nodeType": "STANDARD",
+                "aggregations": [
+                    {
+                        "name": "COUNT_Rows__c",
+                        "label": "Rows",
+                        "action": "COUNT"
+                    }
+                ],
+                "groupings": [
+                    "ssot__DataSourceId__c",
+                    "ssot__DataSourceObjectId__c"
+                ]
+            },
+            "sources": [
+                "EXTRACT2"
+            ]
+        },
+        "EXTRACT3": {
+            "action": "extractGrains",
+            "parameters": {
+                "grainExtractions": []
+            },
+            "sources": [
+                "LOAD_DATASET1"
+            ]
+        },
+        "AGGREGATE7": {
+            "action": "aggregate",
+            "parameters": {
+                "nodeType": "STANDARD",
+                "aggregations": [
+                    {
+                        "name": "COUNT_Rows__c",
+                        "label": "Rows",
+                        "action": "COUNT"
+                    }
+                ],
+                "groupings": [
+                    "ssot__IndividualId__c"
+                ]
+            },
+            "sources": [
+                "EXTRACT3"
+            ]
+        },
+        "FILTER4": {
+            "action": "filter",
+            "parameters": {
+                "filterExpressions": [
+                    {
+                        "field": "COUNT_Rows__c",
+                        "operator": "GREATER_THAN",
+                        "operands": [
+                            "2"
+                        ],
+                        "type": "NUMBER"
+                    }
+                ]
+            },
+            "sources": [
+                "AGGREGATE7"
+            ]
+        },
+        "EXTRACT4": {
+            "action": "extractGrains",
+            "parameters": {
+                "grainExtractions": []
+            },
+            "sources": [
+                "LOAD_DATASET2"
+            ]
+        },
+        "AGGREGATE9": {
+            "action": "aggregate",
+            "parameters": {
+                "nodeType": "STANDARD",
+                "aggregations": [
+                    {
+                        "name": "COUNT_Rows__c",
+                        "label": "Rows",
+                        "action": "COUNT"
+                    }
+                ],
+                "groupings": [
+                    "ssot__SoldToCustomerId__c"
+                ]
+            },
+            "sources": [
+                "EXTRACT4"
+            ]
+        },
+        "FILTER5": {
+            "action": "filter",
+            "parameters": {
+                "filterExpressions": [
+                    {
+                        "field": "COUNT_Rows__c",
+                        "operator": "GREATER_THAN",
+                        "operands": [
+                            "3"
+                        ],
+                        "type": "NUMBER"
+                    }
+                ]
+            },
+            "sources": [
+                "AGGREGATE9"
+            ]
+        }
+    },
+    "ui": {
+        "nodes": {
+            "LOAD_DATASET0": {
+                "label": "Unified Link Individual 0002",
+                "type": "LOAD_DATASET",
+                "top": 390.2,
+                "left": 392,
+                "parameters": {
+                    "sampleSize": 2000
+                }
+            },
+            "LOAD_DATASET1": {
+                "label": "Case",
+                "type": "LOAD_DATASET",
+                "top": 250.3,
+                "left": 112,
+                "parameters": {
+                    "sampleSize": 2000
+                }
+            },
+            "LOAD_DATASET2": {
+                "label": "Sales Order",
+                "type": "LOAD_DATASET",
+                "top": 530.3,
+                "left": 112,
+                "parameters": {
+                    "sampleSize": 2000
+                }
+            },
+            "FILTER2": {
+                "label": "Purchases Done in the last 3 months",
+                "description": "",
+                "type": "FILTER",
+                "top": 530.2,
+                "left": 252
+            },
+            "FILTER3": {
+                "label": "Cases created in the last 3 months",
+                "description": "",
+                "type": "FILTER",
+                "top": 252,
+                "left": 252
+            },
+            "JOIN0": {
+                "label": "Cases - Find Unified Individual Id",
+                "description": "",
+                "type": "JOIN",
+                "top": 250.2,
+                "left": 392
+            },
+            "JOIN1": {
+                "label": "Purchases - Find Unified Individual Id",
+                "description": "",
+                "type": "JOIN",
+                "top": 531.9,
+                "left": 392
+            },
+            "JOIN2": {
+                "label": "Fans with cases and purchases in the last 3 months",
+                "description": "",
+                "type": "JOIN",
+                "top": 390.3,
+                "left": 532
+            },
+            "AGGREGATE0": {
+                "label": "Cases - Count records per fan",
+                "description": "",
+                "type": "AGGREGATE",
+                "top": 250.3,
+                "left": 532,
+                "graph": {
+                    "EXTRACT0": null,
+                    "AGGREGATE1": null
+                },
+                "connectors": [
+                    {
+                        "source": "EXTRACT0",
+                        "target": "AGGREGATE1"
+                    }
+                ]
+            },
+            "AGGREGATE2": {
+                "label": "Purchases - Count records per fan",
+                "description": "",
+                "type": "AGGREGATE",
+                "top": 530.3,
+                "left": 532,
+                "graph": {
+                    "EXTRACT1": null,
+                    "AGGREGATE3": null
+                },
+                "connectors": [
+                    {
+                        "source": "EXTRACT1",
+                        "target": "AGGREGATE3"
+                    }
+                ]
+            },
+            "AGGREGATE4": {
+                "label": "Count unified records",
+                "description": "",
+                "type": "AGGREGATE",
+                "top": 390.2,
+                "left": 252,
+                "graph": {
+                    "EXTRACT2": null,
+                    "AGGREGATE5": null
+                },
+                "connectors": [
+                    {
+                        "source": "EXTRACT2",
+                        "target": "AGGREGATE5"
+                    }
+                ]
+            },
+            "AGGREGATE6": {
+                "label": "Count cases per fan",
+                "description": "",
+                "type": "AGGREGATE",
+                "top": 112,
+                "left": 252.10000000000002,
+                "graph": {
+                    "EXTRACT3": null,
+                    "AGGREGATE7": null
+                },
+                "connectors": [
+                    {
+                        "source": "EXTRACT3",
+                        "target": "AGGREGATE7"
+                    }
+                ]
+            },
+            "FILTER4": {
+                "label": "Cases > 2",
+                "description": "",
+                "type": "FILTER",
+                "top": 112,
+                "left": 392
+            },
+            "AGGREGATE8": {
+                "label": "Count purchases per fan",
+                "description": "",
+                "type": "AGGREGATE",
+                "top": 672.7,
+                "left": 252,
+                "graph": {
+                    "EXTRACT4": null,
+                    "AGGREGATE9": null
+                },
+                "connectors": [
+                    {
+                        "source": "EXTRACT4",
+                        "target": "AGGREGATE9"
+                    }
+                ]
+            },
+            "FILTER5": {
+                "label": "Purchases > 3",
+                "description": "",
+                "type": "FILTER",
+                "top": 672,
+                "left": 392
+            }
+        },
+        "connectors": [
+            {
+                "source": "LOAD_DATASET2",
+                "target": "FILTER2"
+            },
+            {
+                "source": "LOAD_DATASET1",
+                "target": "FILTER3"
+            },
+            {
+                "source": "FILTER3",
+                "target": "JOIN0"
+            },
+            {
+                "source": "LOAD_DATASET0",
+                "target": "JOIN0"
+            },
+            {
+                "source": "FILTER2",
+                "target": "JOIN1"
+            },
+            {
+                "source": "LOAD_DATASET0",
+                "target": "JOIN1"
+            },
+            {
+                "source": "AGGREGATE2",
+                "target": "JOIN2"
+            },
+            {
+                "source": "AGGREGATE0",
+                "target": "JOIN2"
+            },
+            {
+                "source": "JOIN0",
+                "target": "AGGREGATE0"
+            },
+            {
+                "source": "JOIN1",
+                "target": "AGGREGATE2"
+            },
+            {
+                "source": "LOAD_DATASET0",
+                "target": "AGGREGATE4"
+            },
+            {
+                "source": "LOAD_DATASET1",
+                "target": "AGGREGATE6"
+            },
+            {
+                "source": "AGGREGATE6",
+                "target": "FILTER4"
+            },
+            {
+                "source": "LOAD_DATASET2",
+                "target": "AGGREGATE8"
+            },
+            {
+                "source": "AGGREGATE8",
+                "target": "FILTER5"
+            }
+        ],
+        "hiddenColumns": []
+    }
+}

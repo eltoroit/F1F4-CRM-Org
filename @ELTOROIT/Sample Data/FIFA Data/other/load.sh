@@ -3,6 +3,9 @@
 echo "Did you delete the data in the org?"
 echo "Press a key to continue"
 read
+echo "Did you update the Account Record Type Id?"
+echo "Press a key to continue"
+read
 sf force data bulk upsert --serial --json --wait 60 --file "@ELTOROIT/Sample Data/FIFA Data/CSV/PersonAccounts.csv"  --sobject Account --external-id Id
 sf force data bulk upsert --serial --json --wait 60 --file "@ELTOROIT/Sample Data/FIFA Data/CSV/Cases.csv"  --sobject Case --external-id Id
 echo "Remember to export it when it finishes loading"

@@ -240,6 +240,10 @@
                         "targetField": "Order_ID__c"
                     },
                     {
+                        "sourceField": "SUM_Line_Price__c",
+                        "targetField": "Order_Amount__c"
+                    },
+                    {
                         "sourceField": "SalesTrans.dateordered__c",
                         "targetField": "Date_Ordered__c"
                     }

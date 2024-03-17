@@ -28,21 +28,6 @@
                 "LOAD_DATASET0"
             ]
         },
-        "DROP_FIELDS0": {
-            "action": "schema",
-            "parameters": {
-                "slice": {
-                    "mode": "DROP",
-                    "ignoreMissingFields": true,
-                    "fields": [
-                        "email2__c"
-                    ]
-                }
-            },
-            "sources": [
-                "FILTER0"
-            ]
-        },
         "FORMULA0": {
             "action": "formula",
             "parameters": {
@@ -59,7 +44,7 @@
                 ]
             },
             "sources": [
-                "DROP_FIELDS0"
+                "FILTER0"
             ]
         },
         "EDIT_ATTRIBUTES0": {
@@ -80,6 +65,21 @@
                 "FORMULA0"
             ]
         },
+        "DROP_FIELDS2": {
+            "action": "schema",
+            "parameters": {
+                "slice": {
+                    "mode": "DROP",
+                    "ignoreMissingFields": true,
+                    "fields": [
+                        "Email2__c"
+                    ]
+                }
+            },
+            "sources": [
+                "EDIT_ATTRIBUTES0"
+            ]
+        },
         "FILTER0_copy0": {
             "action": "sqlFilter",
             "parameters": {
@@ -87,21 +87,6 @@
             },
             "sources": [
                 "LOAD_DATASET0"
-            ]
-        },
-        "DROP_FIELDS0_copy0": {
-            "action": "schema",
-            "parameters": {
-                "slice": {
-                    "mode": "DROP",
-                    "ignoreMissingFields": true,
-                    "fields": [
-                        "email1__c"
-                    ]
-                }
-            },
-            "sources": [
-                "FILTER0_copy0"
             ]
         },
         "FORMULA0_copy0": {
@@ -120,7 +105,7 @@
                 ]
             },
             "sources": [
-                "DROP_FIELDS0_copy0"
+                "FILTER0_copy0"
             ]
         },
         "EDIT_ATTRIBUTES1": {
@@ -139,6 +124,21 @@
             },
             "sources": [
                 "FORMULA0_copy0"
+            ]
+        },
+        "DROP_FIELDS1": {
+            "action": "schema",
+            "parameters": {
+                "slice": {
+                    "mode": "DROP",
+                    "ignoreMissingFields": true,
+                    "fields": [
+                        "Email1__c"
+                    ]
+                }
+            },
+            "sources": [
+                "EDIT_ATTRIBUTES1"
             ]
         },
         "APPEND0": {
@@ -160,8 +160,8 @@
                 ]
             },
             "sources": [
-                "EDIT_ATTRIBUTES0",
-                "EDIT_ATTRIBUTES1"
+                "DROP_FIELDS2",
+                "DROP_FIELDS1"
             ]
         },
         "OUTPUT0": {
@@ -171,11 +171,11 @@
                 "name": "Fan_Emails__dll",
                 "fieldsMappings": [
                     {
-                        "sourceField": "email",
+                        "sourceField": "Email1__c",
                         "targetField": "Email__c"
                     },
                     {
-                        "sourceField": "fanid__c",
+                        "sourceField": "FanId__c",
                         "targetField": "Fan_ID__c"
                     },
                     {
@@ -214,9 +214,6 @@
                 "top": 112,
                 "left": 392,
                 "graph": {
-                    "DROP_FIELDS0": {
-                        "label": "Drop Columns"
-                    },
                     "FORMULA0": {
                         "parameters": {
                             "type": "BASE_FORMULA_UI"
@@ -225,16 +222,19 @@
                     },
                     "EDIT_ATTRIBUTES0": {
                         "label": "Edit Attributes"
+                    },
+                    "DROP_FIELDS2": {
+                        "label": "Drop Columns"
                     }
                 },
                 "connectors": [
                     {
-                        "source": "DROP_FIELDS0",
-                        "target": "FORMULA0"
-                    },
-                    {
                         "source": "FORMULA0",
                         "target": "EDIT_ATTRIBUTES0"
+                    },
+                    {
+                        "source": "EDIT_ATTRIBUTES0",
+                        "target": "DROP_FIELDS2"
                     }
                 ]
             },
@@ -242,19 +242,16 @@
                 "label": "Only records with Email2",
                 "description": "",
                 "type": "FILTER",
-                "top": 252,
-                "left": 112
+                "top": 252.10000000000002,
+                "left": 252.10000000000002
             },
             "TRANSFORM0_copy0": {
                 "label": "Transform Email2 Data",
                 "description": "",
                 "type": "TRANSFORM",
-                "top": 252,
-                "left": 252,
+                "top": 252.10000000000002,
+                "left": 392.1,
                 "graph": {
-                    "DROP_FIELDS0_copy0": {
-                        "label": "Drop Columns"
-                    },
                     "FORMULA0_copy0": {
                         "parameters": {
                             "type": "BASE_FORMULA_UI"
@@ -263,16 +260,19 @@
                     },
                     "EDIT_ATTRIBUTES1": {
                         "label": "Edit Attributes"
+                    },
+                    "DROP_FIELDS1": {
+                        "label": "Drop Columns"
                     }
                 },
                 "connectors": [
                     {
-                        "source": "DROP_FIELDS0_copy0",
-                        "target": "FORMULA0_copy0"
-                    },
-                    {
                         "source": "FORMULA0_copy0",
                         "target": "EDIT_ATTRIBUTES1"
+                    },
+                    {
+                        "source": "EDIT_ATTRIBUTES1",
+                        "target": "DROP_FIELDS1"
                     }
                 ]
             },

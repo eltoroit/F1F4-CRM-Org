@@ -1,7 +1,7 @@
 {
     "version": "56.0",
     "nodes": {
-        "LOAD_DATASET0": {
+        "LOAD_DATASET0_copy0": {
             "action": "load",
             "parameters": {
                 "dataset": {
@@ -12,48 +12,48 @@
                     "type": "TopN"
                 },
                 "fields": [
-                    "orderid__c",
-                    "prodid__c",
-                    "unitcost__c",
-                    "quantity__c",
-                    "dateordered__c",
-                    "fanid__c",
-                    "unitprice__c"
+                    "DateOrdered__c",
+                    "FanId__c",
+                    "OrderID__c",
+                    "ProdId__c",
+                    "Quantity__c",
+                    "UnitCost__c",
+                    "UnitPrice__c"
                 ]
             },
             "sources": []
         },
-        "EXTRACT0": {
+        "EXTRACT0_copy0": {
             "action": "extractGrains",
             "parameters": {
                 "grainExtractions": []
             },
             "sources": [
-                "FORMULA1"
+                "FORMULA1_copy0"
             ]
         },
-        "AGGREGATE1": {
+        "AGGREGATE1_copy0": {
             "action": "aggregate",
             "parameters": {
                 "nodeType": "STANDARD",
                 "aggregations": [
                     {
-                        "name": "UNIQUE_dateordered__c",
+                        "name": "UNIQUE_DateOrdered__c",
                         "label": "Unique DateOrdered",
                         "action": "UNIQUE",
-                        "source": "dateordered__c"
+                        "source": "DateOrdered__c"
                     },
                     {
-                        "name": "UNIQUE_fanid__c",
+                        "name": "UNIQUE_FanId__c",
                         "label": "Unique FanId",
                         "action": "UNIQUE",
-                        "source": "fanid__c"
+                        "source": "FanId__c"
                     },
                     {
-                        "name": "UNIQUE_orderid__c",
+                        "name": "UNIQUE_OrderID__c",
                         "label": "Unique OrderID",
                         "action": "UNIQUE",
-                        "source": "orderid__c"
+                        "source": "OrderID__c"
                     },
                     {
                         "name": "SUM_Line_Cost__c",
@@ -68,33 +68,33 @@
                         "source": "Line_Price"
                     },
                     {
-                        "name": "SUM_quantity__c",
+                        "name": "SUM_Quantity__c",
                         "label": "Sum of Quantity",
                         "action": "SUM",
-                        "source": "quantity__c"
+                        "source": "Quantity__c"
                     }
                 ],
                 "groupings": [
-                    "fanid__c",
-                    "orderid__c"
+                    "FanId__c",
+                    "OrderID__c"
                 ]
             },
             "sources": [
-                "EXTRACT0"
+                "EXTRACT0_copy0"
             ]
         },
-        "JOIN0": {
+        "JOIN0_copy0": {
             "action": "join",
             "parameters": {
                 "joinType": "LOOKUP",
                 "leftKeys": [
-                    "orderid__c",
-                    "fanid__c"
+                    "OrderID__c",
+                    "FanId__c"
                 ],
                 "rightQualifier": "SalesTrans",
                 "rightKeys": [
-                    "orderid__c",
-                    "fanid__c"
+                    "OrderID__c",
+                    "FanId__c"
                 ]
             },
             "schema": {
@@ -105,56 +105,39 @@
                 }
             },
             "sources": [
-                "AGGREGATE1",
-                "LOAD_DATASET0"
+                "AGGREGATE1_copy0",
+                "LOAD_DATASET0_copy0"
             ]
         },
-        "DROP_FIELDS1": {
+        "DROP_FIELDS0_copy0": {
             "action": "schema",
             "parameters": {
                 "slice": {
                     "mode": "DROP",
                     "ignoreMissingFields": true,
                     "fields": [
-                        "SalesTrans.orderid__c",
-                        "SalesTrans.fanid__c",
-                        "SalesTrans.prodid__c",
-                        "UNIQUE_dateordered__c",
-                        "UNIQUE_fanid__c",
-                        "UNIQUE_orderid__c",
-                        "SalesTrans.unitcost__c",
-                        "SalesTrans.quantity__c",
-                        "SalesTrans.unitprice__c"
+                        "SalesTrans.OrderID__c",
+                        "SalesTrans.FanId__c",
+                        "SalesTrans.ProdId__c",
+                        "UNIQUE_DateOrdered__c",
+                        "UNIQUE_FanId__c",
+                        "UNIQUE_OrderID__c",
+                        "SalesTrans.UnitCost__c",
+                        "SalesTrans.Quantity__c",
+                        "SalesTrans.UnitPrice__c"
                     ]
                 }
             },
             "sources": [
-                "JOIN0"
+                "JOIN0_copy0"
             ]
         },
-        "DROP_FIELDS2": {
-            "action": "schema",
-            "parameters": {
-                "slice": {
-                    "mode": "DROP",
-                    "ignoreMissingFields": true,
-                    "fields": [
-                        "UNIQUE_dateordered__c",
-                        "UNIQUE_fanid__c",
-                        "UNIQUE_orderid__c"
-                    ]
-                }
-            },
-            "sources": [
-                "DROP_FIELDS1"
-            ]
-        },
-        "FILTER0": {
+        "FILTER0_copy0": {
             "action": "filter",
             "parameters": {
                 "filterExpressions": [
                     {
-                        "field": "orderid__c",
+                        "field": "OrderID__c",
                         "operator": "EQUAL",
                         "operands": [
                             "13049"
@@ -164,15 +147,15 @@
                 ]
             },
             "sources": [
-                "LOAD_DATASET0"
+                "LOAD_DATASET0_copy0"
             ]
         },
-        "FILTER1": {
+        "FILTER1_copy0": {
             "action": "filter",
             "parameters": {
                 "filterExpressions": [
                     {
-                        "field": "orderid__c",
+                        "field": "OrderID__c",
                         "operator": "EQUAL",
                         "operands": [
                             "13049"
@@ -182,10 +165,10 @@
                 ]
             },
             "sources": [
-                "DROP_FIELDS2"
+                "DROP_FIELDS0_copy0"
             ]
         },
-        "FORMULA0": {
+        "FORMULA0_copy0": {
             "action": "formula",
             "parameters": {
                 "expressionType": "SQL",
@@ -193,8 +176,8 @@
                     {
                         "name": "Line_Cost",
                         "label": "Line Cost",
-                        "formulaExpression": "quantity__c*unitcost__c",
-                        "type": "NUMBER",
+                        "formulaExpression": "Quantity__c*UnitCost__c",
+                        "businessType": "NUMBER",
                         "precision": 10,
                         "scale": 2,
                         "defaultValue": ""
@@ -202,10 +185,10 @@
                 ]
             },
             "sources": [
-                "LOAD_DATASET0"
+                "LOAD_DATASET0_copy0"
             ]
         },
-        "FORMULA1": {
+        "FORMULA1_copy0": {
             "action": "formula",
             "parameters": {
                 "expressionType": "SQL",
@@ -213,8 +196,8 @@
                     {
                         "name": "Line_Price",
                         "label": "Line Price",
-                        "formulaExpression": "quantity__c*unitprice__c",
-                        "type": "NUMBER",
+                        "formulaExpression": "Quantity__c*UnitPrice__c",
+                        "businessType": "NUMBER",
                         "precision": 10,
                         "scale": 2,
                         "defaultValue": ""
@@ -222,21 +205,21 @@
                 ]
             },
             "sources": [
-                "FORMULA0"
+                "FORMULA0_copy0"
             ]
         },
-        "OUTPUT0": {
+        "OUTPUT0_copy0": {
             "action": "outputD360",
             "parameters": {
                 "type": "dataLakeObject",
                 "name": "Sales_Orders__dll",
                 "fieldsMappings": [
                     {
-                        "sourceField": "fanid__c",
+                        "sourceField": "FanId__c",
                         "targetField": "Fan_ID__c"
                     },
                     {
-                        "sourceField": "orderid__c",
+                        "sourceField": "OrderID__c",
                         "targetField": "Order_ID__c"
                     },
                     {
@@ -244,20 +227,36 @@
                         "targetField": "Order_Amount__c"
                     },
                     {
-                        "sourceField": "SalesTrans.dateordered__c",
+                        "sourceField": "SalesTrans.DateOrdered__c",
                         "targetField": "Date_Ordered__c"
                     }
                 ]
             },
             "sources": [
-                "DROP_FIELDS2"
+                "DROP_FIELDS1_copy0"
+            ]
+        },
+        "DROP_FIELDS1_copy0": {
+            "action": "schema",
+            "parameters": {
+                "slice": {
+                    "mode": "DROP",
+                    "ignoreMissingFields": true,
+                    "fields": [
+                        "SUM_Line_Cost__c",
+                        "SUM_Quantity__c"
+                    ]
+                }
+            },
+            "sources": [
+                "DROP_FIELDS0_copy0"
             ]
         }
     },
     "ui": {
         "nodes": {
-            "LOAD_DATASET0": {
-                "label": "Sales Transactions",
+            "LOAD_DATASET0_copy0": {
+                "label": "SalesTransactions",
                 "type": "LOAD_DATASET",
                 "top": 112,
                 "left": 112,
@@ -265,79 +264,71 @@
                     "sampleSize": 2000
                 }
             },
-            "AGGREGATE0": {
+            "AGGREGATE0_copy0": {
                 "label": "Remove duplicates",
                 "description": "",
                 "type": "AGGREGATE",
                 "top": 112,
                 "left": 392,
                 "graph": {
-                    "EXTRACT0": null,
-                    "AGGREGATE1": null
+                    "EXTRACT0_copy0": null,
+                    "AGGREGATE1_copy0": null
                 },
                 "connectors": [
                     {
-                        "source": "EXTRACT0",
-                        "target": "AGGREGATE1"
+                        "source": "EXTRACT0_copy0",
+                        "target": "AGGREGATE1_copy0"
                     }
                 ]
             },
-            "JOIN0": {
+            "JOIN0_copy0": {
                 "label": "Recover date value",
                 "description": "",
                 "type": "JOIN",
                 "top": 112,
                 "left": 532
             },
-            "TRANSFORM1": {
+            "TRANSFORM1_copy0": {
                 "label": "Clean Fields",
                 "description": "",
                 "type": "TRANSFORM",
                 "top": 112,
                 "left": 672,
                 "graph": {
-                    "DROP_FIELDS1": {
-                        "label": "Drop Columns"
-                    },
-                    "DROP_FIELDS2": {
+                    "DROP_FIELDS0_copy0": {
                         "label": "Drop Columns"
                     }
                 },
-                "connectors": [
-                    {
-                        "source": "DROP_FIELDS1",
-                        "target": "DROP_FIELDS2"
-                    }
-                ]
+                "connectors": []
             },
-            "FILTER0": {
+            "FILTER0_copy0": {
                 "label": "Check #1",
                 "description": "",
                 "type": "FILTER",
                 "top": 252,
                 "left": 252
             },
-            "FILTER1": {
+            "FILTER1_copy0": {
                 "label": "Check #2",
                 "description": "",
                 "type": "FILTER",
                 "top": 252,
                 "left": 672
             },
-            "TRANSFORM2": {
+            "TRANSFORM2_copy0": {
                 "label": "Row level values",
                 "description": "",
                 "type": "TRANSFORM",
                 "top": 112,
                 "left": 252,
                 "graph": {
-                    "FORMULA0": {
+                    "FORMULA0_copy0": {
                         "parameters": {
                             "type": "BASE_FORMULA_UI"
                         },
                         "label": "Formula"
                     },
-                    "FORMULA1": {
+                    "FORMULA1_copy0": {
                         "parameters": {
                             "type": "BASE_FORMULA_UI"
                         },
@@ -346,51 +337,68 @@
                 },
                 "connectors": [
                     {
-                        "source": "FORMULA0",
-                        "target": "FORMULA1"
+                        "source": "FORMULA0_copy0",
+                        "target": "FORMULA1_copy0"
                     }
                 ]
             },
-            "OUTPUT0": {
+            "OUTPUT0_copy0": {
                 "label": "Output to Sales Orders DLO",
                 "description": "",
                 "type": "OUTPUT",
-                "top": 113.30000000000001,
-                "left": 812
+                "top": 112,
+                "left": 952
+            },
+            "TRANSFORM3_copy0": {
+                "label": "Drop Columns Not Inn Output",
+                "description": "",
+                "type": "TRANSFORM",
+                "top": 112,
+                "left": 812,
+                "graph": {
+                    "DROP_FIELDS1_copy0": {
+                        "label": "Drop Columns"
+                    }
+                },
+                "connectors": []
             }
         },
         "connectors": [
             {
-                "source": "AGGREGATE0",
-                "target": "JOIN0"
+                "source": "AGGREGATE0_copy0",
+                "target": "JOIN0_copy0"
             },
             {
-                "source": "TRANSFORM2",
-                "target": "AGGREGATE0"
+                "source": "TRANSFORM2_copy0",
+                "target": "AGGREGATE0_copy0"
             },
             {
-                "source": "LOAD_DATASET0",
-                "target": "JOIN0"
+                "source": "LOAD_DATASET0_copy0",
+                "target": "JOIN0_copy0"
             },
             {
-                "source": "JOIN0",
-                "target": "TRANSFORM1"
+                "source": "JOIN0_copy0",
+                "target": "TRANSFORM1_copy0"
             },
             {
-                "source": "LOAD_DATASET0",
-                "target": "FILTER0"
+                "source": "LOAD_DATASET0_copy0",
+                "target": "FILTER0_copy0"
             },
             {
-                "source": "TRANSFORM1",
-                "target": "FILTER1"
+                "source": "TRANSFORM1_copy0",
+                "target": "FILTER1_copy0"
             },
             {
-                "source": "LOAD_DATASET0",
-                "target": "TRANSFORM2"
+                "source": "LOAD_DATASET0_copy0",
+                "target": "TRANSFORM2_copy0"
             },
             {
-                "source": "TRANSFORM1",
-                "target": "OUTPUT0"
+                "source": "TRANSFORM3_copy0",
+                "target": "OUTPUT0_copy0"
+            },
+            {
+                "source": "TRANSFORM1_copy0",
+                "target": "TRANSFORM3_copy0"
             }
         ],
         "hiddenColumns": []

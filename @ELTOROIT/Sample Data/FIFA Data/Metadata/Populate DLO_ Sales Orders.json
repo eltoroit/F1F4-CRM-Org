@@ -258,8 +258,8 @@
             "LOAD_DATASET0_copy0": {
                 "label": "SalesTransactions",
                 "type": "LOAD_DATASET",
-                "top": 112,
-                "left": 112,
+                "top": 252,
+                "left": 112.19999999999999,
                 "parameters": {
                     "sampleSize": 2000
                 }
@@ -268,8 +268,8 @@
                 "label": "Remove duplicates",
                 "description": "",
                 "type": "AGGREGATE",
-                "top": 112,
-                "left": 392,
+                "top": 252,
+                "left": 392.2,
                 "graph": {
                     "EXTRACT0_copy0": null,
                     "AGGREGATE1_copy0": null
@@ -285,15 +285,15 @@
                 "label": "Recover date value",
                 "description": "",
                 "type": "JOIN",
-                "top": 112,
-                "left": 532
+                "top": 392,
+                "left": 392
             },
             "TRANSFORM1_copy0": {
                 "label": "Clean Fields",
                 "description": "",
                 "type": "TRANSFORM",
-                "top": 112,
-                "left": 672,
+                "top": 252,
+                "left": 532.3,
                 "graph": {
                     "DROP_FIELDS0_copy0": {
                         "label": "Drop Columns"
@@ -305,22 +305,22 @@
                 "label": "Check #1",
                 "description": "",
                 "type": "FILTER",
-                "top": 252,
-                "left": 252
+                "top": 392,
+                "left": 112.4
             },
             "FILTER1_copy0": {
                 "label": "Check #2",
                 "description": "",
                 "type": "FILTER",
-                "top": 252,
-                "left": 672
+                "top": 392,
+                "left": 532.8
             },
             "TRANSFORM2_copy0": {
                 "label": "Row level values",
                 "description": "",
                 "type": "TRANSFORM",
-                "top": 112,
-                "left": 252,
+                "top": 252,
+                "left": 252.2,
                 "graph": {
                     "FORMULA0_copy0": {
                         "parameters": {
@@ -346,15 +346,15 @@
                 "label": "Output to Sales Orders DLO",
                 "description": "",
                 "type": "OUTPUT",
-                "top": 112,
-                "left": 952
+                "top": 392.1,
+                "left": 672.1
             },
             "TRANSFORM3_copy0": {
                 "label": "Drop Columns Not Inn Output",
                 "description": "",
                 "type": "TRANSFORM",
-                "top": 112,
-                "left": 812,
+                "top": 252,
+                "left": 672.3,
                 "graph": {
                     "DROP_FIELDS1_copy0": {
                         "label": "Drop Columns"
